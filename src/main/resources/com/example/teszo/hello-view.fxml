@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="706.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="52.0" fitWidth="52.0" layoutX="630.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/mogen.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="52.0" fitWidth="52.0" layoutX="578.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/speisekarte.png" />
+         </image>
+      </ImageView>
+      <ImageView accessibleRole="BUTTON" fitHeight="52.0" fitWidth="52.0" layoutX="20.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/icons8-menü-50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="107.0" fitWidth="93.0" layoutX="198.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/foodLogo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="290.0" layoutY="23.0" prefHeight="67.0" prefWidth="241.0" text="KochBuch">
+         <font>
+            <Font size="54.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
