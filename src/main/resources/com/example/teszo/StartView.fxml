@@ -3,18 +3,18 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="706.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1920.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fitHeight="52.0" fitWidth="52.0" layoutX="630.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="52.0" fitWidth="52.0" layoutX="1004.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../image/favorite.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="52.0" fitWidth="52.0" layoutX="578.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="52.0" fitWidth="52.0" layoutX="935.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../image/kategorie.png" />
          </image>
@@ -24,15 +24,15 @@
             <Image url="@../../../image/menuIcon.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="107.0" fitWidth="93.0" layoutX="198.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="118.0" fitWidth="102.0" layoutX="318.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../image/foodLogo.png" />
          </image>
       </ImageView>
-      <Label layoutX="290.0" layoutY="23.0" prefHeight="67.0" prefWidth="241.0" text="KochBuch">
+      <Label layoutX="420.0" layoutY="23.0" prefHeight="79.0" prefWidth="306.0" text="KochBuch">
          <font>
-            <Font size="54.0" />
+            <Font size="64.0" />
          </font>
       </Label>
    </children>
-</Pane>
+</AnchorPane>

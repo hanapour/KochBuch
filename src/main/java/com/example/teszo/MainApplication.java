@@ -27,7 +27,8 @@ public class MainApplication extends Application {
 
         // Create the scene and set it in the stage
         Scene scene = new Scene(fxmlLoader.load());
-        primaryStage.setFullScreen(true);
+        // Bitte nicht ändern , es soll so bleiben setResizable(false)
+        primaryStage.setResizable(false);
         primaryStage.setFullScreenExitHint("Hello , Um exit drucke bitte die 'esc' taste");
         primaryStage.setFullScreenExitKeyCombination(KeyCombination.keyCombination("esc"));
         primaryStage.setScene(scene);
@@ -35,3 +36,4 @@ public class MainApplication extends Application {
         primaryStage.show();
     }
 }
+
