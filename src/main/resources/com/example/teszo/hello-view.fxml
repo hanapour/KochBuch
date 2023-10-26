@@ -11,17 +11,17 @@
    <children>
       <ImageView fitHeight="52.0" fitWidth="52.0" layoutX="630.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../image/mogen.png" />
+            <Image url="@../../../image/favorite.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="52.0" fitWidth="52.0" layoutX="578.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../image/speisekarte.png" />
+            <Image url="@../../../image/kategorie.png" />
          </image>
       </ImageView>
       <ImageView accessibleRole="BUTTON" fitHeight="52.0" fitWidth="52.0" layoutX="20.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../image/icons8-menü-50.png" />
+            <Image url="@../../../image/menuIcon.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="107.0" fitWidth="93.0" layoutX="198.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
