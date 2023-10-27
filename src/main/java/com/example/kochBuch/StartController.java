@@ -1,4 +1,4 @@
-package com.example.teszo;
+package com.example.kochBuch;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
