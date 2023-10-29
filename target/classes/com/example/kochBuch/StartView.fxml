@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="800.0" style="-fx-background-color: #CCCCFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.StartController">
+   <children>
+      <Pane layoutX="14.0" layoutY="14.0" prefHeight="96.0" prefWidth="800.0" style="-fx-background-color: #eaeded;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fx:id="btnMenu" fitHeight="49.0" fitWidth="76.0" layoutX="14.0" layoutY="13.0" onMouseClicked="#OnMenuClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/menuIcon.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="323.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Start Cooking">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="btnCategory" fitHeight="58.0" fitWidth="67.0" layoutX="628.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/kategorie.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btnVaforite" fitHeight="69.0" fitWidth="49.0" layoutX="737.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/favorite.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fitHeight="559.0" fitWidth="798.0" layoutX="1.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/Background.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="333.0" layoutY="546.0" mnemonicParsing="false" onMouseClicked="#ONClickSingup" text="Registrieren" />
+      <Button layoutX="423.0" layoutY="545.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="79.0" text="Anmelden" />
+   </children>
+</AnchorPane>
