@@ -9,10 +9,10 @@ import javafx.scene.Scene;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
+import javafx.stage.Window;
+import javafx.event.Event;
 
-import java.io.IOException;
 import java.net.URL;
-import java.util.EventObject;
 import java.util.ResourceBundle;
 
 public class CategoryController implements Initializable {
@@ -21,23 +21,30 @@ public class CategoryController implements Initializable {
     @FXML
     private Stage primaryStage;
     @FXML
-    void OnBackClick(MouseEvent event) throws Exception {
-        loadStartPage();
+    void OnBackClick(MouseEvent event ) throws Exception {
+        loadStartPage(event);
     }
 
     // Methode zum Laden der Startseite
-    private void loadStartPage() throws Exception {
+     void loadStartPage(MouseEvent event) throws Exception {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("startView.fxml"));
         Parent startPage = (Parent) fxmlLoader.load();
         Scene scene = new Scene(startPage);
-        // Verwende die vorhandene Stage (primaryStage) oder erstelle eine neue
-        Stage stage = primaryStage != null ? primaryStage : new Stage();
-        stage.setScene(scene);
-        stage.show();
+
+         if (primaryStage != null) {
+             primaryStage.setScene(scene);
+         } else {
+             // Schließe die aktuelle Stage
+             Stage currentStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+             currentStage.close();
+             // Erstelle eine neue Stage, wenn keine vorhanden ist
+             Stage stage = new Stage();
+             stage.setScene(scene);
+             stage.show();
+         }
 
 
     }
-
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {

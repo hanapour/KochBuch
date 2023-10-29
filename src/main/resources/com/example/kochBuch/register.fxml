@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="523.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.StartController">
+<AnchorPane prefHeight="523.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.RegisterController">
    <children>
       <AnchorPane fx:id="Pane2" prefHeight="69.0" prefWidth="520.0" style="-fx-background-color: #5d6d7e;">
          <children>
@@ -59,7 +59,7 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Button>
-      <Button fx:id="CloseButton" layoutX="70.0" layoutY="456.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="386.0" style="-fx-background-color: #5d6d7e;" text="Close" textFill="#fff6f6">
+      <Button fx:id="CloseButton" layoutX="70.0" layoutY="456.0" mnemonicParsing="false" onMouseClicked="#OnCloseRegisterClick" prefHeight="26.0" prefWidth="386.0" style="-fx-background-color: #5d6d7e;" text="Close" textFill="#fff6f6">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
