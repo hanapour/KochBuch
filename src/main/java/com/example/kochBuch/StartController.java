@@ -37,7 +37,7 @@ public class StartController implements Initializable {
     }
 
     @FXML
-    void OnMenuClick(MouseEvent event) throws Exception {
+    void OnCategoryClick(MouseEvent event) throws Exception {
         loadFXML("categoryView.fxml");
     }
 
