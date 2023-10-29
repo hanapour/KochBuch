@@ -10,11 +10,11 @@
 
 <!--xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.kochBuch.CategoryView"-->
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #eaeded;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #eaeded;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.CategoryController">
    <children>
       <ScrollPane layoutX="24.0" layoutY="89.0" prefHeight="618.0" prefWidth="806.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="89.0">
         <content>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="619.0" prefWidth="800.0">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="619.0" prefWidth="800.0" style="-fx-background-color: #d6dbdf;">
                <children>
                   <ImageView fitHeight="79.0" fitWidth="80.0" layoutX="18.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="18.0">
                      <image>
@@ -80,7 +80,7 @@
             </AnchorPane>
         </content>
       </ScrollPane>
-      <Pane layoutX="14.0" layoutY="7.0" prefHeight="96.0" prefWidth="800.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <Pane layoutX="14.0" layoutY="7.0" prefHeight="96.0" prefWidth="800.0" style="-fx-background-color: #d6dbdf;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <Text layoutX="335.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kategorie" wrappingWidth="189.94921875">
                <font>
@@ -92,7 +92,7 @@
                   <Image url="@../../../image/kategorie.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="btnBack" fitHeight="40.0" fitWidth="40.0" layoutX="24.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="btnBack" fitHeight="40.0" fitWidth="40.0" layoutX="24.0" layoutY="14.0" onMouseClicked="#OnBackClick" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../image/backButton.png" />
                </image>

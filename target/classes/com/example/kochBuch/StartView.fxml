@@ -10,7 +10,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="800.0" style="-fx-background-color: #CCCCFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.StartController">
    <children>
-      <Pane layoutX="14.0" layoutY="14.0" prefHeight="96.0" prefWidth="800.0" style="-fx-background-color: #eaeded;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <Pane layoutX="14.0" layoutY="14.0" prefHeight="96.0" prefWidth="800.0" style="-fx-background-color: #d6dbdf;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <ImageView fx:id="btnMenu" fitHeight="49.0" fitWidth="76.0" layoutX="14.0" layoutY="13.0" onMouseClicked="#OnMenuClick" pickOnBounds="true" preserveRatio="true">
                <image>

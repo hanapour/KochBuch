@@ -32,22 +32,23 @@ public class StartController implements Initializable {
 
 
     @FXML
-    void ONClickSingup(MouseEvent event) throws Exception{
-        Stage stage = MainApplication.mainstage;
-        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("register.fxml"));
-        Scene scene = new Scene((Parent)fxmlLoader.load());
-        stage.setScene(scene);
-        stage.show();
-
+    void ONClickSingup(MouseEvent event) throws Exception {
+        loadFXML("register.fxml");
     }
+
     @FXML
-    void OnMenuClick(MouseEvent event)throws Exception {
+    void OnMenuClick(MouseEvent event) throws Exception {
+        loadFXML("categoryView.fxml");
+    }
+
+    private void loadFXML(String fxmlFileName) throws Exception {
         Stage stage = MainApplication.mainstage;
-        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("categoryView.fxml"));
-        Scene scene = new Scene((Parent)fxmlLoader.load());
+        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource(fxmlFileName));
+        Parent root = (Parent) fxmlLoader.load();
+
+        Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
-
     }
 
     }
