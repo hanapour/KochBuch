@@ -22,8 +22,8 @@
                </children>
             </Pane>
             <Line endX="200.0" endY="56.00000762939453" startY="56.000003814697266" />
-            <Button fx:id="btnKategorie" mnemonicParsing="false" onMouseClicked="#OnKategorieClick" prefHeight="81.0" prefWidth="200.0" style="-fx-background-color: #F4F4F4;" text="Kategorie" />
-            <Button fx:id="Impressum" layoutX="10.0" layoutY="66.0" mnemonicParsing="false" onMouseClicked="#OnImpressumClick" prefHeight="81.0" prefWidth="200.0" style="-fx-background-color: #F4F4F4;" text="Impressum" />
+            <Button fx:id="btnKategorie" mnemonicParsing="false" onMouseClicked="#OnKategorieClick" prefHeight="81.0" prefWidth="200.0" style="-fx-background-color: #F4F4F4; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Kategorie" />
+            <Button fx:id="Impressum" layoutX="10.0" layoutY="66.0" mnemonicParsing="false" onMouseClicked="#OnImpressumClick" prefHeight="81.0" prefWidth="200.0" style="-fx-background-color: #F4F4F4; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Impressum" />
             <Button fx:id="btnAnmelden" layoutX="10.0" layoutY="148.0" mnemonicParsing="false" onMouseClicked="#OnSingInClick" prefHeight="81.0" prefWidth="200.0" style="-fx-background-color: #F4F4F4;" text="Anmelden" />
             <Button fx:id="btnRegistrieren" layoutX="10.0" layoutY="229.0" mnemonicParsing="false" onMouseClicked="#OnSingUpClick" prefHeight="81.0" prefWidth="200.0" style="-fx-background-color: #F4F4F4;" text="Registrieren" />
             <Button fx:id="btnHilfe" layoutX="10.0" layoutY="311.0" mnemonicParsing="false" onMouseClicked="#OnHelpClick" prefHeight="81.0" prefWidth="200.0" style="-fx-background-color: #F4F4F4;" text="Hilfe" />

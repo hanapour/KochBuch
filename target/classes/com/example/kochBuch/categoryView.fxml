@@ -88,7 +88,7 @@
                   </ImageView>
                   <ImageView fitHeight="285.0" fitWidth="197.0" layoutX="572.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../image/Screenshot%202023-10-29%20224119.png" />
+                        <Image url="@../../../image/111.png" />
                      </image></ImageView>
                   <ImageView fitHeight="134.0" fitWidth="226.0" layoutX="371.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
                      <image>

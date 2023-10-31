@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="Wessam:Fotos">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/AnmeldenView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/HilfeView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/ImpressumView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/MenuView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/registerView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/Screenshot 2023-10-29 224119.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/MainApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/MainApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/register.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +41,7 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2XPTNHc5LMQdNMEsUEJEgQ1tAU4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -82,6 +68,20 @@
       <recent name="C:\Users\wessa\IdeaProjects\KochBuch\src\main\resources\com\example\kochBuch" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="WessamDerKoch" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.kochBuch.MainApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.kochBuch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -100,6 +100,7 @@
       <workItem from="1698690442910" duration="2641000" />
       <workItem from="1698748220196" duration="7746000" />
       <workItem from="1698762614868" duration="3827000" />
+      <workItem from="1698768761738" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.">
       <option name="closed" value="true" />
