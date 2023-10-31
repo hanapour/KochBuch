@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="Wessam:Fotos">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="border on button in menuView">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/MenuView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/MenuView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/categoryView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/categoryView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +37,7 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="4b81ea59-aa19-447f-ac1e-124ea503af72" />
+        <option name="accountId" value="f6b28950-70ca-468e-810e-fe645c61d56e" />
         <option name="url" value="https://github.com/hanapour/KochBuch" />
       </UrlAndAccount>
     </option>
@@ -52,6 +57,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/wessa/IdeaProjects/KochBuch/src/main/resources/com/example/kochBuch&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -71,6 +77,7 @@
   <component name="RunManager">
     <configuration name="WessamDerKoch" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.kochBuch.MainApplication" />
+      <module name="teszo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.kochBuch.*" />
@@ -100,7 +107,8 @@
       <workItem from="1698690442910" duration="2641000" />
       <workItem from="1698748220196" duration="7746000" />
       <workItem from="1698762614868" duration="3827000" />
-      <workItem from="1698768761738" duration="20000" />
+      <workItem from="1698768761738" duration="2470000" />
+      <workItem from="1698773991977" duration="1206000" />
     </task>
     <task id="LOCAL-00001" summary="Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.">
       <option name="closed" value="true" />
@@ -158,7 +166,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698617371974</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="border on button in menuView">
+      <option name="closed" value="true" />
+      <created>1698769142706</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698769142706</updated>
+    </task>
+    <task id="LOCAL-00009" summary="border on button in menuView">
+      <option name="closed" value="true" />
+      <created>1698769164262</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698769164262</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +194,7 @@
     <MESSAGE value="Wessam:Anpassung&gt;&gt;Classe&lt;CategoryController&gt;" />
     <MESSAGE value="Wessam:Anpassung&gt;&gt;StartController" />
     <MESSAGE value="Wessam:Fotos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wessam:Fotos" />
+    <MESSAGE value="border on button in menuView" />
+    <option name="LAST_COMMIT_MESSAGE" value="border on button in menuView" />
   </component>
 </project>
