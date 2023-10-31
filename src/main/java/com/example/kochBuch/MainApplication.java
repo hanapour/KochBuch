@@ -23,8 +23,8 @@ public class MainApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load(),800,600);
         // Bitte nicht ändern, es soll so bleiben setResizable(false)
         mainstage.setResizable(false);
-        mainstage.setFullScreenExitHint("Hello , Um exit drucke bitte die 'esc' taste");
-        mainstage.setFullScreenExitKeyCombination(KeyCombination.keyCombination("esc"));
+        //mainstage.setFullScreenExitHint("Hello , Um exit drucke bitte die 'esc' taste");
+        //mainstage.setFullScreenExitKeyCombination(KeyCombination.keyCombination("esc"));
         mainstage.setScene(scene);
 
         mainstage.show();

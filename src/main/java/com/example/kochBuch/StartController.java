@@ -33,12 +33,17 @@ public class StartController implements Initializable {
 
     @FXML
     void ONClickSingup(MouseEvent event) throws Exception {
-        loadFXML("register.fxml");
+        loadFXML("registerView.fxml");
     }
 
     @FXML
     void OnCategoryClick(MouseEvent event) throws Exception {
         loadFXML("categoryView.fxml");
+    }
+    @FXML
+    void OnMenuClick(MouseEvent event) throws Exception {
+        loadFXML("MenuView.fxml");
+
     }
 
     private void loadFXML(String fxmlFileName) throws Exception {

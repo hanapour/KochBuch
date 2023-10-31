@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="630.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.MenuController">
+   <children>
+      <VBox prefHeight="630.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane prefHeight="83.0" prefWidth="200.0">
+               <children>
+                  <Text fontSmoothingType="LCD" layoutX="14.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menü">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Line endX="200.0" endY="56.00000762939453" startY="56.000003814697266" />
+            <Button fx:id="btnKategorie" mnemonicParsing="false" onMouseClicked="#OnKategorieClick" prefHeight="81.0" prefWidth="200.0" style="-fx-background-color: #F4F4F4;" text="Kategorie" />
+            <Button fx:id="Impressum" layoutX="10.0" layoutY="66.0" mnemonicParsing="false" onMouseClicked="#OnImpressumClick" prefHeight="81.0" prefWidth="200.0" style="-fx-background-color: #F4F4F4;" text="Impressum" />
+            <Button fx:id="btnAnmelden" layoutX="10.0" layoutY="148.0" mnemonicParsing="false" onMouseClicked="#OnSingInClick" prefHeight="81.0" prefWidth="200.0" style="-fx-background-color: #F4F4F4;" text="Anmelden" />
+            <Button fx:id="btnRegistrieren" layoutX="10.0" layoutY="229.0" mnemonicParsing="false" onMouseClicked="#OnSingUpClick" prefHeight="81.0" prefWidth="200.0" style="-fx-background-color: #F4F4F4;" text="Registrieren" />
+            <Button fx:id="btnHilfe" layoutX="10.0" layoutY="311.0" mnemonicParsing="false" onMouseClicked="#OnHelpClick" prefHeight="81.0" prefWidth="200.0" style="-fx-background-color: #F4F4F4;" text="Hilfe" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
