@@ -51,4 +51,10 @@ public class VeganController extends Application {
     @FXML void OnClickBack(MouseEvent event)  throws Exception{
         loadFXML("categoryView.fxml");
     }
+    @FXML void vegan1(MouseEvent event)  throws Exception{
+        loadFXML("vegan1View.fxml");
+    }
+    @FXML void vegan2(MouseEvent event)  throws Exception{
+        loadFXML("vegan2View.fxml");
+    }
 }

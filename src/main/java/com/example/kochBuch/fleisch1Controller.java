@@ -8,7 +8,7 @@ import javafx.scene.Scene;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
-public class SeafoodController extends Application {
+public class fleisch1Controller extends Application {
 
     public static void main(String[] args) {
         launch(args);
@@ -49,12 +49,6 @@ public class SeafoodController extends Application {
         loadFXML("PersischView.fxml");
     }
     @FXML void OnClickBack(MouseEvent event)  throws Exception{
-        loadFXML("categoryView.fxml");
-    }
-    @FXML void seafood1(MouseEvent event)  throws Exception{
-        loadFXML("seafood1View.fxml");
-    }
-    @FXML void seafood2(MouseEvent event)  throws Exception{
-        loadFXML("seafood2View.fxml");
+        loadFXML("FleischView.fxml");
     }
 }

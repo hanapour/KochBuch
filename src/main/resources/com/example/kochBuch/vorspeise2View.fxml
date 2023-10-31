@@ -9,8 +9,9 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="800.0" style="-fx-background-color: #CCCCFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.NachspeiseController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="800.0" style="-fx-background-color: #CCCCFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.vorspeise2Controller">
     <children>
         <BorderPane prefHeight="630.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <left>
@@ -52,7 +53,7 @@
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button layoutX="10.0" layoutY="132.0" mnemonicParsing="false" onMouseClicked="#vorspeise" prefHeight="61.0" prefWidth="180.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Vorspeise">
+                        <Button layoutX="10.0" layoutY="132.0" mnemonicParsing="false" onMouseClicked="#vorspeise" prefHeight="61.0" prefWidth="180.0" style="-fx-background-color: #e5e5e5; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Vorspeise">
                             <font>
                                 <Font size="16.0" />
                             </font>
@@ -64,7 +65,7 @@
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button layoutX="10.0" layoutY="193.0" mnemonicParsing="false" onMouseClicked="#nachspeise" prefHeight="61.0" prefWidth="180.0" style="-fx-background-color: #e5e5e5; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Nachspeise">
+                        <Button layoutX="10.0" layoutY="193.0" mnemonicParsing="false" onMouseClicked="#nachspeise" prefHeight="61.0" prefWidth="180.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Nachspeise">
                             <font>
                                 <Font size="16.0" />
                             </font>
@@ -94,7 +95,7 @@
             <top>
                 <Pane prefHeight="86.0" prefWidth="800.0" style="-fx-background-color: #f5f5f5;" BorderPane.alignment="CENTER">
                     <children>
-                        <Label layoutX="370.0" layoutY="21.0" text="Nachspeise">
+                        <Label layoutX="370.0" layoutY="21.0" text="Gemüsesuppe">
                             <font>
                                 <Font name="System Bold" size="30.0" />
                             </font>
@@ -115,20 +116,12 @@
             <center>
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: f5f5f5; -fx-border-color: white; -fx-border-width: 2px 2px 2px 2px;" BorderPane.alignment="CENTER">
                     <children>
-                        <Pane layoutX="140.0" prefHeight="573.0" prefWidth="341.0" style="-fx-background-color: white;">
-                            <children>
-                                <ImageView fitHeight="199.0" fitWidth="252.0" layoutX="44.0" layoutY="46.0" onMouseClicked="#nachspeise1" pickOnBounds="true" preserveRatio="true" rotate="90.0">
-                                    <image>
-                                        <Image url="@../../../image/Timo%20Essen%20Bilder/nachspeise/IMG_5689.jpg" />
-                                    </image>
-                                </ImageView>
-                                <ImageView fitHeight="348.0" fitWidth="268.0" layoutX="36.0" layoutY="303.0" onMouseClicked="#nachspeise2" pickOnBounds="true" preserveRatio="true" rotate="90.0">
-                                    <image>
-                                        <Image url="@../../../image/Timo%20Essen%20Bilder/nachspeise/IMG_5690.jpg" />
-                                    </image>
-                                </ImageView>
-                            </children>
-                        </Pane>
+                        <Text layoutX="12.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zutaten:    2 Esslöffel Olivenöl    1 Zwiebel, gehackt    2 Karotten, gewürfelt    2 Selleriestangen, gewürfelt    2 Knoblauchzehen, gehackt    1 Paprika, gewürfelt    1 Zucchini, gewürfelt    1 Tasse grüne Bohnen, in kleine Stücke geschnitten    4 Tassen Gemüsebrühe    1 Dose (400 g) gehackte Tomaten    1 Teelöffel getrockneter Thymian    1 Teelöffel getrockneter Oregano    Salz und Pfeffer nach Geschmack    1 Tasse Nudeln (z. B. kleine Muschelnudeln oder Ditalini)    Frische Petersilie oder Basilikum zum Garnieren (optional)Anleitung:    In einem großen Topf das Olivenöl erhitzen. Die gehackte Zwiebel darin anschwitzen, bis sie weich und leicht goldbraun ist.    Die gewürfelten Karotten, Sellerie, Paprika und Zucchini hinzufügen. Weitere 5 Minuten anbraten, bis das Gemüse leicht angedünstet ist.    Den gehackten Knoblauch und die grünen Bohnen hinzufügen. Für weitere 2-3 Minuten anbraten.    Die Gemüsebrühe, gehackten Tomaten, getrockneten Thymian und Oregano in den Topf geben. Mit Salz und Pfeffer nach Geschmack würzen.    Die Suppe zum Kochen bringen, die Hitze reduzieren und etwa 10-15 Minuten köcheln lassen, bis das Gemüse weich ist.    In der Zwischenzeit die Nudeln in einem separaten Topf gemäß den Anweisungen auf der Verpackung kochen. Abgießen und beiseite stellen.    Die gekochten Nudeln zur Gemüsesuppe hinzufügen und noch einige Minuten köcheln lassen, bis alles gut durchgewärmt ist.    Die Gemüsesuppe in Suppenschalen oder Tellern servieren. Nach Belieben mit frischer Petersilie oder Basilikum garnieren." wrappingWidth="596.5367431640625" />
+                        <ImageView fitHeight="187.0" fitWidth="619.0" layoutX="117.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0060.jpg" />
+                            </image>
+                        </ImageView>
                     </children></Pane>
             </center>
         </BorderPane>

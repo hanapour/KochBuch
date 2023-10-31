@@ -51,4 +51,11 @@ public class NachspeiseController extends Application {
     @FXML void OnClickBack(MouseEvent event)  throws Exception{
         loadFXML("categoryView.fxml");
     }
+    @FXML void nachspeise1(MouseEvent event)  throws Exception{
+        loadFXML("nachspeise1View.fxml");
+    }
+    @FXML void nachspeise2(MouseEvent event)  throws Exception{
+        loadFXML("nachspeise2View.fxml");
+    }
+
 }

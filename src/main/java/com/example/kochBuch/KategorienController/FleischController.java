@@ -51,4 +51,10 @@ public class FleischController extends Application {
     @FXML void OnClickBack(MouseEvent event)  throws Exception{
         loadFXML("categoryView.fxml");
     }
+    @FXML void fleisch1(MouseEvent event)  throws Exception{
+        loadFXML("fleisch1View.fxml");
+    }
+    @FXML void fleisch2(MouseEvent event)  throws Exception{
+        loadFXML("fleisch2View.fxml");
+    }
 }

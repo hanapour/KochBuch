@@ -9,14 +9,15 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="800.0" style="-fx-background-color: #CCCCFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.NachspeiseController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="800.0" style="-fx-background-color: #CCCCFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.vegan2Controller">
     <children>
         <BorderPane prefHeight="630.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <left>
                 <VBox prefHeight="633.0" prefWidth="180.0" style="-fx-background-color: #F4F4F4;" BorderPane.alignment="CENTER">
                     <children>
-                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#vegan" prefHeight="61.0" prefWidth="180.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 2px 0px 2px 0px;" text="Vegan">
+                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#vegan" prefHeight="61.0" prefWidth="180.0" style="-fx-background-color: #e5e5e5; -fx-border-color: white; -fx-border-width: 2px 0px 2px 0px;" text="Vegan">
                             <font>
                                 <Font size="16.0" />
                             </font>
@@ -64,7 +65,7 @@
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button layoutX="10.0" layoutY="193.0" mnemonicParsing="false" onMouseClicked="#nachspeise" prefHeight="61.0" prefWidth="180.0" style="-fx-background-color: #e5e5e5; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Nachspeise">
+                        <Button layoutX="10.0" layoutY="193.0" mnemonicParsing="false" onMouseClicked="#nachspeise" prefHeight="61.0" prefWidth="180.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Nachspeise">
                             <font>
                                 <Font size="16.0" />
                             </font>
@@ -94,7 +95,7 @@
             <top>
                 <Pane prefHeight="86.0" prefWidth="800.0" style="-fx-background-color: #f5f5f5;" BorderPane.alignment="CENTER">
                     <children>
-                        <Label layoutX="370.0" layoutY="21.0" text="Nachspeise">
+                        <Label layoutX="370.0" layoutY="21.0" text="Pizza">
                             <font>
                                 <Font name="System Bold" size="30.0" />
                             </font>
@@ -115,20 +116,12 @@
             <center>
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: f5f5f5; -fx-border-color: white; -fx-border-width: 2px 2px 2px 2px;" BorderPane.alignment="CENTER">
                     <children>
-                        <Pane layoutX="140.0" prefHeight="573.0" prefWidth="341.0" style="-fx-background-color: white;">
-                            <children>
-                                <ImageView fitHeight="199.0" fitWidth="252.0" layoutX="44.0" layoutY="46.0" onMouseClicked="#nachspeise1" pickOnBounds="true" preserveRatio="true" rotate="90.0">
-                                    <image>
-                                        <Image url="@../../../image/Timo%20Essen%20Bilder/nachspeise/IMG_5689.jpg" />
-                                    </image>
-                                </ImageView>
-                                <ImageView fitHeight="348.0" fitWidth="268.0" layoutX="36.0" layoutY="303.0" onMouseClicked="#nachspeise2" pickOnBounds="true" preserveRatio="true" rotate="90.0">
-                                    <image>
-                                        <Image url="@../../../image/Timo%20Essen%20Bilder/nachspeise/IMG_5690.jpg" />
-                                    </image>
-                                </ImageView>
-                            </children>
-                        </Pane>
+                        <Text layoutX="12.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zutaten für den Pizzateig:    1 Pizzateig (vegan, oft im Supermarkt erhältlich)    2 Esslöffel OlivenölZutaten für die Tomatensauce:    1 Dose (ca. 400 g) passierte Tomaten    1 Teelöffel Olivenöl    2 Knoblauchzehen, gehackt    1 Teelöffel getrocknetes Basilikum    Salz und Pfeffer nach GeschmackBelag nach Wahl (vegan):    Veganer Käse (z. B. veganer Mozzarella)    Geschnittenes Gemüse (Paprika, Zwiebeln, Pilze, Oliven, Tomaten, etc.)    Frische Kräuter (Basilikum, Oregano)    Rucola oder Spinat (nach dem Backen hinzufügen)Anleitung:    Den Ofen auf 220°C (200°C Umluft) vorheizen.    Rollen Sie den Pizzateig auf einem mit Mehl bestäubten Backblech aus oder legen Sie ihn auf Backpapier.    In einer Pfanne das Olivenöl für die Tomatensauce erhitzen. Den gehackten Knoblauch hinzufügen und kurz anbraten, bis er duftet, aber nicht braun wird.    Die passierten Tomaten hinzufügen, das getrocknete Basilikum unterrühren und mit Salz und Pfeffer abschmecken. Die Sauce auf dem Pizzateig gleichmäßig verteilen.    Fügen Sie nun den veganen Käse und Ihr gewähltes Gemüse hinzu. Sie können die Pizza nach Ihrem Geschmack belegen.    Die Pizza in den vorgeheizten Ofen geben und etwa 12-15 Minuten backen, bis der Teig knusprig ist und der Käse geschmolzen ist.    Nach dem Backen können Sie frische Kräuter wie Basilikum oder Oregano über die Pizza streuen und Rucola oder Spinat hinzufügen.    Schneiden Sie die vegane Pizza in Stücke und servieren Sie sie heiß. Guten Appetit!" wrappingWidth="596.5367431640625" />
+                        <ImageView fitHeight="187.0" fitWidth="619.0" layoutX="265.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0024.jpg" />
+                            </image>
+                        </ImageView>
                     </children></Pane>
             </center>
         </BorderPane>

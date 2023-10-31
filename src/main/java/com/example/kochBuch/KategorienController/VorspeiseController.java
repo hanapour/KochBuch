@@ -51,4 +51,10 @@ public class VorspeiseController extends Application {
     @FXML void OnClickBack(MouseEvent event)  throws Exception{
         loadFXML("categoryView.fxml");
     }
+    @FXML void vorspeise1(MouseEvent event)  throws Exception{
+        loadFXML("vorspeise1View.fxml");
+    }
+    @FXML void vorspeise2(MouseEvent event)  throws Exception{
+        loadFXML("vorspeise2View.fxml");
+    }
 }

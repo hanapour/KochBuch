@@ -66,12 +66,12 @@
                         <Font name="System Bold Italic" size="28.0" />
                      </font>
                   </Text>
-                  <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="30.0" layoutY="511.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="18.0">
+                  <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="30.0" layoutY="511.0" onMouseClicked="#persisch" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="18.0">
                      <image>
                         <Image url="@../../../image/persian.png" />
                      </image>
                   </ImageView>
-                  <Text layoutX="110.0" layoutY="573.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Persian" wrappingWidth="158.61328125" AnchorPane.leftAnchor="118.0">
+                  <Text layoutX="110.0" layoutY="573.0" onMouseClicked="#persisch" strokeType="OUTSIDE" strokeWidth="0.0" text="Persian" wrappingWidth="158.61328125" AnchorPane.leftAnchor="118.0">
                      <font>
                         <Font name="System Bold Italic" size="28.0" />
                      </font>

@@ -4,12 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="border on button in menuView">
+    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="kategorien erweitern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/fleisch1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/fleisch2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/nachspeise1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/nachspeise2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/persisch1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/persisch2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/seafood1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/seafood2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/vegan1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/vegan2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/vorspeise1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/vorspeise2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/fleisch1View.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/fleisch2View.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/nachspeise1View.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/nachspeise2View.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/persisch1View.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/persisch2View.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/seafood1View.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/seafood2View.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/vegan1View.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/vegan2View.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/vorspeise1View.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/vorspeise2View.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Timo Essen Bilder/nachspeise/IMG_5689.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Timo Essen Bilder/nachspeise/IMG_5690.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/FleischController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/FleischController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/NachspeiseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/NachspeiseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/PersischController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/PersischController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/SeafoodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/SeafoodController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/VeganController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/VeganController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/VorspeiseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/VorspeiseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/FleischView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/FleischView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/NachspeiseView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/NachspeiseView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/PersischView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/PersischView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/SeafoodView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/SeafoodView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/VeganView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/VeganView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/VorspeiseView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/VorspeiseView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/MenuView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/MenuView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FleischController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FleischController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/NachspeiseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/NachspeiseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/PersischController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/PersischController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/SeafoodController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/SeafoodController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/VeganController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/VeganController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/VorspeiseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/VorspeiseController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/categoryView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/categoryView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +63,7 @@
       <list>
         <option value="Class" />
         <option value="FxmlFile" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -46,26 +88,29 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2XPTNHc5LMQdNMEsUEJEgQ1tAU4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/wessa/IdeaProjects/KochBuch/src/main/resources/com/example/kochBuch&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/wessa/IdeaProjects/KochBuch/src/main/resources/com/example/kochBuch",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.kochBuch" />
@@ -108,7 +153,7 @@
       <workItem from="1698748220196" duration="7746000" />
       <workItem from="1698762614868" duration="3827000" />
       <workItem from="1698768761738" duration="2470000" />
-      <workItem from="1698773991977" duration="1206000" />
+      <workItem from="1698773991977" duration="7482000" />
     </task>
     <task id="LOCAL-00001" summary="Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.">
       <option name="closed" value="true" />
@@ -182,19 +227,37 @@
       <option name="project" value="LOCAL" />
       <updated>1698769164262</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="kategorien erweitern">
+      <option name="closed" value="true" />
+      <created>1698775231742</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698775231742</updated>
+    </task>
+    <task id="LOCAL-00011" summary="kategorien erweitern">
+      <option name="closed" value="true" />
+      <created>1698775249136</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698775249136</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern." />
     <MESSAGE value="Wessam:Classe&lt;CategoryController&gt;" />
     <MESSAGE value="Wessam:Anpassung&gt;&gt;Classe&lt;CategoryController&gt;" />
     <MESSAGE value="Wessam:Anpassung&gt;&gt;StartController" />
     <MESSAGE value="Wessam:Fotos" />
     <MESSAGE value="border on button in menuView" />
-    <option name="LAST_COMMIT_MESSAGE" value="border on button in menuView" />
+    <MESSAGE value="kategorien erweitern" />
+    <option name="LAST_COMMIT_MESSAGE" value="kategorien erweitern" />
   </component>
 </project>

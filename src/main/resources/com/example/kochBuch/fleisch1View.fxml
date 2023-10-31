@@ -9,8 +9,9 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="800.0" style="-fx-background-color: #CCCCFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.NachspeiseController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="800.0" style="-fx-background-color: #CCCCFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.fleisch1Controller">
     <children>
         <BorderPane prefHeight="630.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <left>
@@ -28,7 +29,7 @@
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#fleisch" prefHeight="61.0" prefWidth="180.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Fleisch">
+                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#fleisch" prefHeight="61.0" prefWidth="180.0" style="-fx-background-color: #e5e5e5; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Fleisch">
                             <font>
                                 <Font size="16.0" />
                             </font>
@@ -64,7 +65,7 @@
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button layoutX="10.0" layoutY="193.0" mnemonicParsing="false" onMouseClicked="#nachspeise" prefHeight="61.0" prefWidth="180.0" style="-fx-background-color: #e5e5e5; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Nachspeise">
+                        <Button layoutX="10.0" layoutY="193.0" mnemonicParsing="false" onMouseClicked="#nachspeise" prefHeight="61.0" prefWidth="180.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Nachspeise">
                             <font>
                                 <Font size="16.0" />
                             </font>
@@ -94,7 +95,7 @@
             <top>
                 <Pane prefHeight="86.0" prefWidth="800.0" style="-fx-background-color: #f5f5f5;" BorderPane.alignment="CENTER">
                     <children>
-                        <Label layoutX="370.0" layoutY="21.0" text="Nachspeise">
+                        <Label layoutX="370.0" layoutY="21.0" text="Bierhähnchen">
                             <font>
                                 <Font name="System Bold" size="30.0" />
                             </font>
@@ -114,22 +115,14 @@
             </top>
             <center>
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: f5f5f5; -fx-border-color: white; -fx-border-width: 2px 2px 2px 2px;" BorderPane.alignment="CENTER">
-                    <children>
-                        <Pane layoutX="140.0" prefHeight="573.0" prefWidth="341.0" style="-fx-background-color: white;">
-                            <children>
-                                <ImageView fitHeight="199.0" fitWidth="252.0" layoutX="44.0" layoutY="46.0" onMouseClicked="#nachspeise1" pickOnBounds="true" preserveRatio="true" rotate="90.0">
-                                    <image>
-                                        <Image url="@../../../image/Timo%20Essen%20Bilder/nachspeise/IMG_5689.jpg" />
-                                    </image>
-                                </ImageView>
-                                <ImageView fitHeight="348.0" fitWidth="268.0" layoutX="36.0" layoutY="303.0" onMouseClicked="#nachspeise2" pickOnBounds="true" preserveRatio="true" rotate="90.0">
-                                    <image>
-                                        <Image url="@../../../image/Timo%20Essen%20Bilder/nachspeise/IMG_5690.jpg" />
-                                    </image>
-                                </ImageView>
-                            </children>
-                        </Pane>
-                    </children></Pane>
+               <children>
+                  <Text layoutX="12.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zutaten:    1 ganzes Huhn (ca. 1,5 kg)    1 Dose Bier (330 ml)    2 EL Olivenöl    2 EL Paprikapulver (edelsüß)    2 TL Knoblauchpulver    2 TL Zwiebelpulver    1 TL Kreuzkümmel    1 TL Salz    1 TL frisch gemahlener schwarzer Pfeffer    Saft von 1 Zitrone    2 Knoblauchzehen (gehackt)    2 EL frische Petersilie (gehackt, optional)Anleitung:    Das Huhn vorbereiten:        Waschen Sie das Huhn gründlich von innen und außen unter kaltem Wasser.        Tupfen Sie es mit Küchenpapier trocken.        Entfernen Sie überschüssiges Fett und Haut.    Die Bierdose vorbereiten:        Öffnen Sie die Dose Bier und trinken Sie etwa ein Drittel davon aus oder gießen Sie es in ein separates Glas.        Würzen Sie das verbleibende Bier in der Dose mit dem Saft einer halben Zitrone und den gehackten Knoblauchzehen.    Die Hühnchenwürzmischung herstellen:        In einer kleinen Schüssel das Paprikapulver, Knoblauchpulver, Zwiebelpulver, Kreuzkümmel, Salz und schwarzen Pfeffer vermengen.    Das Huhn würzen:        Reiben Sie das Huhn innen und außen mit dem Olivenöl ein.        Verteilen Sie die vorbereitete Hühnchenwürzmischung großzügig über die gesamte Oberfläche des Huhns.    Das Huhn auf die Bierdose setzen:        Setzen Sie das vorbereitete Huhn auf die geöffnete Dose Bier, sodass es aufrecht steht. Die Dose sollte etwa zur Hälfte im Huhn verschwinden.    Den Grill vorheizen:        Erhitzen Sie Ihren Grill für die indirekte Hitze auf mittlere Temperatur (ca. 175-190°C).    Das Bierhähnchen grillen:        Stellen Sie das Huhn auf die mittlere Grillebene, direkt über die ausgeschaltete Brenner.        Schließen Sie den Grilldeckel und grillen Sie das Huhn etwa 1,5 bis 2 Stunden lang. Dabei bleibt das Huhn auf der Bierdose und wird gleichmäßig gegart.    Das Huhn überprüfen:        Überprüfen Sie die Kerntemperatur des Huhns. Es ist fertig, wenn die dickste Stelle des Oberschenkels eine Temperatur von 75-80°C erreicht hat.    Servieren:        Vorsicht! Die Bierdose und das Huhn sind sehr heiß. Verwenden Sie Grillhandschuhe oder Grillzangen, um das Huhn vorsichtig zu entfernen.        Lassen Sie das Huhn vor dem Anschneiden einige Minuten ruhen.        Optional können Sie das Bierhähnchen mit frisch gehackter Petersilie bestreuen, bevor Sie es servieren." wrappingWidth="596.5367431640625" />
+                  <ImageView fitHeight="187.0" fitWidth="619.0" layoutX="265.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0011.jpg" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
             </center>
         </BorderPane>
     </children>

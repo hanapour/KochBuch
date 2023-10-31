@@ -9,8 +9,9 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="800.0" style="-fx-background-color: #CCCCFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.NachspeiseController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="800.0" style="-fx-background-color: #CCCCFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.nachspeise2Controller">
     <children>
         <BorderPane prefHeight="630.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <left>
@@ -94,7 +95,7 @@
             <top>
                 <Pane prefHeight="86.0" prefWidth="800.0" style="-fx-background-color: #f5f5f5;" BorderPane.alignment="CENTER">
                     <children>
-                        <Label layoutX="370.0" layoutY="21.0" text="Nachspeise">
+                        <Label layoutX="370.0" layoutY="21.0" text="Schokoriegel">
                             <font>
                                 <Font name="System Bold" size="30.0" />
                             </font>
@@ -115,20 +116,12 @@
             <center>
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: f5f5f5; -fx-border-color: white; -fx-border-width: 2px 2px 2px 2px;" BorderPane.alignment="CENTER">
                     <children>
-                        <Pane layoutX="140.0" prefHeight="573.0" prefWidth="341.0" style="-fx-background-color: white;">
-                            <children>
-                                <ImageView fitHeight="199.0" fitWidth="252.0" layoutX="44.0" layoutY="46.0" onMouseClicked="#nachspeise1" pickOnBounds="true" preserveRatio="true" rotate="90.0">
-                                    <image>
-                                        <Image url="@../../../image/Timo%20Essen%20Bilder/nachspeise/IMG_5689.jpg" />
-                                    </image>
-                                </ImageView>
-                                <ImageView fitHeight="348.0" fitWidth="268.0" layoutX="36.0" layoutY="303.0" onMouseClicked="#nachspeise2" pickOnBounds="true" preserveRatio="true" rotate="90.0">
-                                    <image>
-                                        <Image url="@../../../image/Timo%20Essen%20Bilder/nachspeise/IMG_5690.jpg" />
-                                    </image>
-                                </ImageView>
-                            </children>
-                        </Pane>
+                        <Text layoutX="12.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zutaten:Für die Schokoladenmasse:    200 g dunkle Schokolade (70% Kakaoanteil)    2 EL KokosölFür die Füllung:    1 Tasse gemischte Nüsse (Mandeln, Cashews, Walnüsse, etc.), grob gehackt    1/2 Tasse getrocknete Früchte (Cranberries, Rosinen, Aprikosen, etc.), grob gehacktOptional:    1 TL Vanilleextrakt    Eine Prise Salz    Ein paar Esslöffel Honig oder Ahornsirup, um die Schokolade zu süßenAnleitung:    Bereiten Sie eine rechteckige Backform vor, indem Sie sie mit Backpapier auslegen. Dies erleichtert das Entfernen der Schokolade, wenn sie fest ist.    Schmelzen Sie die dunkle Schokolade und das Kokosöl in einem hitzebeständigen Behälter über einem Wasserbad. Rühren Sie gelegentlich, bis die Mischung vollständig geschmolzen ist. Sie können auch die Mikrowelle verwenden, indem Sie die Schokolade in Intervallen von 20 Sekunden schmelzen und zwischendurch umrühren, bis sie glatt ist.    Optional: Wenn Sie die Schokolade süßen möchten, fügen Sie den Vanilleextrakt und gegebenenfalls den Honig oder Ahornsirup hinzu und rühren Sie gut um. Fügen Sie eine Prise Salz hinzu, um die Aromen zu betonen.    Die gehackten Nüsse und getrockneten Früchte in die geschmolzene Schokolade geben und gründlich vermengen.    Gießen Sie die Schokoladen-Nuss-Frucht-Mischung in die vorbereitete Backform. Verwenden Sie einen Spatel oder Löffel, um die Oberfläche glatt zu streichen.    Stellen Sie die Form in den Kühlschrank und lassen Sie die Schokolade mindestens 2-3 Stunden aushärten, bis sie fest ist.    Nach dem Aushärten können Sie den Block aus der Form nehmen und in Schokoriegel schneiden.    Bewahren Sie die Schokoriegel im Kühlschrank auf, da sie bei Raumtemperatur aufgrund des Kokosöls weicher werden können." wrappingWidth="596.5367431640625" />
+                        <ImageView fitHeight="187.0" fitWidth="619.0" layoutX="185.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../image/Timo%20Essen%20Bilder/nachspeise/IMG_5690.jpg" />
+                            </image>
+                        </ImageView>
                     </children></Pane>
             </center>
         </BorderPane>
