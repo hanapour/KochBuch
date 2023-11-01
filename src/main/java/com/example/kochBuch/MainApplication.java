@@ -12,28 +12,22 @@ public class MainApplication extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-
+    protected static Stage mainstage;
+    public MainApplication(){};
     @Override
     public void start(Stage primaryStage) throws IOException {
-        primaryStage.setTitle("KochBuch App");
+        mainstage = primaryStage;
+        mainstage.setTitle("KochBuch App");
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("StartView.fxml"));
-        // Create the main layout using BorderPane
-       // BorderPane mainLayout = new BorderPane();
 
+        Scene scene = new Scene(fxmlLoader.load(),800,600);
+        // Bitte nicht ändern, es soll so bleiben setResizable(false)
+        mainstage.setResizable(false);
+        //mainstage.setFullScreenExitHint("Hello , Um exit drucke bitte die 'esc' taste");
+        //mainstage.setFullScreenExitKeyCombination(KeyCombination.keyCombination("esc"));
+        mainstage.setScene(scene);
 
-        // Add Logo (center)
-        // Add Favorite and Category Icons (right)
-        // You can use HBox or VBox for these sections
-
-        // Create the scene and set it in the stage
-        Scene scene = new Scene(fxmlLoader.load());
-        // Bitte nicht ändern , es soll so bleiben setResizable(false)
-        primaryStage.setResizable(false);
-        primaryStage.setFullScreenExitHint("Hello , Um exit drucke bitte die 'esc' taste");
-        primaryStage.setFullScreenExitKeyCombination(KeyCombination.keyCombination("esc"));
-        primaryStage.setScene(scene);
-
-        primaryStage.show();
+        mainstage.show();
     }
 }
 

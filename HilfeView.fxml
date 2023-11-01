@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="800.0" style="-fx-background-color: #CCCCFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.MenuController">
+    <children>
+        <BorderPane prefHeight="630.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <left>
+                <VBox prefHeight="633.0" prefWidth="180.0" style="-fx-background-color: #F4F4F4;" BorderPane.alignment="CENTER" />
+            </left>
+            <top>
+                <Pane prefHeight="86.0" prefWidth="800.0" style="-fx-background-color: #f5f5f5;" BorderPane.alignment="CENTER">
+                    <children>
+                        <Label layoutX="370.0" layoutY="21.0" text="Hilfe">
+                            <font>
+                                <Font name="System Bold" size="30.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+            </top>
+            <center>
+                <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #F2F2F2; -fx-border-color: white; -fx-border-width: 2px 2px 2px 2px 2px;" BorderPane.alignment="CENTER">
+                    <children>
+                        <Pane layoutX="9.0" layoutY="10.0" prefHeight="525.0" prefWidth="601.0" style="-fx-background-color: white;">
+                            <children>
+                                <Text layoutX="8.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diese Anwendung wurde entwickelt, um Ihnen beim Kochen und Backen zu helfen und Ihnen unzählige kulinarische Abenteuer zu ermöglichen." wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                                <Text layoutX="8.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Hier ist eine Anleitung, um das Beste aus unserer App herauszuholen:" wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                                <Text layoutX="8.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Anmeldung und Profilerstellung:    Nachdem Sie die App heruntergeladen haben, melden Sie sich an oder erstellen Sie ein neues Konto." wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                                <Text layoutX="8.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Stellen Sie sicher, dass Ihr Profil aktuell ist, damit Sie personalisierte Empfehlungen erhalten." wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                                <Text layoutX="8.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Suche nach Rezepten:    Die App verfügt über eine leistungsstarke Suchfunktion.2. Suche nach Rezepten:    Die App verfügt über eine leistungsstarke Suchfunktion." wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                                <Text layoutX="8.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Geben Sie einfach Zutaten, Küchenartikel oder Rezeptnamen ein, um Rezepte zu finden.Geben Sie einfach Zutaten, Küchenartikel oder Rezeptnamen ein, um Rezepte zu finden." wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                                <Text layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="   3. Rezeptansicht:    Klicken Sie auf ein Rezept, um eine detaillierte Übersicht zu erhalten." wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                                <Text layoutX="8.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Hier finden Sie Informationen zur Zubereitung, Zutaten, Portionsgröße und meh Hier finden Sie Informationen zur Zubereitung, Zutaten, Portionsgröße und mehr." wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                                <Text layoutX="8.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" 4. Zutatenliste und Einkaufsliste:    Jedes Rezept enthält eine Zutatenliste. 4. Zutatenliste und Einkaufsliste:    Jedes Rezept enthält eine Zutatenliste." wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                                <Text layoutX="8.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mit einem Klick können Sie die Zutaten in Ihre Einkaufsliste übernehmen, um beim Einkaufen nichts zu vergessen." wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                                <Text layoutX="8.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5. Favoriten und Sammlungen:    Markieren Sie Ihre Lieblingsrezepte, um sie später leichter zu finden." wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                                <Text layoutX="8.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Erstellen Sie Sammlungen für bestimmte Anlässe oder Rezeptarten." wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                                <Text layoutX="8.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  6. Anpassung und Anmerkungen:    Passen Sie Rezepte an Ihre Vorlieben an und fügen Sie persönliche Anmerkungen hinzu." wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                                <Text layoutX="8.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Dies ist besonders nützlich, wenn Sie bestimmte Zutaten ersetzen oder die Portionen ändern möchten." wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                                <Text layoutX="8.0" layoutY="407.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7. Teilen und soziale Interaktion:    Teilen Sie Ihre kulinarischen Erfolge mit Freunden und der Kochbuch-App-Community." wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                                <Text layoutX="8.0" layoutY="422.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sie können auch Rezepte von anderen Nutzern ausprobieren." wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                                <Text layoutX="8.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8. Schritt-für-Schritt-Anleitungen:    Einige Rezepte bieten Schritt-für-Schritt-Anleitungen oder Video-Tutorials, um sicherzustellen," wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                                <Text layoutX="8.0" layoutY="459.0" strokeType="OUTSIDE" strokeWidth="0.0" text="dass Sie jedes Gericht perfekt zubereiten können." wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                                <Text layoutX="8.0" layoutY="485.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" 9. Einstellungen:    Passen Sie Ihre Präferenzen an, einschließlich Benachrichtigungen, Allergene und Ernährungseinstellungen," wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                                <Text layoutX="8.0" layoutY="500.0" strokeType="OUTSIDE" strokeWidth="0.0" text="um personalisierte Empfehlungen zu erhalten." wrappingWidth="584.458984375">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </Pane>
+                    </children>
+                </Pane>
+            </center>
+        </BorderPane>
+    </children>
+</AnchorPane>
