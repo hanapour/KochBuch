@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="800.0" fx:controller="com.example.kochBuch.StartController" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="52.0" fitWidth="52.0" layoutX="734.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/favorite.png" />
+         </image>
+      </ImageView>
+      <ImageView onMouseClicked="#onMenuIconClick" fitHeight="52.0" fitWidth="52.0" layoutX="682.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/kategorie.png" />
+         </image>
+      </ImageView>
+      <ImageView accessibleRole="BUTTON" fitHeight="52.0" fitWidth="52.0" layoutX="20.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/menuIcon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="139.0" fitWidth="123.0" layoutX="209.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/foodLogo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="316.0" layoutY="23.0" prefHeight="85.0" prefWidth="292.0" text="KochBuch">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
