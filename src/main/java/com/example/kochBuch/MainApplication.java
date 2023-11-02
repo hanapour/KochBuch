@@ -20,11 +20,8 @@ public class MainApplication extends Application {
         mainstage.setTitle("KochBuch App");
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("StartView.fxml"));
 
-        Scene scene = new Scene(fxmlLoader.load(),800,600);
-        // Bitte nicht ändern, es soll so bleiben setResizable(false)
+        Scene scene = new Scene(fxmlLoader.load(),800,630);
         mainstage.setResizable(false);
-        //mainstage.setFullScreenExitHint("Hello , Um exit drucke bitte die 'esc' taste");
-        //mainstage.setFullScreenExitKeyCombination(KeyCombination.keyCombination("esc"));
         mainstage.setScene(scene);
 
         mainstage.show();

@@ -4,6 +4,7 @@ module com.example.teszo {
 
     requires org.controlsfx.controls;
     requires org.kordamp.bootstrapfx.core;
+    requires java.sql;
 
     opens com.example.kochBuch to javafx.fxml;
     exports com.example.kochBuch;
