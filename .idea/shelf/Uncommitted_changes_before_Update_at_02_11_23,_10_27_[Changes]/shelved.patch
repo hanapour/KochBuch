@@ -1,0 +1,291 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"dea5d825-6760-4e39-baf4-f0bba609f343\" name=\"Changes\" comment=\"kategorien erweitern\">\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/fleisch1Controller.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/fleisch2Controller.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/nachspeise1Controller.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/nachspeise2Controller.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/persisch1Controller.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/persisch2Controller.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/seafood1Controller.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/seafood2Controller.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/vegan1Controller.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/vegan2Controller.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/vorspeise1Controller.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/vorspeise2Controller.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/fleisch1View.fxml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/fleisch2View.fxml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/nachspeise1View.fxml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/nachspeise2View.fxml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/persisch1View.fxml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/persisch2View.fxml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/seafood1View.fxml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/seafood2View.fxml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/vegan1View.fxml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/vegan2View.fxml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/vorspeise1View.fxml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/vorspeise2View.fxml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/image/Timo Essen Bilder/nachspeise/IMG_5689.jpg\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/image/Timo Essen Bilder/nachspeise/IMG_5690.jpg\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/FleischController.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/FleischController.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/NachspeiseController.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/NachspeiseController.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/PersischController.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/PersischController.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/SeafoodController.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/SeafoodController.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/VeganController.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/VeganController.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/VorspeiseController.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/VorspeiseController.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/FleischView.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/FleischView.fxml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/NachspeiseView.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/NachspeiseView.fxml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/PersischView.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/PersischView.fxml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/SeafoodView.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/SeafoodView.fxml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/VeganView.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/VeganView.fxml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/VorspeiseView.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/VorspeiseView.fxml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/example/kochBuch/FleischController.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/example/kochBuch/FleischController.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/example/kochBuch/NachspeiseController.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/example/kochBuch/NachspeiseController.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/example/kochBuch/PersischController.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/example/kochBuch/PersischController.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/example/kochBuch/SeafoodController.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/example/kochBuch/SeafoodController.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/example/kochBuch/VeganController.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/example/kochBuch/VeganController.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/example/kochBuch/VorspeiseController.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/example/kochBuch/VorspeiseController.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/example/kochBuch/categoryView.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/example/kochBuch/categoryView.fxml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n        <option value=\"FxmlFile\" />\n        <option value=\"JavaFXApplication\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;Wfahed&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">\n    <option name=\"selectedUrlAndAccountId\">\n      <UrlAndAccount>\n        <option name=\"accountId\" value=\"f6b28950-70ca-468e-810e-fe645c61d56e\" />\n        <option name=\"url\" value=\"https://github.com/hanapour/KochBuch\" />\n      </UrlAndAccount>\n    </option>\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 3\n}</component>\n  <component name=\"ProjectId\" id=\"2XPTNHc5LMQdNMEsUEJEgQ1tAU4\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"ASKED_ADD_EXTERNAL_FILES\": \"true\",\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"git-widget-placeholder\": \"main\",\n    \"ignore.virus.scanning.warn.message\": \"true\",\n    \"last_opened_file_path\": \"C:/Users/wessa/IdeaProjects/KochBuch/src/main/resources/com/example/kochBuch\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CreateClassDialog.RecentsKey\">\n      <recent name=\"com.example.kochBuch\" />\n    </key>\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\wessa\\IdeaProjects\\KochBuch\\src\\main\\resources\\com\\example\\kochBuch\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"WessamDerKoch\" type=\"Application\" factoryName=\"Application\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.example.kochBuch.MainApplication\" />\n      <module name=\"teszo\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.example.kochBuch.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"dea5d825-6760-4e39-baf4-f0bba609f343\" name=\"Changes\" comment=\"\" />\n      <created>1698529674105</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1698529674105</updated>\n      <workItem from=\"1698529675181\" duration=\"1240000\" />\n      <workItem from=\"1698572249392\" duration=\"1516000\" />\n      <workItem from=\"1698575228533\" duration=\"10710000\" />\n      <workItem from=\"1698591165979\" duration=\"2332000\" />\n      <workItem from=\"1698605919465\" duration=\"3359000\" />\n      <workItem from=\"1698659494839\" duration=\"481000\" />\n      <workItem from=\"1698690012456\" duration=\"152000\" />\n      <workItem from=\"1698690442910\" duration=\"2641000\" />\n      <workItem from=\"1698748220196\" duration=\"7746000\" />\n      <workItem from=\"1698762614868\" duration=\"3827000\" />\n      <workItem from=\"1698768761738\" duration=\"2470000\" />\n      <workItem from=\"1698773991977\" duration=\"7482000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1698587218162</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1698587218163</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1698587415803</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1698587415803</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Wessam:Classe&lt;CategoryController&gt;\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1698589542585</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1698589542586</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Wessam:Anpassung&gt;&gt;Classe&lt;CategoryController&gt;\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1698593593957</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1698593593957</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Wessam:Anpassung&gt;&gt;StartController\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1698606416328</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1698606416328</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Wessam:Anpassung&gt;&gt;StartController\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1698611914772</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1698611914772</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"Wessam:Fotos\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1698617371974</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1698617371974</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"border on button in menuView\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1698769142706</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1698769142706</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"border on button in menuView\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1698769164262</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1698769164262</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"kategorien erweitern\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1698775231742</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1698775231742</updated>\n    </task>\n    <task id=\"LOCAL-00011\" summary=\"kategorien erweitern\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1698775249136</created>\n      <option name=\"number\" value=\"00011\" />\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1698775249136</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"12\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\n    <MESSAGE value=\"Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.\" />\n    <MESSAGE value=\"Wessam:Classe&lt;CategoryController&gt;\" />\n    <MESSAGE value=\"Wessam:Anpassung&gt;&gt;Classe&lt;CategoryController&gt;\" />\n    <MESSAGE value=\"Wessam:Anpassung&gt;&gt;StartController\" />\n    <MESSAGE value=\"Wessam:Fotos\" />\n    <MESSAGE value=\"border on button in menuView\" />\n    <MESSAGE value=\"kategorien erweitern\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"kategorien erweitern\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 3a50b742065efbabf2bec69011667f472e2ecb81)
++++ b/.idea/workspace.xml	(date 1698917127335)
+@@ -4,53 +4,16 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="kategorien erweitern">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/fleisch1Controller.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/fleisch2Controller.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/nachspeise1Controller.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/nachspeise2Controller.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/persisch1Controller.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/persisch2Controller.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/seafood1Controller.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/seafood2Controller.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/vegan1Controller.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/vegan2Controller.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/vorspeise1Controller.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/vorspeise2Controller.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/fleisch1View.fxml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/fleisch2View.fxml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/nachspeise1View.fxml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/nachspeise2View.fxml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/persisch1View.fxml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/persisch2View.fxml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/seafood1View.fxml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/seafood2View.fxml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/vegan1View.fxml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/vegan2View.fxml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/vorspeise1View.fxml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/vorspeise2View.fxml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Timo Essen Bilder/nachspeise/IMG_5689.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Timo Essen Bilder/nachspeise/IMG_5690.jpg" afterDir="false" />
++    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="add Rezept (hadis)">
++      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/firstGheyme.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/firstGhormeSabzi.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/firstKebab.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/secondGheyme.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/secondGhormeSabzi.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/secondKebab.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/thirdGheyme.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/thirdGhormeSabzi.jpg" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/FleischController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/FleischController.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/NachspeiseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/NachspeiseController.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/PersischController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/PersischController.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/SeafoodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/SeafoodController.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/VeganController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/VeganController.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/VorspeiseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/VorspeiseController.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/FleischView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/FleischView.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/NachspeiseView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/NachspeiseView.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/PersischView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/PersischView.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/SeafoodView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/SeafoodView.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/VeganView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/VeganView.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/VorspeiseView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/VorspeiseView.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FleischController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FleischController.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/NachspeiseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/NachspeiseController.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/PersischController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/PersischController.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/SeafoodController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/SeafoodController.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/VeganController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/VeganController.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/VorspeiseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/VorspeiseController.class" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/categoryView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/categoryView.fxml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -79,10 +42,13 @@
+   <component name="GithubPullRequestsUISettings">
+     <option name="selectedUrlAndAccountId">
+       <UrlAndAccount>
+-        <option name="accountId" value="f6b28950-70ca-468e-810e-fe645c61d56e" />
+-        <option name="url" value="https://github.com/hanapour/KochBuch" />
++        <option name="accountId" value="493562e6-2d19-4b62-a57d-2eeef1f40ff4" />
++        <option name="url" value="https://github.com/hanapour/KochBuch.git" />
+       </UrlAndAccount>
+     </option>
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
+   </component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 3
+@@ -95,34 +61,37 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ASKED_ADD_EXTERNAL_FILES": "true",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "git-widget-placeholder": "main",
+-    "ignore.virus.scanning.warn.message": "true",
+-    "last_opened_file_path": "C:/Users/wessa/IdeaProjects/KochBuch/src/main/resources/com/example/kochBuch",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/wessa/IdeaProjects/KochBuch/src/main/resources/com/example/kochBuch&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CreateClassDialog.RecentsKey">
+       <recent name="com.example.kochBuch" />
+     </key>
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\wessa\IdeaProjects\KochBuch\src\main\resources\com\example\kochBuch" />
++    </key>
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/src/main/resources/image/RezeptImages" />
+     </key>
+   </component>
+   <component name="RunManager">
+     <configuration name="WessamDerKoch" type="Application" factoryName="Application">
+       <option name="MAIN_CLASS_NAME" value="com.example.kochBuch.MainApplication" />
+-      <module name="teszo" />
++      <module name="KochBuchProject" />
+       <extension name="coverage">
+         <pattern>
+           <option name="PATTERN" value="com.example.kochBuch.*" />
+@@ -154,6 +123,7 @@
+       <workItem from="1698762614868" duration="3827000" />
+       <workItem from="1698768761738" duration="2470000" />
+       <workItem from="1698773991977" duration="7482000" />
++      <workItem from="1698913753816" duration="3355000" />
+     </task>
+     <task id="LOCAL-00001" summary="Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.">
+       <option name="closed" value="true" />
+@@ -243,7 +213,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1698775249136</updated>
+     </task>
+-    <option name="localTasksCounter" value="12" />
++    <task id="LOCAL-00012" summary="add Rezept (hadis)">
++      <option name="closed" value="true" />
++      <created>1698914419939</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1698914419939</updated>
++    </task>
++    <option name="localTasksCounter" value="13" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -258,6 +236,8 @@
+     <MESSAGE value="Wessam:Fotos" />
+     <MESSAGE value="border on button in menuView" />
+     <MESSAGE value="kategorien erweitern" />
+-    <option name="LAST_COMMIT_MESSAGE" value="kategorien erweitern" />
++    <MESSAGE value="workspace" />
++    <MESSAGE value="add Rezept (hadis)" />
++    <option name="LAST_COMMIT_MESSAGE" value="add Rezept (hadis)" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: target/classes/com/example/kochBuch/categoryView.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\n<<<<<<< HEAD\n<?import javafx.scene.image.Image?>\n<?import javafx.scene.image.ImageView?>\n<?import javafx.scene.layout.AnchorPane?>\n<?import javafx.scene.shape.Line?>\n<?import javafx.scene.text.Font?>\n<?import javafx.scene.text.Text?>\n\n<!--xmlns:fx=\"http://javafx.com/fxml\" fx:controller=\"com.example.kochBuch.startController\"-->\n\n<AnchorPane fx:controller=\"com.example.kochBuch.StartController\" maxHeight=\"-Infinity\" maxWidth=\"-Infinity\" minHeight=\"-Infinity\" minWidth=\"-Infinity\" prefHeight=\"1080.0\" prefWidth=\"800\" style=\"-fx-background-color: F5F1EA;\" xmlns=\"http://javafx.com/javafx/21\" xmlns:fx=\"http://javafx.com/fxml/1\">\n   <children>\n      <Line endX=\"692.0\" layoutX=\"108.0\" layoutY=\"86.0\" startX=\"-108.0\" strokeWidth=\"2.0\" />\n      <ImageView fitHeight=\"50.0\" fitWidth=\"50.0\" layoutX=\"291.0\" layoutY=\"14.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\n         <image>\n            <Image url=\"@../../../image/kategorie.png\" />\n         </image>\n      </ImageView>\n      <ImageView fitHeight=\"40.0\" fitWidth=\"40.0\" layoutX=\"20.0\" layoutY=\"25.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\n         <image>\n            <Image url=\"@../../../image/backButton.png\" />\n         </image>\n      </ImageView>\n      <ImageView fitHeight=\"70.0\" fitWidth=\"70.0\" layoutX=\"25.0\" layoutY=\"240.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\n         <image>\n            <Image url=\"@../../../image/fleisch.png\" />\n         </image>\n      </ImageView>\n      <ImageView fitHeight=\"70.0\" fitWidth=\"70.0\" layoutX=\"25.0\" layoutY=\"720.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\n         <image>\n            <Image url=\"@../../../image/persian.png\" />\n         </image>\n      </ImageView>\n      <ImageView fitHeight=\"79.0\" fitWidth=\"80.0\" layoutX=\"25.0\" layoutY=\"120.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\n         <image>\n            <Image url=\"@../../../image/salad.png\" />\n         </image>\n      </ImageView>\n      <ImageView fitHeight=\"70.0\" fitWidth=\"70.0\" layoutX=\"25.0\" layoutY=\"480.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\n         <image>\n            <Image url=\"@../../../image/nachspeise.png\" />\n         </image>\n      </ImageView>\n      <ImageView fitHeight=\"70.0\" fitWidth=\"70.0\" layoutX=\"25.0\" layoutY=\"600.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\n         <image>\n            <Image url=\"@../../../image/vorspeise.png\" />\n         </image>\n      </ImageView>\n      <ImageView fitHeight=\"70.0\" fitWidth=\"70.0\" layoutX=\"25.0\" layoutY=\"360.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\n         <image>\n            <Image url=\"@../../../image/seafood.png\" />\n         </image>\n      </ImageView>\n      <Text layoutX=\"348.0\" layoutY=\"56.0\" strokeType=\"OUTSIDE\" strokeWidth=\"0.0\" text=\"Kategorie\" wrappingWidth=\"225.21630859375\">\n         <font>\n            <Font size=\"48.0\" />\n         </font>\n      </Text>\n      <Text layoutX=\"120.0\" layoutY=\"172.0\" strokeType=\"OUTSIDE\" strokeWidth=\"0.0\" text=\"Vegan\">\n         <font>\n            <Font size=\"36.0\" />\n         </font>\n      </Text>\n      <Text layoutX=\"120.0\" layoutY=\"408.0\" strokeType=\"OUTSIDE\" strokeWidth=\"0.0\" text=\"Fisch\">\n         <font>\n            <Font size=\"36.0\" />\n         </font>\n      </Text>\n      <Text layoutX=\"120.0\" layoutY=\"528.0\" strokeType=\"OUTSIDE\" strokeWidth=\"0.0\" text=\"Nachspeise\">\n         <font>\n            <Font size=\"36.0\" />\n         </font>\n      </Text>\n      <Text layoutX=\"120.0\" layoutY=\"648.0\" strokeType=\"OUTSIDE\" strokeWidth=\"0.0\" text=\"Vorspeise\">\n         <font>\n            <Font size=\"36.0\" />\n         </font>\n      </Text>\n      <Text layoutX=\"120.0\" layoutY=\"768.0\" strokeType=\"OUTSIDE\" strokeWidth=\"0.0\" text=\"Persian\" wrappingWidth=\"158.61328125\">\n         <font>\n            <Font size=\"36.0\" />\n         </font>\n      </Text>\n      <Text layoutX=\"116.0\" layoutY=\"288.0\" strokeType=\"OUTSIDE\" strokeWidth=\"0.0\" text=\"Fleisch \" wrappingWidth=\"158.61328125\">\n         <font>\n            <Font size=\"36.0\" />\n         </font>\n      </Text>\n=======\n<?import javafx.scene.control.ScrollPane?>\n<?import javafx.scene.image.Image?>\n<?import javafx.scene.image.ImageView?>\n<?import javafx.scene.layout.AnchorPane?>\n<?import javafx.scene.layout.Pane?>\n<?import javafx.scene.text.Font?>\n<?import javafx.scene.text.Text?>\n\n<!--xmlns:fx=\"http://javafx.com/fxml\" fx:controller=\"com.example.kochBuch.CategoryView\"-->\n\n<AnchorPane maxHeight=\"-Infinity\" maxWidth=\"-Infinity\" minHeight=\"-Infinity\" minWidth=\"-Infinity\" prefHeight=\"600.0\" prefWidth=\"800.0\" style=\"-fx-background-color: #eaeded;\" xmlns=\"http://javafx.com/javafx/21\" xmlns:fx=\"http://javafx.com/fxml/1\" fx:controller=\"com.example.kochBuch.CategoryController\">\n   <children>\n      <ScrollPane layoutX=\"24.0\" layoutY=\"89.0\" prefHeight=\"595.0\" prefWidth=\"800.0\" AnchorPane.bottomAnchor=\"0.0\" AnchorPane.leftAnchor=\"0.0\" AnchorPane.rightAnchor=\"0.0\" AnchorPane.topAnchor=\"89.0\">\n        <content>\n          <AnchorPane minHeight=\"0.0\" minWidth=\"0.0\" prefHeight=\"619.0\" prefWidth=\"800.0\" style=\"-fx-background-color: #d6dbdf;\">\n               <children>\n                  <ImageView fitHeight=\"79.0\" fitWidth=\"80.0\" layoutX=\"18.0\" layoutY=\"24.0\" pickOnBounds=\"true\" preserveRatio=\"true\" AnchorPane.leftAnchor=\"18.0\">\n                     <image>\n                        <Image url=\"@../../../image/salad.png\" />\n                     </image>\n                  </ImageView>\n                  <Text layoutX=\"113.0\" layoutY=\"76.0\" strokeType=\"OUTSIDE\" strokeWidth=\"0.0\" text=\"Vegan\" AnchorPane.leftAnchor=\"118.0\">\n                     <font>\n                        <Font name=\"System Bold Italic\" size=\"28.0\" />\n                     </font>\n                  </Text>\n                  <ImageView fitHeight=\"70.0\" fitWidth=\"70.0\" layoutX=\"18.0\" layoutY=\"123.0\" onMouseClicked=\"#fleisch\" pickOnBounds=\"true\" preserveRatio=\"true\" AnchorPane.leftAnchor=\"18.0\">\n                     <image>\n                        <Image url=\"@../../../image/fleisch.png\" />\n                     </image>\n                  </ImageView>\n                  <Text layoutX=\"100.0\" layoutY=\"183.0\" onMouseClicked=\"#fleisch\" strokeType=\"OUTSIDE\" strokeWidth=\"0.0\" text=\"Fleisch \" wrappingWidth=\"158.61328125\" AnchorPane.leftAnchor=\"118.0\">\n                     <font>\n                        <Font name=\"System Bold Italic\" size=\"28.0\" />\n                     </font>\n                  </Text>\n                  <ImageView fitHeight=\"70.0\" fitWidth=\"70.0\" layoutX=\"30.0\" layoutY=\"229.0\" onMouseClicked=\"#seafood\" pickOnBounds=\"true\" preserveRatio=\"true\" AnchorPane.leftAnchor=\"18.0\">\n                     <image>\n                        <Image url=\"@../../../image/seafood.png\" />\n                     </image>\n                  </ImageView>\n                  <Text layoutX=\"113.0\" layoutY=\"278.0\" onMouseClicked=\"#seafood\" strokeType=\"OUTSIDE\" strokeWidth=\"0.0\" text=\"SeaFood\" AnchorPane.leftAnchor=\"118.0\">\n                     <font>\n                        <Font name=\"System Bold Italic\" size=\"28.0\" />\n                     </font>\n                  </Text>\n                  <ImageView fitHeight=\"70.0\" fitWidth=\"70.0\" layoutX=\"18.0\" layoutY=\"332.0\" onMouseClicked=\"#nachspeise\" pickOnBounds=\"true\" preserveRatio=\"true\" AnchorPane.leftAnchor=\"18.0\">\n                     <image>\n                        <Image url=\"@../../../image/nachspeise.png\" />\n                     </image>\n                  </ImageView>\n                  <Text layoutX=\"113.0\" layoutY=\"380.0\" onMouseClicked=\"#nachspeise\" strokeType=\"OUTSIDE\" strokeWidth=\"0.0\" text=\"Nachspeise\" AnchorPane.leftAnchor=\"118.0\">\n                     <font>\n                        <Font name=\"System Bold Italic\" size=\"28.0\" />\n                     </font>\n                  </Text>\n                  <ImageView fitHeight=\"70.0\" fitWidth=\"70.0\" layoutX=\"14.0\" layoutY=\"428.0\" onMouseClicked=\"#vorspeise\" pickOnBounds=\"true\" preserveRatio=\"true\" AnchorPane.leftAnchor=\"18.0\">\n                     <image>\n                        <Image url=\"@../../../image/vorspeise.png\" />\n                     </image>\n                  </ImageView>\n                  <Text layoutX=\"118.0\" layoutY=\"477.0\" onMouseClicked=\"#vorspeise\" strokeType=\"OUTSIDE\" strokeWidth=\"0.0\" text=\"Vorspeise\" AnchorPane.leftAnchor=\"118.0\">\n                     <font>\n                        <Font name=\"System Bold Italic\" size=\"28.0\" />\n                     </font>\n                  </Text>\n                  <ImageView fitHeight=\"70.0\" fitWidth=\"70.0\" layoutX=\"30.0\" layoutY=\"511.0\" onMouseClicked=\"#persisch\" pickOnBounds=\"true\" preserveRatio=\"true\" AnchorPane.leftAnchor=\"18.0\">\n                     <image>\n                        <Image url=\"@../../../image/persian.png\" />\n                     </image>\n                  </ImageView>\n                  <Text layoutX=\"110.0\" layoutY=\"573.0\" onMouseClicked=\"#persisch\" strokeType=\"OUTSIDE\" strokeWidth=\"0.0\" text=\"Persian\" wrappingWidth=\"158.61328125\" AnchorPane.leftAnchor=\"118.0\">\n                     <font>\n                        <Font name=\"System Bold Italic\" size=\"28.0\" />\n                     </font>\n                  </Text>\n                  <ImageView fitHeight=\"178.0\" fitWidth=\"254.0\" layoutX=\"310.0\" layoutY=\"163.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\n                     <image>\n                        <Image url=\"@../../../image/30062017_Nisarg_01.jpg\" />\n                     </image>\n                  </ImageView>\n                  <ImageView fitHeight=\"199.0\" fitWidth=\"257.0\" layoutX=\"283.0\" layoutY=\"9.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\n                     <image>\n                        <Image url=\"@../../../image/Vegan02.jpg\" />\n                     </image>\n                  </ImageView>\n                  <ImageView fitHeight=\"285.0\" fitWidth=\"197.0\" layoutX=\"572.0\" layoutY=\"12.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\n                     <image>\n                        <Image url=\"@../../../image/111.png\" />\n                     </image></ImageView>\n                  <ImageView fitHeight=\"134.0\" fitWidth=\"226.0\" layoutX=\"371.0\" layoutY=\"341.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\n                     <image>\n                        <Image url=\"@../../../image/Klare-Suppe.jpg\" />\n                     </image>\n                  </ImageView>\n                  <ImageView fitHeight=\"290.0\" fitWidth=\"190.0\" layoutX=\"586.0\" layoutY=\"306.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\n                     <image>\n                        <Image url=\"@../../../image/Spaghettieis-Dessert-4-2.jpg\" />\n                     </image>\n                  </ImageView>\n                  <ImageView fitHeight=\"150.0\" fitWidth=\"200.0\" onMouseClicked=\"#vegan\" pickOnBounds=\"true\" preserveRatio=\"true\" />\n                  <ImageView fitHeight=\"150.0\" fitWidth=\"258.0\" layoutX=\"291.0\" layoutY=\"486.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\n                     <image>\n                        <Image url=\"@../../../image/Iran-cooking-tour-persian-foods.jpg\" />\n                     </image>\n                  </ImageView>\n               </children>\n            </AnchorPane>\n        </content>\n      </ScrollPane>\n      <Pane layoutX=\"14.0\" layoutY=\"7.0\" prefHeight=\"96.0\" prefWidth=\"800.0\" style=\"-fx-background-color: #d6dbdf;\" AnchorPane.leftAnchor=\"0.0\" AnchorPane.rightAnchor=\"0.0\" AnchorPane.topAnchor=\"0.0\">\n         <children>\n            <Text layoutX=\"335.0\" layoutY=\"63.0\" strokeType=\"OUTSIDE\" strokeWidth=\"0.0\" text=\"Kategorie\" wrappingWidth=\"189.94921875\">\n               <font>\n                  <Font name=\"System Bold Italic\" size=\"38.0\" />\n               </font>\n            </Text>\n            <ImageView fitHeight=\"50.0\" fitWidth=\"50.0\" layoutX=\"285.0\" layoutY=\"22.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\n               <image>\n                  <Image url=\"@../../../image/kategorie.png\" />\n               </image>\n            </ImageView>\n            <ImageView fx:id=\"btnBack\" fitHeight=\"40.0\" fitWidth=\"40.0\" layoutX=\"24.0\" layoutY=\"14.0\" onMouseClicked=\"#OnBackClick\" pickOnBounds=\"true\" preserveRatio=\"true\">\n               <image>\n                  <Image url=\"@../../../image/backButton.png\" />\n               </image>\n            </ImageView>\n         </children>\n      </Pane>\n>>>>>>> origin/main\n   </children>\n</AnchorPane>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/com/example/kochBuch/categoryView.fxml b/target/classes/com/example/kochBuch/categoryView.fxml
+--- a/target/classes/com/example/kochBuch/categoryView.fxml	(revision 3a50b742065efbabf2bec69011667f472e2ecb81)
++++ b/target/classes/com/example/kochBuch/categoryView.fxml	(date 1698834511376)
+@@ -1,94 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ 
+-<<<<<<< HEAD
+-<?import javafx.scene.image.Image?>
+-<?import javafx.scene.image.ImageView?>
+-<?import javafx.scene.layout.AnchorPane?>
+-<?import javafx.scene.shape.Line?>
+-<?import javafx.scene.text.Font?>
+-<?import javafx.scene.text.Text?>
+-
+-<!--xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.kochBuch.startController"-->
+-
+-<AnchorPane fx:controller="com.example.kochBuch.StartController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="800" style="-fx-background-color: F5F1EA;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+-   <children>
+-      <Line endX="692.0" layoutX="108.0" layoutY="86.0" startX="-108.0" strokeWidth="2.0" />
+-      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="291.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+-         <image>
+-            <Image url="@../../../image/kategorie.png" />
+-         </image>
+-      </ImageView>
+-      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="20.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+-         <image>
+-            <Image url="@../../../image/backButton.png" />
+-         </image>
+-      </ImageView>
+-      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="25.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+-         <image>
+-            <Image url="@../../../image/fleisch.png" />
+-         </image>
+-      </ImageView>
+-      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="25.0" layoutY="720.0" pickOnBounds="true" preserveRatio="true">
+-         <image>
+-            <Image url="@../../../image/persian.png" />
+-         </image>
+-      </ImageView>
+-      <ImageView fitHeight="79.0" fitWidth="80.0" layoutX="25.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+-         <image>
+-            <Image url="@../../../image/salad.png" />
+-         </image>
+-      </ImageView>
+-      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="25.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+-         <image>
+-            <Image url="@../../../image/nachspeise.png" />
+-         </image>
+-      </ImageView>
+-      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="25.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+-         <image>
+-            <Image url="@../../../image/vorspeise.png" />
+-         </image>
+-      </ImageView>
+-      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="25.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+-         <image>
+-            <Image url="@../../../image/seafood.png" />
+-         </image>
+-      </ImageView>
+-      <Text layoutX="348.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kategorie" wrappingWidth="225.21630859375">
+-         <font>
+-            <Font size="48.0" />
+-         </font>
+-      </Text>
+-      <Text layoutX="120.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vegan">
+-         <font>
+-            <Font size="36.0" />
+-         </font>
+-      </Text>
+-      <Text layoutX="120.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fisch">
+-         <font>
+-            <Font size="36.0" />
+-         </font>
+-      </Text>
+-      <Text layoutX="120.0" layoutY="528.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nachspeise">
+-         <font>
+-            <Font size="36.0" />
+-         </font>
+-      </Text>
+-      <Text layoutX="120.0" layoutY="648.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vorspeise">
+-         <font>
+-            <Font size="36.0" />
+-         </font>
+-      </Text>
+-      <Text layoutX="120.0" layoutY="768.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Persian" wrappingWidth="158.61328125">
+-         <font>
+-            <Font size="36.0" />
+-         </font>
+-      </Text>
+-      <Text layoutX="116.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fleisch " wrappingWidth="158.61328125">
+-         <font>
+-            <Font size="36.0" />
+-         </font>
+-      </Text>
+-=======
+ <?import javafx.scene.control.ScrollPane?>
+ <?import javafx.scene.image.Image?>
+ <?import javafx.scene.image.ImageView?>
+@@ -218,6 +129,5 @@
+             </ImageView>
+          </children>
+       </Pane>
+->>>>>>> origin/main
+    </children>
+ </AnchorPane>
