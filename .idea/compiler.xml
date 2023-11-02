@@ -9,5 +9,8 @@
         <module name="teszo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="KochBuchProject" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>

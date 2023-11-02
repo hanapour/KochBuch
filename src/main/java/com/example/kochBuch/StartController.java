@@ -28,7 +28,7 @@ public class StartController implements Initializable {
         private ImageView btnMenu;
 
         @FXML
-        private ImageView btnVaforite;
+        private ImageView btnFavorite;
 
 
     @FXML
@@ -43,6 +43,12 @@ public class StartController implements Initializable {
     @FXML
     void OnMenuClick(MouseEvent event) throws Exception {
         loadFXML("MenuView.fxml");
+
+    }
+
+    @FXML
+    void OnFavoriteClick(MouseEvent event) throws Exception {
+        loadFXML("FavoritenView.fxml");
 
     }
 
