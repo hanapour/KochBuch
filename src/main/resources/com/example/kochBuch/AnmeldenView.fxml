@@ -25,23 +25,23 @@
             </children>
         </AnchorPane>
         <Label layoutX="67.0" layoutY="98.0" text="Username" />
-        <TextField fx:id="UsernameTextField" layoutX="67.0" layoutY="116.0" prefHeight="30.0" prefWidth="386.0">
+        <TextField fx:id="AnmeldenUsernameTextField" layoutX="67.0" layoutY="116.0" prefHeight="30.0" prefWidth="386.0">
             <font>
                 <Font size="13.0" />
             </font>
         </TextField>
         <Label layoutX="67.0" layoutY="155.0" text="Password" />
-        <TextField fx:id="PasswordTextField" layoutX="67.0" layoutY="173.0" prefHeight="30.0" prefWidth="386.0">
+        <TextField fx:id="AnmeldenPasswordTextField" layoutX="66.0" layoutY="173.0" prefHeight="30.0" prefWidth="386.0">
             <font>
                 <Font size="13.0" />
             </font>
         </TextField>
-        <Button fx:id="btnAnmelden" layoutX="191.0" layoutY="407.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="137.0" style="-fx-background-color: #5d6d7e;" text="Anmelden" textFill="#fff6f6">
+        <Button fx:id="btnAnmelden" layoutX="191.0" layoutY="407.0" mnemonicParsing="false" onMouseClicked="#OnAnmeldenClick" prefHeight="26.0" prefWidth="137.0" style="-fx-background-color: #5d6d7e;" text="Anmelden" textFill="#fff6f6">
             <font>
                 <Font name="System Bold" size="12.0" />
             </font>
         </Button>
-        <Button fx:id="CloseButton" layoutX="191.0" layoutY="456.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="138.0" style="-fx-background-color: #5d6d7e;" text="Close" textFill="#fff6f6">
+        <Button fx:id="CloseButton" layoutX="191.0" layoutY="456.0" mnemonicParsing="false" onMouseClicked="#OnCloseClick" prefHeight="26.0" prefWidth="138.0" style="-fx-background-color: #5d6d7e;" text="Close" textFill="#fff6f6">
             <font>
                 <Font name="System Bold" size="12.0" />
             </font>
