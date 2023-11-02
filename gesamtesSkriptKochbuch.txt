@@ -1,0 +1,161 @@
+use kochbuch;
+INSERT INTO Kategorien (Kategoriename) VALUES ('Persisch');
+INSERT INTO Kategorien (Kategoriename) VALUES ('Vorspeise');
+INSERT INTO Kategorien (Kategoriename) VALUES ('Nachspeise');
+INSERT INTO Kategorien (Kategoriename) VALUES ('Seafood');
+INSERT INTO Kategorien (Kategoriename) VALUES ('Fleisch');
+INSERT INTO Kategorien (Kategoriename) VALUES ('Vegan');
+
+-- Einfügen des ersten Rezepts mit Meeresfrüchten
+INSERT INTO Rezepte (RezeptID, Rezeptname, Autor, Zubereitungszeit, Kochzeit, Portionen, Kategorie, Zubereitungstext, Notizen, Foto)
+VALUES ('7', 'Gebratene Garnelen mit Knoblauchbutter', 'Marie Fischer', 15, 10, 2, 'Seafood', 
+        '1. Garnelen schälen und entdarmen. 2. Knoblauchbutter zubereiten. 3. Garnelen in der Knoblauchbutter braten. 4. Mit Zitrone und Petersilie servieren.', 'Ein einfaches und leckeres Seafood-Gericht.', 'C:\Users\Kilian Ketelhohn\IdeaProjects\KochBuch\src\main\resources\image\Timo Essen Bilder\IMG-20231031-WA0087.jpg');
+
+-- Einfügen des zweiten Rezepts mit Meeresfrüchten
+INSERT INTO Rezepte (RezeptID, Rezeptname, Autor, Zubereitungszeit, Kochzeit, Portionen, Kategorie, Zubereitungstext, Notizen, Foto)
+VALUES ('8', 'Paella mit Meeresfrüchten', 'Juan Rodriguez', 45, 30, 4, 'Seafood', 
+        '1. Reis kochen. 2. Meeresfrüchte in einer Pfanne anbraten. 3. Reis, Gemüse und Gewürze hinzufügen. 4. Alles zusammen köcheln lassen. 5. Mit Zitronenspalten garnieren.', 'Ein klassisches spanisches Seafood-Gericht.', 'C:\Users\Kilian Ketelhohn\IdeaProjects\KochBuch\src\main\resources\image\Timo Essen Bilder\IMG-20231031-WA0023.jpg');
+
+-- Einfügen des dritten Rezepts mit Meeresfrüchten
+INSERT INTO Rezepte (RezeptID, Rezeptname, Autor, Zubereitungszeit, Kochzeit, Portionen, Kategorie, Zubereitungstext, Notizen, Foto)
+VALUES ('9', 'Gegrillter Lachs mit Dillsoße', 'Emily Parker', 20, 15, 2, 'Seafood', 
+        '1. Lachsfilet mit Dillmarinade bestreichen. 2. Auf dem Grill garen. 3. Dillsoße zubereiten. 4. Mit Lachs servieren.', 'Ein gesundes Seafood-Gericht mit köstlicher Soße.', 'C:\Users\Kilian Ketelhohn\IdeaProjects\KochBuch\src\main\resources\image\Timo Essen Bilder\IMG-20231031-WA0018.jpg');
+
+
+-- Einfügen des Rezepts für Bierhähnchen
+INSERT INTO Rezepte (RezeptID, Rezeptname, Autor, Zubereitungszeit, Kochzeit, Portionen, Kategorie, Zubereitungstext, Notizen, Foto)
+VALUES ('16', 'Bierhähnchen', 'Andreas Weber', 20, 60, 4, 'Fleisch', 
+        '1. Hähnchen waschen und trocknen. 2. Mit Gewürzen einreiben. 3. Bierdose in das Hähnchen stecken. 4. Auf dem Grill oder im Ofen garen. 5. Saftiges Hähnchen genießen.', 'Ein herzhaftes Grillgericht mit knuspriger Haut.', 'C:\Users\Kilian Ketelhohn\IdeaProjects\KochBuch\src\main\resources\image\Timo Essen Bilder\IMG-20231031-WA0011.jpg');
+
+-- Einfügen des Rezepts für Schweinemedaillons
+INSERT INTO Rezepte (RezeptID, Rezeptname, Autor, Zubereitungszeit, Kochzeit, Portionen, Kategorie, Zubereitungstext, Notizen, Foto)
+VALUES ('17', 'Schweinemedaillons in Senfsoße', 'Katrin Schulz', 15, 30, 2, 'Fleisch', 
+        '1. Schweinemedaillons würzen und anbraten. 2. Senfsoße zubereiten und über die Medaillons gießen. 3. Im Ofen garen. 4. Mit Beilage servieren.', 'Ein zartes Schweinegericht mit würziger Senfsoße.', 'C:\Users\Kilian Ketelhohn\IdeaProjects\KochBuch\src\main\resources\image\Timo Essen Bilder\IMG-20231031-WA0067.jpg');
+
+-- Einfügen des Rezepts für Rehkeule
+INSERT INTO Rezepte (RezeptID, Rezeptname, Autor, Zubereitungszeit, Kochzeit, Portionen, Kategorie, Zubereitungstext, Notizen, Foto)
+VALUES ('18', 'Rehkeule mit Preiselbeersoße', 'Markus Fischer', 30, 90, 4, 'Fleisch', 
+        '1. Rehkeule würzen und anbraten. 2. Im Ofen schmoren. 3. Preiselbeersoße zubereiten und servieren. 4. Mit Beilagen nach Wahl genießen.', 'Ein festliches Wildgericht mit aromatischer Soße.', 'C:\Users\Kilian Ketelhohn\IdeaProjects\KochBuch\src\main\resources\image\Timo Essen Bilder\IMG-20231031-WA0068.jpg');
+
+-- Einfügen des ersten Nachspeisen-Rezepts
+INSERT INTO Rezepte (RezeptID, Rezeptname, Autor, Zubereitungszeit, Kochzeit, Portionen, Kategorie, Zubereitungstext, Notizen, Foto)
+VALUES ('13', 'Tiramisu', 'Anna Müller', 30, 0, 6, 'Nachspeise', 
+        '1. Mascarpone, Eigelb und Zucker miteinander vermengen. 2. Löffelbiskuits in Kaffee tränken und in eine Form legen. 3. Mascarpone-Mischung darüber schichten. 4. Mit Kakao bestäuben. 5. Im Kühlschrank kaltstellen.', 'Ein klassisches italienisches Dessert.', 'C:\Users\Kilian Ketelhohn\IdeaProjects\KochBuch\src\main\resources\image\RezeptImages\tiramisu.jpg');
+
+-- Einfügen des zweiten Nachspeisen-Rezepts
+INSERT INTO Rezepte (RezeptID, Rezeptname, Autor, Zubereitungszeit, Kochzeit, Portionen, Kategorie, Zubereitungstext, Notizen, Foto)
+VALUES ('14', 'Schokoladenfondue', 'Marko Schmidt', 15, 10, 4, 'Nachspeise', 
+        '1. Schokolade schmelzen. 2. Früchte in Stücke schneiden. 3. Schokolade zum Dippen verwenden. 4. Genießen!', 'Ein geselliges Dessert zum Dippen.', 'C:\Users\Kilian Ketelhohn\IdeaProjects\KochBuch\src\main\resources\image\RezeptImages\schoko.jpg');
+
+-- Einfügen des dritten Nachspeisen-Rezepts
+INSERT INTO Rezepte (RezeptID, Rezeptname, Autor, Zubereitungszeit, Kochzeit, Portionen, Kategorie, Zubereitungstext, Notizen, Foto)
+VALUES ('15', 'Vanilleeis mit heißen Himbeeren', 'Sophie Wagner', 10, 5, 2, 'Nachspeise', 
+        '1. Vanilleeis in Schalen verteilen. 2. Himbeeren erhitzen und über das Eis gießen. 3. Sofort servieren.', 'Ein einfaches und köstliches Dessert.', 'C:\Users\Kilian Ketelhohn\IdeaProjects\KochBuch\src\main\resources\image\RezeptImages\eis.jpg');
+
+-- Einfügen des ersten persischen Rezepts
+INSERT INTO Rezepte (RezeptID, Rezeptname, Autor, Zubereitungszeit, Kochzeit, Portionen, Kategorie, Zubereitungstext, Notizen, Foto)
+VALUES ('4', 'Khoresht - e - ghormeh sabzi', 'Hossein Khan', 40, 60, 4, 'Persisch', 
+        '1. Lammfleisch und Zwiebeln anbraten. 2. Bohnen und getrocknete Limonen hinzufügen. 3. Kräuter und Gewürze unterrühren. 4. 60 Minuten köcheln lassen.', 'Ein traditionelles persisches Gericht.', 'C:\Users\Kilian Ketelhohn\IdeaProjects\KochBuch\src\main\resources\image\Timo Essen Bilder\IMG-20231031-WA0034.jpg');
+
+-- Einfügen des zweiten persischen Rezepts
+INSERT INTO Rezepte (RezeptID, Rezeptname, Autor, Zubereitungszeit, Kochzeit, Portionen, Kategorie, Zubereitungstext, Notizen, Foto)
+VALUES ('5', 'Mirza Ghasemi', 'Parisa Amini', 30, 45, 2, 'Persisch', 
+        '1. Auberginen rösten und zerstampfen. 2. Tomaten, Knoblauch und Gewürze hinzufügen. 3. 45 Minuten köcheln lassen. 4. Mit frischen Kräutern garnieren.', 'Ein köstliches persisches Gericht.', 'C:\Users\Kilian Ketelhohn\IdeaProjects\KochBuch\src\main\resources\image\Timo Essen Bilder\IMG-20231031-WA0084.jpg');
+
+-- Einfügen des dritten persischen Rezepts
+INSERT INTO Rezepte (RezeptID, Rezeptname, Autor, Zubereitungszeit, Kochzeit, Portionen, Kategorie, Zubereitungstext, Notizen, Foto)
+VALUES ('6', 'Chelou Kabab Kubideh - Gegrillter Hackfleischspieß', 'Ali Mohammadi', 30, 20, 4, 'Persisch', 
+        '1. Hackfleisch, Zwiebeln und Gewürze vermengen. 2. Fleisch auf Spieße stecken. 3. Grillen oder braten. 4. Mit Minze und Zwiebeln servieren.', 'Ein klassisches persisches Grillgericht.', 'C:\Users\Kilian Ketelhohn\IdeaProjects\KochBuch\src\main\resources\image\Timo Essen Bilder\IMG-20231031-WA0043.jpg');
+
+-- Einfügen des ersten veganen Rezepts
+INSERT INTO Rezepte (RezeptID, Rezeptname, Autor, Zubereitungszeit, Kochzeit, Portionen, Kategorie, Zubereitungstext, Notizen, Foto)
+VALUES ('1', 'Veganes Chili sin Carne', 'John Doe', 20, 30, 4, 'Vegan', 
+        '1. Zwiebeln und Knoblauch hacken. 2. Gemüse in Würfel schneiden. 3. In einer Pfanne anbraten. 4. Gewürze hinzufügen. 5. Tomaten und Bohnen dazugeben. 6. 30 Minuten köcheln lassen.', 'Gesund und lecker.', 'C:\Users\Kilian Ketelhohn\IdeaProjects\KochBuch\src\main\resources\image\Timo Essen Bilder\IMG-20230320-WA0011.jpg');
+
+-- Einfügen des zweiten veganen Rezepts
+INSERT INTO Rezepte (RezeptID, Rezeptname, Autor, Zubereitungszeit, Kochzeit, Portionen, Kategorie, Zubereitungstext, Notizen, Foto)
+VALUES ('2', 'Vegane Gemüsepfanne', 'Jane Smith', 15, 20, 2, 'Vegan', 
+        '1. Verschiedenes Gemüse schneiden. 2. In Pfanne braten. 3. Soße zubereiten. 4. Gemüse mit Soße mischen. 5. Servieren.', 'Schnell und einfach.', 'C:\Users\Kilian Ketelhohn\IdeaProjects\KochBuch\src\main\resources\image\Timo Essen Bilder\IMG-20231031-WA0015.jpg');
+
+-- Einfügen des dritten veganen Rezepts
+INSERT INTO Rezepte (RezeptID, Rezeptname, Autor, Zubereitungszeit, Kochzeit, Portionen, Kategorie, Zubereitungstext, Notizen, Foto)
+VALUES ('3', 'Vegane Spaghetti Bolognese', 'Lisa Müller', 15, 30, 4, 'Vegan', 
+        '1. Zwiebeln und Knoblauch hack
+
+-- Einfügen des ersten Vorspeisen-Rezepts
+INSERT INTO Rezepte (RezeptID, Rezeptname, Autor, Zubereitungszeit, Kochzeit, Portionen, Kategorie, Zubereitungstext, Notizen, Foto)
+VALUES ('10', 'Caprese-Salat', 'Maria Rossi', 10, 0, 2, 'Vorspeise', 
+        '1. Tomaten und Mozzarella in Scheiben schneiden. 2. Mit frischem Basilikum belegen. 3. Olivenöl und Balsamico-Dressing darüber träufeln. 4. Mit Salz und Pfeffer würzen.', 'Ein einfacher und erfrischender Vorspeisensalat.', 'C:\Users\Kilian Ketelhohn\IdeaProjects\KochBuch\src\main\resources\image\Timo Essen Bilder\C:\Users\Kilian Ketelhohn\IdeaProjects\KochBuch\src\main\resources\image\Timo Essen Bilder\IMG-20231031-WA0016.jpg.jpg');
+
+-- Einfügen des zweiten Vorspeisen-Rezepts
+INSERT INTO Rezepte (RezeptID, Rezeptname, Autor, Zubereitungszeit, Kochzeit, Portionen, Kategorie, Zubereitungstext, Notizen, Foto)
+VALUES ('11', 'Hummus mit geröstetem Knoblauch', 'Lea Schmidt', 15, 0, 4, 'Vorspeise', 
+        '1. Kichererbsen, Tahini und gerösteten Knoblauch in einem Mixer pürieren. 2. Mit Zitronensaft und Olivenöl abschmecken. 3. Mit Pita-Brot servieren.', 'Ein cremiger und aromatischer Vorspeisen-Dip.', 'C:\Users\Kilian Ketelhohn\IdeaProjects\KochBuch\src\main\resources\image\Timo Essen Bilder\IMG-20231031-WA0016.jpg');
+
+-- Einfügen des dritten Vorspeisen-Rezepts
+INSERT INTO Rezepte (RezeptID, Rezeptname, Autor, Zubereitungszeit, Kochzeit, Portionen, Kategorie, Zubereitungstext, Notizen, Foto)
+VALUES ('12', 'Bruschetta mit Tomaten und Basilikum', 'Antonio Rossi', 20, 10, 4, 'Vorspeise', 
+        '1. Baguettescheiben rösten. 2. Tomaten, Knoblauch, Basilikum und Olivenöl vermengen. 3. Auf geröstetem Brot servieren.', 'Eine klassische italienische Vorspeise voller Aromen.', 'C:\Users\Kilian Ketelhohn\IdeaProjects\KochBuch\src\main\resources\image\Timo Essen Bilder\IMG-20231031-WA0022.jpg');
+
+
+
+INSERT INTO kochbuch.Zutaten (Zutatenname, Menge, Einheit, Kategorie)
+VALUES
+    ('Garnelen', NULL, NULL, NULL),
+    ('Knoblauchbutter', NULL, NULL, NULL),
+    ('Zitrone', NULL, NULL, NULL),
+    ('Petersilie', NULL, NULL, NULL),
+    ('Reis', NULL, NULL, NULL),
+    ('Meeresfrüchte', NULL, NULL, NULL),
+    ('Zitronenspalten', NULL, NULL, NULL),
+    ('Lachsfilet', NULL, NULL, NULL),
+    ('Dillmarinade', NULL, NULL, NULL),
+    ('Lachs', NULL, NULL, NULL),
+    ('Dillsoße', NULL, NULL, NULL),
+    ('Hähnchen', NULL, NULL, NULL),
+    ('Gewürze', NULL, NULL, NULL),
+    ('Bierdose', NULL, NULL, NULL),
+    ('Schweinemedaillons', NULL, NULL, NULL),
+    ('Senfsoße', NULL, NULL, NULL),
+    ('Rehkeule', NULL, NULL, NULL),
+    ('Preiselbeersoße', NULL, NULL, NULL),
+    ('Mascarpone', NULL, NULL, NULL),
+    ('Eigelb', NULL, NULL, NULL),
+    ('Zucker', NULL, NULL, NULL),
+    ('Löffelbiskuits', NULL, NULL, NULL),
+    ('Kaffee', NULL, NULL, NULL),
+    ('Kakao', NULL, NULL, NULL),
+    ('Schokolade', NULL, NULL, NULL),
+    ('Früchte', NULL, NULL, NULL),
+    ('Vanilleeis', NULL, NULL, NULL),
+    ('Himbeeren', NULL, NULL, NULL),
+    ('Lammfleisch', NULL, NULL, NULL),
+    ('Zwiebeln', NULL, NULL, NULL),
+    ('Bohnen', NULL, NULL, NULL),
+    ('Getrocknete Limonen', NULL, NULL, NULL),
+    ('Kräuter', NULL, NULL, NULL),
+    ('Auberginen', NULL, NULL, NULL),
+    ('Tomaten', NULL, NULL, NULL),
+    ('Knoblauch', NULL, NULL, NULL),
+    ('Hackfleisch', NULL, NULL, NULL),
+    ('Minze', NULL, NULL, NULL),
+    ('Gemüse', NULL, NULL, NULL),
+    ('Soße', NULL, NULL, NULL),
+    ('Knoblauch', NULL, NULL, NULL),
+    ('Gewürze', NULL, NULL, NULL),
+    ('Tomaten', NULL, NULL, NULL),
+    ('Bohnen', NULL, NULL, NULL),
+    ('Tomaten', NULL, NULL, NULL),
+    ('Mozzarella', NULL, NULL, NULL),
+    ('Basilikum', NULL, NULL, NULL),
+    ('Olivenöl', NULL, NULL, NULL),
+    ('Balsamico-Dressing', NULL, NULL, NULL),
+    ('Salz', NULL, NULL, NULL),
+    ('Pfeffer', NULL, NULL, NULL),
+    ('Kichererbsen', NULL, NULL, NULL),
+    ('Tahini', NULL, NULL, NULL),
+    ('Zitronensaft', NULL, NULL, NULL),
+    ('Pita-Brot', NULL, NULL, NULL),
+    ('Gerösteter Knoblauch', NULL, NULL, NULL),
+    ('Baguettescheiben', NULL, NULL, NULL),
+    ('Tomaten', NULL, NULL, NULL);
