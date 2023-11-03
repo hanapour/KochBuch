@@ -56,9 +56,9 @@
       </Text>
       <HBox layoutX="79.0" layoutY="286.0" prefHeight="242.0" prefWidth="642.0">
          <children>
-            <ImageView fitHeight="242.0" fitWidth="231.0" pickOnBounds="true">
+            <ImageView fitHeight="242.0" fitWidth="242.0" pickOnBounds="true">
                <image>
-                  <Image url="@../../../image/30062017_Nisarg_01.jpg" />
+                  <Image url="@../../../image/RezeptImages/firstGhormeSabzi.jpg" />
                </image>
             </ImageView>
             <Pane prefHeight="242.0" prefWidth="412.0" style="-fx-background-color: #f8f9f9;">

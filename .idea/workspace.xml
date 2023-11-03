@@ -4,41 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="kategorien erweitern">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqlDataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="new favorite page , new adjusted">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/CategoryImage/meatgrill.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/CategoryImage/vegan-gesund.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/AnmeldenView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/AnmeldenView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30062017_Nisarg_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/image/CategoryImage/Krabbe.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categoryView.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/register.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/registerView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/registerView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/RegisterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/register.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/registerView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/registerView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/image/30062017_Nisarg_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/image/Fleisch01.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/image/Iran-cooking-tour-persian-foods.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/image/CategoryImage/Iran-cooking-tour-persian-foods.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/image/Klare-Suppe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/image/CategoryImage/Klare-Suppe.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/image/Screenshot 2023-10-29 224119.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/image/Spaghettieis-Dessert-4-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/image/CategoryImage/Spaghettieis-Dessert-4-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/image/favorite01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/image/filter 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/image/logo 5 fire fr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/image/menu1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/image/vegan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/image/vegan01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/categoryView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/categoryView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseLocalColorSettings">
-    <colors>
-      <entry key="c4daea30-4a09-4cde-b96f-5ddc9095760a" value="Green" />
-    </colors>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
         <option value="JavaFXApplication" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -103,9 +101,13 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\wessa\IdeaProjects\KochBuch\src\main\resources\com\example\kochBuch" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/image/CategoryImage" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="WessamDerKoch" type="Application" factoryName="Application">
+    <configuration name="KochBuch" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.kochBuch.MainApplication" />
       <module name="teszo" />
       <extension name="coverage">
@@ -141,6 +143,8 @@
       <workItem from="1698773991977" duration="7482000" />
       <workItem from="1698857328670" duration="14492000" />
       <workItem from="1698910368463" duration="4218000" />
+      <workItem from="1698999493885" duration="4731000" />
+      <workItem from="1699004523048" duration="1470000" />
     </task>
     <task id="LOCAL-00001" summary="Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.">
       <option name="closed" value="true" />
@@ -230,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698775249136</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="new favorite page , new adjusted">
+      <option name="closed" value="true" />
+      <created>1698921053281</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698921053281</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +257,8 @@
     <MESSAGE value="Wessam:Fotos" />
     <MESSAGE value="border on button in menuView" />
     <MESSAGE value="kategorien erweitern" />
-    <option name="LAST_COMMIT_MESSAGE" value="kategorien erweitern" />
+    <MESSAGE value="universal file" />
+    <MESSAGE value="new favorite page , new adjusted" />
+    <option name="LAST_COMMIT_MESSAGE" value="new favorite page , new adjusted" />
   </component>
 </project>
