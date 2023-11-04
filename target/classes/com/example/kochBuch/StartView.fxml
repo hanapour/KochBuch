@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -30,7 +31,7 @@
                   <Image url="@../../../image/kategorie.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="btnFavorite" fitHeight="69.0" fitWidth="49.0" layoutX="737.0" layoutY="13.0" onMouseClicked="#OnFavoriteClick" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="btnFavorite" fitHeight="69.0" fitWidth="49.0" layoutX="737.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../image/favorite.png" />
                </image>
@@ -43,7 +44,7 @@
             </ImageView>
          </children>
       </Pane>
-      <TextField layoutX="199.0" layoutY="156.0" prefHeight="38.0" prefWidth="448.0" />
+      <TextField fx:id="searchText" layoutX="199.0" layoutY="156.0" prefHeight="38.0" prefWidth="448.0" />
       <ImageView fitHeight="32.0" fitWidth="34.0" layoutX="615.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../image/477210.png" />
@@ -56,11 +57,7 @@
       </Text>
       <HBox layoutX="79.0" layoutY="286.0" prefHeight="242.0" prefWidth="642.0">
          <children>
-            <ImageView fitHeight="242.0" fitWidth="242.0" pickOnBounds="true">
-               <image>
-                  <Image url="@../../../image/RezeptImages/firstGhormeSabzi.jpg" />
-               </image>
-            </ImageView>
+            <ImageView fx:id="Startimage" fitHeight="242.0" fitWidth="242.0" pickOnBounds="true" />
             <Pane prefHeight="242.0" prefWidth="412.0" style="-fx-background-color: #f8f9f9;">
                <children>
                   <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="384.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
@@ -82,9 +79,15 @@
                         </ImageView>
                      </graphic>
                   </Button>
+                  <TextArea fx:id="StartTexImage" layoutX="8.0" layoutY="14.0" prefHeight="151.0" prefWidth="337.0" />
                </children>
             </Pane>
          </children>
       </HBox>
+      <ImageView fx:id="btnsearch" fitHeight="32.0" fitWidth="26.0" layoutX="619.0" layoutY="162.0" onMouseClicked="#OnSearchKilick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/search%201.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

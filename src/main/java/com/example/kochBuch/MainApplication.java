@@ -7,6 +7,7 @@ import javafx.scene.input.KeyCombination;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.sql.ResultSet;
 
 public class MainApplication extends Application {
     public static void main(String[] args) {
@@ -19,12 +20,11 @@ public class MainApplication extends Application {
         mainstage = primaryStage;
         mainstage.setTitle("KochBuch App");
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("StartView.fxml"));
-
         Scene scene = new Scene(fxmlLoader.load(),800,630);
         mainstage.setResizable(false);
         mainstage.setScene(scene);
-
         mainstage.show();
     }
+
 }
 
