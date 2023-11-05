@@ -1,10 +1,13 @@
 package com.example.kochBuch;
 
+import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
@@ -49,6 +52,8 @@ public class StartController implements Initializable {
     @FXML
     private TextField searchText;
     @FXML
+    private StackPane StartstackPane;
+    @FXML
     private Parent menuRoot;
     @FXML
     private boolean isMenuOpen = false;
@@ -59,6 +64,8 @@ public class StartController implements Initializable {
     @FXML
     private AnchorPane startView;
 
+    @FXML
+    private AnchorPane Panevisibility;
     @FXML
     void OnMenuClick(MouseEvent event) throws Exception {
 
@@ -71,28 +78,12 @@ public class StartController implements Initializable {
             isMenuOpen = true;
         }
     }
-
-    private void openMenu() throws IOException {
-        if (menuRoot == null) {
-            FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("MenuView.fxml"));
-            menuRoot = (Parent) fxmlLoader.load();
-        }
-        Stage stage = MainApplication.mainstage;
-        // Start-Ansicht
-        Parent startRoot = stage.getScene().getRoot();
-        StackPane stackPane = new StackPane();
-
-        stackPane.getChildren().addAll(startRoot, menuRoot);
-        Scene scene = new Scene(stackPane);
-        stage.setScene(scene);
-        stage.show();
-
+    private void openMenu() {
+        Panevisibility.setVisible(true);
     }
     private void closeMenu(){
-        if (isMenuOpen) {
-            StackPane stackPane = (StackPane) MainApplication.mainstage.getScene().getRoot();
-            stackPane.getChildren().remove(menuRoot);
-        }
+        Panevisibility.setVisible(false);
+
     }
 
     @FXML
@@ -130,6 +121,37 @@ public class StartController implements Initializable {
             throw new RuntimeException(e);
         }
 
+    }
+
+    @FXML
+    void OnFavoritClick(MouseEvent event) throws Exception {
+        UserFxmlLoader.loadFXML("FavoritenView.fxml");
+
+    }
+    @FXML
+    void OnHelpClick(MouseEvent event) throws Exception {
+        UserFxmlLoader.loadFXML("HilfeView.fxml");
+    }
+
+    @FXML
+    void OnImpressumClick(MouseEvent event) throws Exception {
+        UserFxmlLoader.loadFXML("ImpressumView.fxml");
+
+    }
+
+    @FXML
+    void OnKategorieClick(MouseEvent event)throws Exception  {
+        UserFxmlLoader.loadFXML("categoryView.fxml");
+    }
+
+    @FXML
+    void OnSingUpClick(MouseEvent event) throws Exception {
+        UserFxmlLoader.loadFXML("registerView.fxml");
+
+    }
+    @FXML
+    void  OnSingInClick(MouseEvent event )throws  Exception{
+        UserFxmlLoader.loadFXML("AnmeldenView.fxml");
     }
 
 

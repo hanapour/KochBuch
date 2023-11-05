@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
@@ -8,6 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
@@ -31,7 +33,7 @@
                   <Image url="@../../../image/kategorie.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="btnFavorite" fitHeight="69.0" fitWidth="49.0" layoutX="737.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="btnFavorite" fitHeight="69.0" fitWidth="49.0" layoutX="737.0" layoutY="13.0" onMouseClicked="#OnFavoritClick" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../image/favorite.png" />
                </image>
@@ -42,6 +44,7 @@
                   <Image url="@../../../image/foodLogo.png" />
                </image>
             </ImageView>
+            <ButtonBar layoutX="88.0" layoutY="9.0" prefHeight="40.0" prefWidth="62.0" />
          </children>
       </Pane>
       <TextField fx:id="searchText" layoutX="199.0" layoutY="156.0" prefHeight="38.0" prefWidth="448.0" />
@@ -92,5 +95,19 @@
             <Image url="@../../../image/search%201.png" />
          </image>
       </ImageView>
+      <AnchorPane fx:id="Panevisibility" layoutY="85.0" prefHeight="368.0" prefWidth="223.0" visible="false">
+         <children>
+            <VBox layoutX="1.0" prefHeight="302.0" prefWidth="221.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.3999999999999773" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button fx:id="btnKategorie" mnemonicParsing="false" onMouseClicked="#OnKategorieClick" prefHeight="60.0" prefWidth="223.0" style="-fx-background-color: #F4F4F4; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Kategorie" />
+                  <Button fx:id="Impressum" layoutX="10.0" layoutY="66.0" mnemonicParsing="false" onMouseClicked="#OnImpressumClick" prefHeight="60.0" prefWidth="225.0" style="-fx-background-color: #F4F4F4; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Impressum" />
+                  <Button fx:id="btnAnmelden" layoutX="10.0" layoutY="148.0" mnemonicParsing="false" onMouseClicked="#OnSingInClick" prefHeight="60.0" prefWidth="226.0" style="-fx-background-color: #F4F4F4; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Anmelden" />
+                  <Button fx:id="btnRegistrieren" layoutX="10.0" layoutY="229.0" mnemonicParsing="false" onMouseClicked="#OnSingUpClick" prefHeight="60.0" prefWidth="223.0" style="-fx-background-color: #F4F4F4; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Registrieren" />
+                  <Button fx:id="btnHilfe" layoutX="10.0" layoutY="311.0" mnemonicParsing="false" onMouseClicked="#OnHelpClick" prefHeight="63.0" prefWidth="224.0" style="-fx-background-color: #F4F4F4;" text="Hilfe" />
+                  <Button fx:id="darkModeButton" layoutX="10.0" layoutY="250.0" mnemonicParsing="false" onMouseClicked="#OnHelpClick" prefHeight="63.0" prefWidth="224.0" style="-fx-background-color: #F4F4F4;" text="darkMode" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
    </children>
 </AnchorPane>
