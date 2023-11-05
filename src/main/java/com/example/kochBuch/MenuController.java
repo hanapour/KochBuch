@@ -16,6 +16,7 @@ public class MenuController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
     }
+
         @FXML
         private Button Impressum;
 
@@ -33,40 +34,32 @@ public class MenuController implements Initializable {
 
         @FXML
         void OnHelpClick(MouseEvent event) throws Exception {
-            loadFXML("HilfeView.fxml");
+            UserFxmlLoader.loadFXML("HilfeView.fxml");
         }
 
         @FXML
         void OnImpressumClick(MouseEvent event) throws Exception {
-            loadFXML("ImpressumView.fxml");
+            UserFxmlLoader.loadFXML("ImpressumView.fxml");
 
         }
 
         @FXML
         void OnKategorieClick(MouseEvent event)throws Exception  {
-            loadFXML("categoryView.fxml");
+            UserFxmlLoader.loadFXML("categoryView.fxml");
         }
 
         @FXML
         void OnSingUpClick(MouseEvent event) throws Exception {
-            loadFXML("registerView.fxml");
+            UserFxmlLoader.loadFXML("registerView.fxml");
 
         }
         @FXML
         void  OnSingInClick(MouseEvent event )throws  Exception{
-            loadFXML("AnmeldenView.fxml");
+            UserFxmlLoader.loadFXML("AnmeldenView.fxml");
         }
-        @FXML
 
 
-    private void loadFXML(String fxmlFileName) throws Exception {
-        Stage stage = MainApplication.mainstage;
-        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource(fxmlFileName));
-        Parent root = (Parent) fxmlLoader.load();
 
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
+
 
 }

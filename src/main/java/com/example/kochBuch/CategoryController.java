@@ -16,6 +16,10 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class CategoryController implements Initializable {
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+
+    }
     @FXML
     private ImageView btnBack;
     @FXML
@@ -27,57 +31,28 @@ public class CategoryController implements Initializable {
 
     // Methode zum Laden der Startseite
      void loadStartPage(MouseEvent event) throws Exception {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("startView.fxml"));
-        Parent startPage = (Parent) fxmlLoader.load();
-        Scene scene = new Scene(startPage);
-
-         if (primaryStage != null) {
-             primaryStage.setScene(scene);
-         } else {
-             // Schließe die aktuelle Stage
-             Stage currentStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-             currentStage.close();
-             // Erstelle eine neue Stage, wenn keine vorhanden ist
-             Stage stage = new Stage();
-             stage.setScene(scene);
-             stage.show();
-         }
-
-
+         UserFxmlLoader.loadFXML("startView.fxml");
     }
 
-    @Override
-    public void initialize(URL url, ResourceBundle resourceBundle) {
 
-    }
-
-    private void loadFXML(String fxmlFileName) throws Exception {
-        Stage stage = MainApplication.mainstage;
-        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource(fxmlFileName));
-        Parent root = (Parent) fxmlLoader.load();
-
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
 
     @FXML void vegan(MouseEvent event)  throws Exception{
-        loadFXML("VeganView.fxml");
+        UserFxmlLoader.loadFXML("VeganView.fxml");
     }
     @FXML void fleisch(MouseEvent event)  throws Exception{
-        loadFXML("FleischView.fxml");
+        UserFxmlLoader.loadFXML("FleischView.fxml");
     }
     @FXML void seafood(MouseEvent event)  throws Exception{
-        loadFXML("SeafoodView.fxml");
+        UserFxmlLoader.loadFXML("SeafoodView.fxml");
     }
     @FXML void vorspeise(MouseEvent event)  throws Exception{
-        loadFXML("VorspeiseView.fxml");
+        UserFxmlLoader.loadFXML("VorspeiseView.fxml");
     }
     @FXML void nachspeise(MouseEvent event)  throws Exception{
-        loadFXML("NachspeiseView.fxml");
+        UserFxmlLoader.loadFXML("NachspeiseView.fxml");
     }
     @FXML void persisch(MouseEvent event)  throws Exception{
-        loadFXML("PersischView.fxml");
+        UserFxmlLoader.loadFXML("PersischView.fxml");
     }
     /*@FXML void OnClickBack(MouseEvent event)  throws Exception{
         loadFXML("StartView.fxml");

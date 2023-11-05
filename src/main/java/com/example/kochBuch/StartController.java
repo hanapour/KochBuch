@@ -10,16 +10,13 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.text.Text;
-import javafx.scene.text.TextAlignment;
-import javafx.scene.text.TextFlow;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-
 import java.io.File;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ResourceBundle;
@@ -52,24 +49,52 @@ public class StartController implements Initializable {
     @FXML
     private TextField searchText;
     @FXML
-    void OnCategoryClick(MouseEvent event) throws Exception {
-        loadFXML("categoryView.fxml");
+    private Parent menuRoot;
+    @FXML
+    private boolean isMenuOpen = false;
+    @FXML
+    void OnCategoryClick(MouseEvent event) throws Exception{
+        UserFxmlLoader.loadFXML("categoryView.fxml");
     }
     @FXML
-    void OnMenuClick(MouseEvent event) throws Exception {
-        loadFXML("MenuView.fxml");
+    private AnchorPane startView;
 
+    @FXML
+    void OnMenuClick(MouseEvent event) throws Exception {
+
+        if (isMenuOpen) {
+            closeMenu();
+            isMenuOpen = false;
+            System.out.println("closeMenu() wurde aufgerufen");
+        } else {
+            openMenu();
+            isMenuOpen = true;
+        }
     }
 
-    private void loadFXML(String fxmlFileName) throws Exception {
+    private void openMenu() throws IOException {
+        if (menuRoot == null) {
+            FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("MenuView.fxml"));
+            menuRoot = (Parent) fxmlLoader.load();
+        }
         Stage stage = MainApplication.mainstage;
-        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource(fxmlFileName));
-        Parent root = (Parent) fxmlLoader.load();
+        // Start-Ansicht
+        Parent startRoot = stage.getScene().getRoot();
+        StackPane stackPane = new StackPane();
 
-        Scene scene = new Scene(root);
+        stackPane.getChildren().addAll(startRoot, menuRoot);
+        Scene scene = new Scene(stackPane);
         stage.setScene(scene);
         stage.show();
+
     }
+    private void closeMenu(){
+        if (isMenuOpen) {
+            StackPane stackPane = (StackPane) MainApplication.mainstage.getScene().getRoot();
+            stackPane.getChildren().remove(menuRoot);
+        }
+    }
+
     @FXML
     void OnSearchKilick(MouseEvent event) {
         try {
@@ -82,7 +107,7 @@ public class StartController implements Initializable {
                 try {
                     if (resultSet.next()) {
                         String fotoPath ="C:/Users/wessa/IdeaProjects/KochBuch/src/main/resources/image/CategoryImage/meatgrill.jpeg";
-                                // resultSet.getString();
+                                // resultSet.getString(foto);
                         String zubereitungstext = resultSet.getString("Zubereitungstext");
                         File file = new File(fotoPath);
                         String imageUrl = file.toURI().toURL().toString();
@@ -105,5 +130,8 @@ public class StartController implements Initializable {
             throw new RuntimeException(e);
         }
 
-    }}
+    }
+
+
+}
 
