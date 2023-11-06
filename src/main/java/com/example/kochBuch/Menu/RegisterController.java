@@ -7,6 +7,8 @@ import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.fxml.Initializable;
+import javafx.stage.Stage;
+
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -109,10 +111,8 @@ public class RegisterController implements Initializable {
             PreparedStatement preparedStatement = connection.prepareStatement(SelectQuery);
             preparedStatement.setString(1, Benutzername);
             preparedStatement.setString(2, Passwort);
-
             // Führe die SQL-Abfrage aus und erhalte das Ergebnis
             ResultSet resultSet = preparedStatement.executeQuery();
-
             if (resultSet.next()) {
                 int count = resultSet.getInt(1); // Hole den Wert der ersten Spalte (count)
                 if (count > 0) {
@@ -127,6 +127,5 @@ public class RegisterController implements Initializable {
             throw new RuntimeException(e);
         }
     }
-
 
 }

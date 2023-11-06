@@ -18,7 +18,6 @@ import java.util.ResourceBundle;
 public class CategoryController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-
     }
     @FXML
     private ImageView btnBack;
@@ -33,9 +32,6 @@ public class CategoryController implements Initializable {
      void loadStartPage(MouseEvent event) throws Exception {
          UserFxmlLoader.loadFXML("startView.fxml");
     }
-
-
-
     @FXML void vegan(MouseEvent event)  throws Exception{
         UserFxmlLoader.loadFXML("VeganView.fxml");
     }

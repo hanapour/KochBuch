@@ -5,6 +5,8 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Group;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -22,6 +24,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Collection;
 import java.util.ResourceBundle;
 
 public class StartController implements Initializable {
@@ -146,9 +149,20 @@ public class StartController implements Initializable {
 
     @FXML
     void OnSingUpClick(MouseEvent event) throws Exception {
-        UserFxmlLoader.loadFXML("registerView.fxml");
+        Stage stage = MainApplication.mainstage;
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("StartView.fxml"));
+        Scene currentScene = new Scene(fxmlLoader.load());
 
+        // Zweite Szene aus "registerView.fxml"
+        FXMLLoader registerfxmlLoader = new FXMLLoader(MainApplication.class.getResource("registerView.fxml"));
+        Scene registerView = new Scene(registerfxmlLoader.load());
+        // StackPane, um beide Szenen übereinander zu legen
+        StackPane stackPane = new StackPane();
+        stackPane.getChildren().addAll(currentScene.getRoot(),registerView.getRoot());
+        stage.setScene(new Scene(stackPane));
+        stage.show();
     }
+
     @FXML
     void  OnSingInClick(MouseEvent event )throws  Exception{
         UserFxmlLoader.loadFXML("AnmeldenView.fxml");
