@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="registerPane" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="523.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.RegisterController">
+<AnchorPane fx:id="registerPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.RegisterController">
    <children>
       <AnchorPane fx:id="Pane2" prefHeight="69.0" prefWidth="520.0" style="-fx-background-color: #5d6d7e;">
          <children>

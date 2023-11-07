@@ -1,0 +1,484 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"dea5d825-6760-4e39-baf4-f0bba609f343\" name=\"Changes\" comment=\"new favorite page , new adjusted\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/image/CategoryImage/meatgrill.jpeg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/image/CategoryImage/vegan-gesund.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/30062017_Nisarg_01.jpg\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/image/CategoryImage/Krabbe.jpg\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/categoryView.fxml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/image/30062017_Nisarg_01.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/image/Fleisch01.webp\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/image/Iran-cooking-tour-persian-foods.jpg\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/image/CategoryImage/Iran-cooking-tour-persian-foods.jpg\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/image/Klare-Suppe.jpg\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/image/CategoryImage/Klare-Suppe.jpg\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/image/Screenshot 2023-10-29 224119.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/image/Spaghettieis-Dessert-4-2.jpg\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/image/CategoryImage/Spaghettieis-Dessert-4-2.jpg\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/image/favorite01.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/image/filter 1.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/image/logo 5 fire fr.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/image/menu1.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/image/vegan.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/image/vegan01.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/example/kochBuch/categoryView.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/example/kochBuch/categoryView.fxml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"FxmlFile\" />\r\n        <option value=\"JavaFXApplication\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"4b81ea59-aa19-447f-ac1e-124ea503af72\" />\r\n        <option name=\"url\" value=\"https://github.com/hanapour/KochBuch\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2XPTNHc5LMQdNMEsUEJEgQ1tAU4\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/wessa/Downloads/mysql-connector-j-8.2.0/mysql-connector-j-8.2.0/mysql-connector-j-8.2.0.jar&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  },\r\n  &quot;keyToStringList&quot;: {\r\n    &quot;DatabaseDriversLRU&quot;: [\r\n      &quot;mysql&quot;\r\n    ]\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CreateClassDialog.RecentsKey\">\r\n      <recent name=\"com.example.kochBuch\" />\r\n    </key>\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\wessa\\IdeaProjects\\KochBuch\\src\\main\\resources\\com\\example\\kochBuch\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"$PROJECT_DIR$/src/main/resources/image/CategoryImage\" />\r\n      <recent name=\"$PROJECT_DIR$/src\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"KochBuch\" type=\"Application\" factoryName=\"Application\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.example.kochBuch.MainApplication\" />\r\n      <module name=\"teszo\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.example.kochBuch.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"dea5d825-6760-4e39-baf4-f0bba609f343\" name=\"Changes\" comment=\"\" />\r\n      <created>1698529674105</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1698529674105</updated>\r\n      <workItem from=\"1698529675181\" duration=\"1240000\" />\r\n      <workItem from=\"1698572249392\" duration=\"1516000\" />\r\n      <workItem from=\"1698575228533\" duration=\"10710000\" />\r\n      <workItem from=\"1698591165979\" duration=\"2332000\" />\r\n      <workItem from=\"1698605919465\" duration=\"3359000\" />\r\n      <workItem from=\"1698659494839\" duration=\"481000\" />\r\n      <workItem from=\"1698690012456\" duration=\"152000\" />\r\n      <workItem from=\"1698690442910\" duration=\"2641000\" />\r\n      <workItem from=\"1698748220196\" duration=\"7746000\" />\r\n      <workItem from=\"1698762614868\" duration=\"3827000\" />\r\n      <workItem from=\"1698768761738\" duration=\"2470000\" />\r\n      <workItem from=\"1698773991977\" duration=\"7482000\" />\r\n      <workItem from=\"1698857328670\" duration=\"14492000\" />\r\n      <workItem from=\"1698910368463\" duration=\"4218000\" />\r\n      <workItem from=\"1698999493885\" duration=\"4731000\" />\r\n      <workItem from=\"1699004523048\" duration=\"1470000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1698587218162</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1698587218163</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1698587415803</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1698587415803</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Wessam:Classe&lt;CategoryController&gt;\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1698589542585</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1698589542586</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Wessam:Anpassung&gt;&gt;Classe&lt;CategoryController&gt;\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1698593593957</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1698593593957</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Wessam:Anpassung&gt;&gt;StartController\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1698606416328</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1698606416328</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Wessam:Anpassung&gt;&gt;StartController\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1698611914772</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1698611914772</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Wessam:Fotos\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1698617371974</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1698617371974</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"border on button in menuView\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1698769142706</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1698769142706</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"border on button in menuView\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1698769164262</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1698769164262</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"kategorien erweitern\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1698775231742</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1698775231742</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"kategorien erweitern\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1698775249136</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1698775249136</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"new favorite page , new adjusted\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1698921053281</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1698921053281</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"13\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.\" />\r\n    <MESSAGE value=\"Wessam:Classe&lt;CategoryController&gt;\" />\r\n    <MESSAGE value=\"Wessam:Anpassung&gt;&gt;Classe&lt;CategoryController&gt;\" />\r\n    <MESSAGE value=\"Wessam:Anpassung&gt;&gt;StartController\" />\r\n    <MESSAGE value=\"Wessam:Fotos\" />\r\n    <MESSAGE value=\"border on button in menuView\" />\r\n    <MESSAGE value=\"kategorien erweitern\" />\r\n    <MESSAGE value=\"universal file\" />\r\n    <MESSAGE value=\"new favorite page , new adjusted\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"new favorite page , new adjusted\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 7f5ac3c809da0ab2e212df15777a37206b6a139a)
++++ b/.idea/workspace.xml	(date 1699303102243)
+@@ -4,27 +4,293 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="new favorite page , new adjusted">
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/CategoryImage/meatgrill.jpeg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/CategoryImage/vegan-gesund.png" afterDir="false" />
++    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="Wessam:Die aktuelle Version ist sauber und behoben. Bitte laden Sie das Update herunter.">
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/Menu/HilfeController.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/Menu/ImpressumController.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/Menu/RegisterController.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/kategorien/FleischController.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/kategorien/NachspeiseController.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/kategorien/PersischController.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/kategorien/SeafoodController.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/kategorien/VeganController.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/kategorien/VorspeiseController.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/kategorien/fleisch1Controller.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/kategorien/fleisch2Controller.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/kategorien/nachspeise1Controller.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/kategorien/nachspeise2Controller.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/kategorien/persisch1Controller.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/kategorien/persisch2Controller.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/kategorien/seafood1Controller.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/kategorien/seafood2Controller.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/kategorien/vegan1Controller.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/kategorien/vegan2Controller.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/kategorien/vorspeise1Controller.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/kategorien/vorspeise2Controller.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/30062017_Nisarg_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/image/CategoryImage/Krabbe.jpg" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/categoryView.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/AnmeldenView.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Background.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/CategoryController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Coocking.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/FavoritenController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/FavoritenView.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Fleisch01.webp" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Fleisch02.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/FleischController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/FleischView.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/HilfeController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/HilfeView.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20230320-WA0011.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0004.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0005.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0006.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0007.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0008.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0009.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0010.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0011.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0012.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0013.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0014.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0015.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0016.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0017.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0018.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0019.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0020.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0021.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0022.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0023.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0024.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0025.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0026.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0027.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0028.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0029.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0030.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0031.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0032.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0033.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0034.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0035.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0036.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0037.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0038.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0039.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0040.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0041.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0042.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0043.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0044.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0045.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0046.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0047.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0048.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0049.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0050.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0051.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0052.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0053.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0054.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0055.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0056.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0057.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0058.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0059.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0060.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0061.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0062.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0063.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0064.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0065.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0066.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0067.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0068.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0069.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0071.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0072.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0073.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0074.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0075.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0076.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0077.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0078.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0079.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0080.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0081.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0082.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0083.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0084.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0085.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0086.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0087.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0088.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0089.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0090.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0091.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0092.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0093.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0094.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0095.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0096.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0097.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0098.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0099.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0100.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0101.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0102.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0103.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0104.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0105.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0106.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0107.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0108.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0109.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0110.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0111.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG-20231031-WA0112.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG_5689.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/IMG_5690.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/ImpressumController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/ImpressumView.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Iran-cooking-tour-persian-foods.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/KategorieController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/KategorieView.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Klare-Suppe.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/MainApplication.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/MenuController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/MenuView.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/NachspeiseController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/NachspeiseView.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/NameOfFood.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/PersischController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/PersischView.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/RegisterController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Screenshot 2023-10-29 224119.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/SeafoodController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/SeafoodView.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Spaghettieis-Dessert-4-2.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/StartController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/StartView.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Styel.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Vegan02.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/VeganController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/VeganView.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/VorspeiseController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/VorspeiseView.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/backButton.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/benutzer.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/favorite liste.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/favorite.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/favorite01.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/filter 1.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fisch.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fleisch.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fleisch1Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fleisch1View.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fleisch2Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fleisch2View.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/foodLogo.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/herz.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/hilfe.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/info.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/kategorie.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/kategorie2.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/logo 5 fire fr.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/menu.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/menu1.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/menuIcon.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/mischen.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/nachspeise.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/nachspeise1Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/nachspeise1View.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/nachspeise2Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/nachspeise2View.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/persian.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/persisch food.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/persisch1Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/persisch1View.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/persisch2Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/persisch2View.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/plus.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/register.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/registerView.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/salad.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/seafood.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/seafood1Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/seafood1View.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/seafood2Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/seafood2View.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/search 1.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/settings.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/share.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/CategoryController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/HilfeController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/ImpressumController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/FleischController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/NachspeiseController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/PersischController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/SeafoodController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/VeganController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/VorspeiseController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/MainApplication.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/RegisterController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/fleisch1Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/fleisch2Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/nachspeise1Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/nachspeise2Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/persisch1Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/persisch2Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/seafood1Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/seafood2Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/vegan1Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/vegan2Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/vorspeise1Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/vorspeise2Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/HilfeView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/HilfeView.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/ImpressumView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/ImpressumView.fxml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/30062017_Nisarg_01.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/Fleisch01.webp" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/Iran-cooking-tour-persian-foods.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/image/CategoryImage/Iran-cooking-tour-persian-foods.jpg" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/Klare-Suppe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/image/CategoryImage/Klare-Suppe.jpg" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/Screenshot 2023-10-29 224119.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/Spaghettieis-Dessert-4-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/image/CategoryImage/Spaghettieis-Dessert-4-2.jpg" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/favorite01.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/filter 1.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/logo 5 fire fr.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/menu1.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/vegan.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/vegan01.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/registerView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/registerView.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/CategoryController.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/HilfeView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/HilfeView.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/ImpressumView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/ImpressumView.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/MainApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/MainApplication.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/RegisterController.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/categoryView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/categoryView.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/fleisch1Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/fleisch1Controller.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/registerView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/registerView.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/image/30062017_Nisarg_01.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/image/Fleisch01.webp" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/image/Iran-cooking-tour-persian-foods.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/image/Klare-Suppe.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/image/Screenshot 2023-10-29 224119.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/image/Spaghettieis-Dessert-4-2.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/image/favorite01.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/image/filter 1.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/image/logo 5 fire fr.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/image/menu1.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/image/vegan.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/image/vegan01.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/vegan.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/vegan01.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/vegan1Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/vegan1View.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/vegan2Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/vegan2View.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/vorspeise.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/vorspeise.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/vorspeise1Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/vorspeise1View.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/vorspeise2Controller.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/vorspeise2View.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/zurück.png" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -36,12 +302,19 @@
+       <list>
+         <option value="FxmlFile" />
+         <option value="JavaFXApplication" />
++        <option value="CSS File" />
+         <option value="Class" />
+       </list>
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="main" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="UPDATE_TYPE" value="REBASE" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory">{
+   &quot;lastFilter&quot;: {
+@@ -57,6 +330,9 @@
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
++  </component>
++  <component name="ProblemsViewState">
++    <option name="selectedTabId" value="CurrentFile" />
+   </component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 3
+@@ -69,31 +345,31 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/wessa/Downloads/mysql-connector-j-8.2.0/mysql-connector-j-8.2.0/mysql-connector-j-8.2.0.jar&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ASKED_ADD_EXTERNAL_FILES": "true",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "WebServerToolWindowFactoryState": "false",
++    "git-widget-placeholder": "Aktivebranch",
++    "ignore.virus.scanning.warn.message": "true",
++    "last_opened_file_path": "C:/TestJavaApp",
++    "list.type.of.created.stylesheet": "CSS",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "project.structure.last.edited": "Modules",
++    "project.structure.proportion": "0.0",
++    "project.structure.side.proportion": "0.0",
++    "vue.rearranger.settings.migration": "true"
+   },
+-  &quot;keyToStringList&quot;: {
+-    &quot;DatabaseDriversLRU&quot;: [
+-      &quot;mysql&quot;
++  "keyToStringList": {
++    "DatabaseDriversLRU": [
++      "mysql"
+     ]
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="CreateClassDialog.RecentsKey">
+       <recent name="com.example.kochBuch" />
+@@ -105,6 +381,9 @@
+       <recent name="$PROJECT_DIR$/src/main/resources/image/CategoryImage" />
+       <recent name="$PROJECT_DIR$/src" />
+     </key>
++    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
++      <recent name="com.example.kochBuch" />
++    </key>
+   </component>
+   <component name="RunManager">
+     <configuration name="KochBuch" type="Application" factoryName="Application">
+@@ -145,6 +424,22 @@
+       <workItem from="1698910368463" duration="4218000" />
+       <workItem from="1698999493885" duration="4731000" />
+       <workItem from="1699004523048" duration="1470000" />
++      <workItem from="1699047796791" duration="5943000" />
++      <workItem from="1699092609383" duration="12419000" />
++      <workItem from="1699122835948" duration="5672000" />
++      <workItem from="1699143726345" duration="6951000" />
++      <workItem from="1699184496630" duration="8268000" />
++      <workItem from="1699193067040" duration="2723000" />
++      <workItem from="1699225152648" duration="425000" />
++      <workItem from="1699259356238" duration="7769000" />
++      <workItem from="1699291287702" duration="6645000" />
++      <workItem from="1699297980372" duration="26000" />
++      <workItem from="1699298349813" duration="36000" />
++      <workItem from="1699298619379" duration="1568000" />
++      <workItem from="1699300373334" duration="94000" />
++      <workItem from="1699300514315" duration="135000" />
++      <workItem from="1699300769237" duration="58000" />
++      <workItem from="1699300895720" duration="2198000" />
+     </task>
+     <task id="LOCAL-00001" summary="Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.">
+       <option name="closed" value="true" />
+@@ -242,7 +537,31 @@
+       <option name="project" value="LOCAL" />
+       <updated>1698921053281</updated>
+     </task>
+-    <option name="localTasksCounter" value="13" />
++    <task id="LOCAL-00013" summary="erstellt:Databasecontroller, SearchHelper,&#10;StartController mit sucheparameter  (Das ist nur ein Test keine url für Fotos)">
++      <option name="closed" value="true" />
++      <created>1699106587484</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1699106587484</updated>
++    </task>
++    <task id="LOCAL-00014" summary="Wessam:Class UserFxmlLoader erstellt.&#10;Startcontroller mit menu ansicht anpassen (&quot;closeMenu() noch nicht fertig&quot;)">
++      <option name="closed" value="true" />
++      <created>1699151112015</created>
++      <option name="number" value="00014" />
++      <option name="presentableId" value="LOCAL-00014" />
++      <option name="project" value="LOCAL" />
++      <updated>1699151112015</updated>
++    </task>
++    <task id="LOCAL-00015" summary="Wessam:Favoriten ,MenuController">
++      <option name="closed" value="true" />
++      <created>1699195787280</created>
++      <option name="number" value="00015" />
++      <option name="presentableId" value="LOCAL-00015" />
++      <option name="project" value="LOCAL" />
++      <updated>1699195787280</updated>
++    </task>
++    <option name="localTasksCounter" value="16" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -259,6 +578,10 @@
+     <MESSAGE value="kategorien erweitern" />
+     <MESSAGE value="universal file" />
+     <MESSAGE value="new favorite page , new adjusted" />
+-    <option name="LAST_COMMIT_MESSAGE" value="new favorite page , new adjusted" />
++    <MESSAGE value="erstellt:Databasecontroller, SearchHelper,&#10;StartController mit sucheparameter  (Das ist nur ein Test keine url für Fotos)" />
++    <MESSAGE value="Wessam:Class UserFxmlLoader erstellt.&#10;Startcontroller mit menu ansicht anpassen (&quot;closeMenu() noch nicht fertig&quot;)" />
++    <MESSAGE value="Wessam:Favoriten ,MenuController" />
++    <MESSAGE value="Wessam:Die aktuelle Version ist sauber und behoben. Bitte laden Sie das Update herunter." />
++    <option name="LAST_COMMIT_MESSAGE" value="Wessam:Die aktuelle Version ist sauber und behoben. Bitte laden Sie das Update herunter." />
+   </component>
+ </project>
+\ No newline at end of file

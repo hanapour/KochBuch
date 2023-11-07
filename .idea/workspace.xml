@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="Adjusted Category View">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/Menu/Back2StartView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/Menu/HilfeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/Menu/ImpressumController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/Menu/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/Menu/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/AnmeldenView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/AnmeldenView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/HilfeView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/HilfeView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/ImpressumView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/ImpressumView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/registerView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/registerView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/AnmeldenView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/AnmeldenView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/HilfeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/HilfeView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/HilfeView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/ImpressumController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/ImpressumView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/ImpressumView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/registerView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/registerView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,5 +268,10 @@
     <MESSAGE value="new favorite page , new adjusted" />
     <MESSAGE value="Adjusted Category View" />
     <option name="LAST_COMMIT_MESSAGE" value="Adjusted Category View" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/KochBuch$KochBuch.ic" NAME="KochBuch Coverage Results" MODIFIED="1699392543966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.kochBuch.*</FILTER>
+    </SUITE>
   </component>
 </project>

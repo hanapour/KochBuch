@@ -1,15 +1,9 @@
 package com.example.kochBuch;
-
-import javafx.collections.ObservableList;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Group;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
@@ -19,12 +13,10 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import java.io.File;
-import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Collection;
 import java.util.ResourceBundle;
 
 public class StartController implements Initializable {
@@ -38,7 +30,7 @@ public class StartController implements Initializable {
     private TextArea StartTexImage;
 
     @FXML
-   private ImageView Startimage;
+    private ImageView Startimage;
 
     @FXML
     private ImageView btnCategory;
@@ -92,16 +84,22 @@ public class StartController implements Initializable {
     @FXML
     void OnSearchKilick(MouseEvent event) {
         try {
-            String Whereclause = searchText.getText();
+            String sql = null;
+            String Whereclause ;
+            if(searchText.getText().isEmpty()){
+                sql= "SELECT foto, Zubereitungstext FROM Rezepte WHERE RezeptID >= ? ";
+                Whereclause="(SELECT FLOOR(MAX(rezeptID) * RAND()) FROM Rezepte) LIMIT 1;";
+            }else { Whereclause= searchText.getText();
+                 sql = "SELECT foto, Zubereitungstext FROM Rezepte WHERE Zubereitungstext LIKE ? ";
+            }
 
-            String sql = "SELECT foto, Zubereitungstext FROM Rezepte WHERE Zubereitungstext LIKE ?";
             ResultSet resultSet = SearchHelper.searchRecipe(sql, Whereclause);
 
             if (resultSet != null) {
                 try {
                     if (resultSet.next()) {
                         String fotoPath ="C:/Users/wessa/IdeaProjects/KochBuch/src/main/resources/image/CategoryImage/meatgrill.jpeg";
-                                // resultSet.getString(foto);
+                        // resultSet.getString(foto);
                         String zubereitungstext = resultSet.getString("Zubereitungstext");
                         File file = new File(fotoPath);
                         String imageUrl = file.toURI().toURL().toString();
@@ -146,15 +144,11 @@ public class StartController implements Initializable {
     void OnKategorieClick(MouseEvent event)throws Exception  {
         UserFxmlLoader.loadFXML("categoryView.fxml");
     }
-
-    @FXML
-    void OnSingUpClick(MouseEvent event) throws Exception {
+    protected static void StackPane_getChildren(String view2) throws Exception{
         Stage stage = MainApplication.mainstage;
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("StartView.fxml"));
-        Scene currentScene = new Scene(fxmlLoader.load());
-
+        Scene currentScene = stage.getScene();
         // Zweite Szene aus "registerView.fxml"
-        FXMLLoader registerfxmlLoader = new FXMLLoader(MainApplication.class.getResource("registerView.fxml"));
+        FXMLLoader registerfxmlLoader = new FXMLLoader(MainApplication.class.getResource(view2));
         Scene registerView = new Scene(registerfxmlLoader.load());
         // StackPane, um beide Szenen übereinander zu legen
         StackPane stackPane = new StackPane();
@@ -164,8 +158,13 @@ public class StartController implements Initializable {
     }
 
     @FXML
+    void OnSingUpClick(MouseEvent event) throws Exception {
+        StackPane_getChildren("registerView.fxml");
+    }
+
+    @FXML
     void  OnSingInClick(MouseEvent event )throws  Exception{
-        UserFxmlLoader.loadFXML("AnmeldenView.fxml");
+        StackPane_getChildren("AnmeldenView.fxml");
     }
 
 

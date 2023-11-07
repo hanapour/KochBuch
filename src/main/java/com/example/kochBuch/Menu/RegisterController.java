@@ -18,12 +18,10 @@ import java.util.ResourceBundle;
 
 public class RegisterController implements Initializable {
     private MouseEvent event;
-
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
     }
-
     @FXML
     private Button CloseButton;
 
