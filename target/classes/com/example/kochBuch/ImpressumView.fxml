@@ -15,11 +15,21 @@
             <top>
                 <Pane prefHeight="86.0" prefWidth="800.0" style="-fx-background-color: #F5F1EA;" BorderPane.alignment="CENTER">
                     <children>
-                        <Label layoutX="330.0" layoutY="25.0" text="Impressum">
-                            <font>
-                                <Font name="System Bold" size="30.0" />
-                            </font>
-                        </Label>
+                  <Label layoutX="297.0" layoutY="23.0" prefHeight="43.0" prefWidth="207.0" text="Impressum">
+                     <font>
+                        <Font name="Raanana Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="btnBack" fitHeight="36.0" fitWidth="32.0" layoutX="14.0" layoutY="31.0" onMouseClicked="#OnBackClick" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/backButton.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="252.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/info.png" />
+                     </image>
+                  </ImageView>
                     </children>
                 </Pane>
             </top>
@@ -74,9 +84,9 @@
                             </font>
                         </Text>
                         <Text layoutX="301.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Die Inhalte dieser Anwendung sind urheberrechtlich geschützt. Die Nutzung von Texten, Bildern und Rezepten aus dieser Anwendung ist nur mit ausdrücklicher Genehmigung gestattet. Externe Links auf dieser Anwendung werden sorgfältig geprüft, wir übernehmen jedoch keine Haftung für die Inhalte externer Links." wrappingWidth="303.13671875" />
-                  <ImageView fx:id="btnBack" fitHeight="27.0" fitWidth="40.0" layoutX="14.0" layoutY="-75.0" onMouseClicked="#OnBackClick" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="411.0" fitWidth="431.0" layoutX="388.0" layoutY="127.0" opacity="0.34" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../image/backButton.png" />
+                        <Image url="@../../../image/impressumOpacity.png" />
                      </image>
                   </ImageView>
                     </children>
