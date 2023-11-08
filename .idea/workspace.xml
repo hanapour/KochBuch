@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="Adjusted Impresum View">
+    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="Hadis/add feature Dark Mode">
       <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/cssStyle/darkMode.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/cssStyle/lightMode.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/brightness.png" afterDir="false" />
@@ -156,7 +156,7 @@
       <workItem from="1699430186971" duration="3436000" />
       <workItem from="1699443301109" duration="3447000" />
       <workItem from="1699447015355" duration="177000" />
-      <workItem from="1699465827412" duration="1036000" />
+      <workItem from="1699465827412" duration="1752000" />
     </task>
     <task id="LOCAL-00001" summary="Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.">
       <option name="closed" value="true" />
@@ -270,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699280071303</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Hadis/add feature Dark Mode">
+      <option name="closed" value="true" />
+      <created>1699467734280</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1699467734280</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +297,7 @@
     <MESSAGE value="new favorite page , new adjusted" />
     <MESSAGE value="Adjusted Category View" />
     <MESSAGE value="Adjusted Impresum View" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjusted Impresum View" />
+    <MESSAGE value="Hadis/add feature Dark Mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hadis/add feature Dark Mode" />
   </component>
 </project>
