@@ -1,0 +1,31 @@
+
+.light-primary {
+    -fx-background-color: red;
+}
+.primary {
+    -fx-background-color: #F5F1EA;
+}
+
+.dark-primary {
+    -fx-background-color: #222222;
+}
+
+.text-black {
+    -fx-text-fill: black;
+}
+
+/* Change text color to black in light mode */
+.common-text {
+    -fx-fill: black;
+}
+
+
+.btn-secondary {
+    -fx-background-color: #00aaff;
+    -fx-text-fill: #FFFFFF;
+}
+
+.label-important {
+    -fx-font-weight: bold;
+    -fx-text-fill: #FF0000;
+}
