@@ -3,11 +3,8 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.net.MalformedURLException;
-import java.io.File;
-import javafx.scene.image.Image;
 
-public class SearchHelper {
+public class DatabaseManipulation {
     public static ResultSet searchRecipe(String sql, String Whereclause) {
         try {
             DatabaseConnection databaseConnection = new DatabaseConnection();

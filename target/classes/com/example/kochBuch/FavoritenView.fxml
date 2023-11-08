@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="800.0" style="-fx-background-color: #CCCCFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.FavoriteController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="800.0" style="-fx-background-color: #CCCCFF;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.FavoriteController">
     <children>
         <BorderPane layoutX="39.0" prefHeight="595.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <top>
@@ -20,7 +16,7 @@
                                 <Font name="System Bold" size="30.0" />
                             </font>
                         </Label>
-                        <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="319.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fx:id="Test1" fitHeight="42.0" fitWidth="42.0" layoutX="319.0" layoutY="19.0" onMouseClicked="#onFavoritenButtonClicked" pickOnBounds="true" preserveRatio="true">
                             <image>
                                 <Image url="@../../../image/herz.png" />
                             </image>
@@ -36,10 +32,24 @@
             <center>
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: F5F1EA; -fx-border-color: white; border: 2px 2px 2px 2px;" BorderPane.alignment="CENTER">
                <children>
-                  <Text layoutX="301.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bisher keine Favoriten hinzugefügt" wrappingWidth="197.13671875">
+                  <Text layoutX="330.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bisher keine Favoriten hinzugefügt" wrappingWidth="197.13671875">
                      <font>
                         <Font name="InaiMathi" size="14.0" />
                      </font></Text>
+                  <AnchorPane layoutX="198.0" layoutY="137.0" prefHeight="314.0" prefWidth="404.0">
+                     <children>
+                        <ScrollPane fx:id="imageScrollPane" layoutX="-3.0" layoutY="-2.0" prefHeight="317.0" prefWidth="410.0" />
+                     </children>
+                  </AnchorPane>
+                  <ImageView fx:id="NextFavorit" fitHeight="24.0" fitWidth="27.0" layoutX="605.0" layoutY="271.0" onMouseClicked="#showNextFavorit" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/GoRight.png" />
+                     </image></ImageView>
+                  <ImageView fx:id="PreviousFavorit" fitHeight="24.0" fitWidth="27.0" layoutX="168.0" layoutY="271.0" onMouseClicked="#showPreviousFavorit" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/GoLeft.png" />
+                     </image>
+                  </ImageView>
                </children></Pane>
             </center>
         </BorderPane>

@@ -19,12 +19,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ResourceBundle;
 
-public class StartController implements Initializable {
+public class StartController implements FavoritenButtonListener {
 
-    @Override
-    public void initialize(URL url, ResourceBundle resourceBundle) {
 
-    }
 
     @FXML
     private TextArea StartTexImage;
@@ -93,17 +90,20 @@ public class StartController implements Initializable {
                  sql = "SELECT foto, Zubereitungstext FROM Rezepte WHERE Zubereitungstext LIKE ? ";
             }
 
-            ResultSet resultSet = SearchHelper.searchRecipe(sql, Whereclause);
+            ResultSet resultSet = DatabaseManipulation.searchRecipe(sql, Whereclause);
 
             if (resultSet != null) {
                 try {
                     if (resultSet.next()) {
-                        String fotoPath ="C:/Users/wessa/IdeaProjects/KochBuch/src/main/resources/image/CategoryImage/meatgrill.jpeg";
+                        String fotoPath ="@.." +"src/main/resources/image/CategoryImage/meatgrill.jpeg";
+                        //file:/C:/src/main/resources/image/CategoryImage/meatgrill.jpeg
                         // resultSet.getString(foto);
                         String zubereitungstext = resultSet.getString("Zubereitungstext");
                         File file = new File(fotoPath);
+                        String t ="@..";
                         String imageUrl = file.toURI().toURL().toString();
                         Startimage.setImage(new Image(imageUrl)); // Setze das Bild im ImageView
+                        //file:/C:/Users/wessa/IdeaProjects/KochBuch/@../../../image/CategoryImage/meatgrill.jpeg
                         StartTexImage.setWrapText(true);
                         StartTexImage.setText(zubereitungstext); // Setze den Text im TextArea
                     } else {
@@ -166,6 +166,26 @@ public class StartController implements Initializable {
     void  OnSingInClick(MouseEvent event )throws  Exception{
         StackPane_getChildren("AnmeldenView.fxml");
     }
+
+
+
+    @FXML
+    public void onFavoritenButtonClicked(MouseEvent event) throws MalformedURLException {
+        System.out.println("ICH BIN EIN TEST");
+      //  String fotoPath ="meatgrill.jpeg";
+       // File file = new File(fotoPath);
+       // String imageUrl = file.toURI().toURL().toString();
+        //FavoriteController favoriteController = new FavoriteController();
+       // favoriteController.addFavorit(imageUrl);
+        // SELECT Rezept_ID FROM Favoriten Where Rezepte_id = (foto_id)
+        // (if gibt dann Lösche es ,else insert ) in die FavoritenTabelle
+        //boolean isFavorit;
+        //if (isFavorit) {
+        //} else {
+         //   isFavorit = true;
+        //}
+    }
+
 
 
 }

@@ -23,7 +23,6 @@ public class vorspeise2Controller extends Application {
         Stage stage = MainApplication.mainstage;
         FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource(fxmlFileName));
         Parent root = (Parent) fxmlLoader.load();
-
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
