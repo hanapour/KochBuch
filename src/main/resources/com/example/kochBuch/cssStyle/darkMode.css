@@ -1,0 +1,35 @@
+
+.title-bar {
+    -fx-background-color: #303443;
+}
+
+#parent {
+    -fx-background-color: #1c1c1c;
+}
+
+.primary {
+    -fx-background-color: #2d2d2d;
+}
+
+/* Change text color to white in dark mode */
+.common-text {
+    -fx-fill: white;
+}
+
+.primary .text {
+    -fx-fill: #ffffff;
+}
+
+.dark-mode .text-color {
+    -fx-fill: white;
+}
+
+.btn-primary {
+    -fx-background-color: #303134;
+    -fx-text-fill: #ffffff;
+}
+
+.txt-primary {
+    -fx-font-family: "Popping";
+    -fx-text-fill: #ffffff;
+}

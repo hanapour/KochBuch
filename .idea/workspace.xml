@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="Adjusted Category View">
+    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="Adjusted Impresum View">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/cssStyle/darkMode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/cssStyle/lightMode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/brightness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/mond.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/ImpressumView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/ImpressumView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/ImpressumView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/ImpressumView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/darkmode.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/Styel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/image/search 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/image/search1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +26,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="JavaFXApplication" />
+        <option value="CSS File" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -33,8 +48,8 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="4b81ea59-aa19-447f-ac1e-124ea503af72" />
-        <option name="url" value="https://github.com/hanapour/KochBuch" />
+        <option name="accountId" value="493562e6-2d19-4b62-a57d-2eeef1f40ff4" />
+        <option name="url" value="https://github.com/hanapour/KochBuch.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -59,9 +74,10 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/dakMode&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/wessa/Downloads/mysql-connector-j-8.2.0/mysql-connector-j-8.2.0/mysql-connector-j-8.2.0.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hadisnasibipour/IdeaProjects/KochBuch/src/main/resources/image&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -82,9 +98,13 @@
       <recent name="com.example.kochBuch" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/image" />
       <recent name="C:\Users\wessa\IdeaProjects\KochBuch\src\main\resources\com\example\kochBuch" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources/image/Icons" />
+      <recent name="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/cssStyle" />
       <recent name="$PROJECT_DIR$/src/main/resources/image/CategoryImage" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -129,7 +149,14 @@
       <workItem from="1698999493885" duration="4731000" />
       <workItem from="1699004523048" duration="1708000" />
       <workItem from="1699025580882" duration="3146000" />
-      <workItem from="1699279001282" duration="693000" />
+      <workItem from="1699279001282" duration="1516000" />
+      <workItem from="1699364304872" duration="1432000" />
+      <workItem from="1699369014136" duration="1092000" />
+      <workItem from="1699375980730" duration="14640000" />
+      <workItem from="1699430186971" duration="3436000" />
+      <workItem from="1699443301109" duration="3447000" />
+      <workItem from="1699447015355" duration="177000" />
+      <workItem from="1699465827412" duration="1036000" />
     </task>
     <task id="LOCAL-00001" summary="Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.">
       <option name="closed" value="true" />
@@ -235,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699006092979</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Adjusted Impresum View">
+      <option name="closed" value="true" />
+      <created>1699280071303</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1699280071303</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +288,7 @@
     <MESSAGE value="universal file" />
     <MESSAGE value="new favorite page , new adjusted" />
     <MESSAGE value="Adjusted Category View" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjusted Category View" />
+    <MESSAGE value="Adjusted Impresum View" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusted Impresum View" />
   </component>
 </project>
