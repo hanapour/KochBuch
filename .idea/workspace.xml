@@ -4,190 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="neu sortieren">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/GerichteController/GenericGerichteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/GerichteController/fleisch1Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/GerichteController/fleisch2Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/GerichteController/nachspeise1Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/GerichteController/nachspeise2Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/GerichteController/persisch1Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/GerichteController/persisch2Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/GerichteController/seafood1Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/GerichteController/seafood2Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/GerichteController/vegan1Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/GerichteController/vegan2Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/GerichteController/vorspeise1Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/GerichteController/vorspeise2Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/FleischController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/NachspeiseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/PersischController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/SeafoodController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/VeganController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/KategorienController/VorspeiseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/RandomNumberGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/GerichteView/fleisch1View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/GerichteView/fleisch2View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/GerichteView/nachspeise1View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/GerichteView/nachspeise2View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/GerichteView/persisch1View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/GerichteView/persisch2View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/GerichteView/seafood1View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/GerichteView/seafood2View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/GerichteView/vegan1View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/GerichteView/vegan2View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/GerichteView/vorspeise1View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/GerichteView/vorspeise2View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/KategorienView/FleischView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/KategorienView/NachspeiseView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/KategorienView/PersischView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/KategorienView/SeafoodView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/KategorienView/VeganView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/KategorienView/VorspeiseView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/EssenbilderKategorien/Fleisch02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/EssenbilderKategorien/Vegan02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/Background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/Coocking.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/LogoFood.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/NameOfFood.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/anmeldenBenutzer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/backButton.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/bannerLike.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/benutzer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/faq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/favorite liste.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/favorite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/favorite01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/filter 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/fisch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/fleisch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/foodLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/heart.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/herz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/hilfe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/impressumOpacity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/info.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/kategorie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/kategorie2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/logo 5 fire fr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/menu1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/menuIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/mischen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/nachspeise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/persian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/persisch food.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/register.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/registericon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/salad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/seafood.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/search 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/search1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/settings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/vegan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/vorspeise.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/vorspeise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Icons/zurück.png" afterDir="false" />
+    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="fixing bugs und neue struktur da ich die files sortiert habe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/Menu/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/FavoriteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/Menu/FavoriteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/MainApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/Menu/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/Menu/RegisterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/AnmeldenView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/AnmeldenView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/FavoritenView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/FavoritenView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/HilfeView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/HilfeView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/ImpressumView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/ImpressumView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/registerView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/registerView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/AnmeldenView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/AnmeldenView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/CategoryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FavoritenView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FavoritenView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FleischController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FleischController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FleischView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/HilfeView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/HilfeView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/ImpressumView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/ImpressumView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/MainApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/MainApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/NachspeiseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/NachspeiseController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/NachspeiseView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/PersischController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/PersischController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/PersischView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/RegisterController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/SeafoodController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/SeafoodController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/SeafoodView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/VeganController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/VeganController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/VeganView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/VorspeiseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/VorspeiseController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/VorspeiseView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/categoryView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/categoryView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/fleisch1Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/fleisch1View.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/fleisch2Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/fleisch2View.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/nachspeise1Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/nachspeise1View.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/nachspeise2Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/nachspeise2View.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/persisch1Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/persisch1View.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/persisch2Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/persisch2View.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/registerView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/registerView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/seafood1Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/seafood1View.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/seafood2Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/seafood2View.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/vegan1Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/vegan1View.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/vegan2Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/vegan2View.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/vorspeise1Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/vorspeise1View.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/vorspeise2Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/vorspeise2View.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/Background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/Coocking.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/Fleisch02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/NameOfFood.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/Vegan02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/anmeldenBenutzer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/backButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/bannerLike.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/benutzer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/faq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/favorite liste.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/favorite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/fisch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/fleisch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/heart.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/herz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/hilfe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/impressumOpacity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/info.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/kategorie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/kategorie2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/logoFood.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/menuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/mischen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/nachspeise.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/persian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/persisch food.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/salad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/seafood.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/search1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/settings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/share.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/vorspeise.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/vorspeise.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/zurück.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FavoriteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/Menu/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/Menu/RegisterController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,7 +143,7 @@
       <workItem from="1699470701795" duration="5901000" />
       <workItem from="1699517836593" duration="2227000" />
       <workItem from="1699520805543" duration="14000" />
-      <workItem from="1699521070661" duration="8658000" />
+      <workItem from="1699521070661" duration="11211000" />
     </task>
     <task id="LOCAL-00001" summary="Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.">
       <option name="closed" value="true" />
@@ -443,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699521096840</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fixing bugs und neue struktur da ich die files sortiert habe">
+      <option name="closed" value="true" />
+      <created>1699533661957</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1699533661957</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,7 +293,8 @@
     <MESSAGE value="Adjusted Category View" />
     <MESSAGE value="bug fixes" />
     <MESSAGE value="neu sortieren" />
-    <option name="LAST_COMMIT_MESSAGE" value="neu sortieren" />
+    <MESSAGE value="fixing bugs und neue struktur da ich die files sortiert habe" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing bugs und neue struktur da ich die files sortiert habe" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KochBuch$KochBuch.ic" NAME="KochBuch Coverage Results" MODIFIED="1699392543966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

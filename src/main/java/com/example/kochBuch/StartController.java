@@ -166,48 +166,50 @@ public class StartController implements Initializable {
 
     int randomNumber = generateRandomNumber(min, max);
 
-    /*void generateImage(){
-      switch (randomNumber) {
-          case 0:
-              loadFXML("/com/example/kochBuch/GerichteView/fleisch1View.fxml");
-              break;
-          case 1:
-              loadFXML("/com/example/kochBuch/GerichteView/fleisch2View.fxml");
-              break;
-          case 2:
-              loadFXML("/com/example/kochBuch/GerichteView/nachspeise1View.fxml");
-              break;
-          case 3:
-              loadFXML("/com/example/kochBuch/GerichteView/nachspeise2View.fxml");
-              break;
-          case 4:
-              loadFXML("/com/example/kochBuch/GerichteView/persisch1View.fxml");
-              break;
-          case 5:
-              loadFXML("/com/example/kochBuch/GerichteView/persisch2View.fxml");
-              break;
-          case 6:
-              loadFXML("/com/example/kochBuch/GerichteView/seafood1View.fxml");
-              break;
-          case 7:
-              loadFXML("/com/example/kochBuch/GerichteView/seafood2View.fxml");
-              break;
-          case 8:
-              loadFXML("/com/example/kochBuch/GerichteView/vegan1View.fxml");
-              break;
-          case 9:
-              loadFXML("/com/example/kochBuch/GerichteView/vegan2View.fxml");
-              break;
-          case 10:
-              loadFXML("/com/example/kochBuch/GerichteView/vorspeise1View.fxml");
-              break;
-          case 11:
-              loadFXML("/com/example/kochBuch/GerichteView/vorspeise2View.fxml");
-              break;
-          default:
-              loadFXML("/com/example/kochBuch/GerichteView/KategorieView.fxml");
-              break;
-      }*/
+    void generateImage() {
+        String imageLocation;
+        switch (randomNumber) {
+            case 0:
+                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0011.jpg");
+                break;
+            case 1:
+                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0028.jpg");
+                break;
+            case 2:
+                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/nachspeise/IMG_5689.jpg");
+                break;
+            case 3:
+                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/nachspeise/IMG_5690.jpg");
+                break;
+            case 4:
+                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0084.jpg");
+                break;
+            case 5:
+                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0110.jpg");
+                break;
+            case 6:
+                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0018.jpg");
+                break;
+            case 7:
+                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0023.jpg");
+                break;
+            case 8:
+                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0112.jpg");
+                break;
+            case 9:
+                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0075.jpg");
+                break;
+            case 10://vorspeise 1
+                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0040.jpg");
+                break;
+            case 11://vorspeise 2
+                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0020.jpg");
+                break;
+            default:
+                imageLocation =("@../../../image/EssenbilderKategorien/vegan1.jpg");
+                break;
+        }
+    }
     @FXML
     void OnGerichtDesTagesClick(MouseEvent event) throws Exception {
         System.out.println(randomNumber);

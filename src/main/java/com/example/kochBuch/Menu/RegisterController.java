@@ -61,7 +61,8 @@ public class RegisterController implements Initializable {
     @FXML void OnCloseClick(MouseEvent event)  throws Exception{
         System.out.println("Das Fenster wurde geschlossen!");
         loadFXML("/com/example/kochBuch/StartView.fxml");
-    }
+        }
+
     @FXML void OnRegisterClick(MouseEvent event)  throws Exception{
         System.out.println("Sie wurden registriert!");
         loadFXML("/com/example/kochBuch/StartView.fxml");
