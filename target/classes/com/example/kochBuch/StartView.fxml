@@ -20,7 +20,7 @@
          <children>
             <ImageView fx:id="btnMenu" fitHeight="49.0" fitWidth="76.0" layoutX="14.0" layoutY="13.0" onMouseClicked="#OnMenuClick" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../image/menuIcon.png" />
+                  <Image url="@../../../image/Icons/settings.png" />
                </image>
             </ImageView>
             <Text layoutX="323.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KochBuch">
@@ -30,12 +30,12 @@
             </Text>
             <ImageView fx:id="btnCategory" fitHeight="58.0" fitWidth="67.0" layoutX="679.0" layoutY="9.0" onMouseClicked="#OnCategoryClick" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../image/kategorie.png" />
+                  <Image url="@../../../image/Icons/menu.png" />
                </image>
             </ImageView>
             <ImageView fx:id="btnFavorite" fitHeight="69.0" fitWidth="49.0" layoutX="737.0" layoutY="13.0" onMouseClicked="#OnFavoritClick" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../image/favorite.png" />
+                  <Image url="@../../../image/Icons/herz.png" />
                </image>
             </ImageView>
             <Line endX="698.9999389648438" endY="7.62939453125E-6" layoutX="101.0" layoutY="84.0" startX="-101.0" startY="7.62939453125E-6" />
@@ -50,42 +50,42 @@
       <TextField fx:id="searchText" layoutX="199.0" layoutY="156.0" prefHeight="38.0" prefWidth="448.0" />
       <ImageView fitHeight="32.0" fitWidth="34.0" layoutX="615.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../image/477210.png" />
+            <Image url="@../../../image/Icons/search1.png" />
          </image>
       </ImageView>
-      <Text layoutX="313.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gericht des Tages">
+      <Text layoutX="313.0" layoutY="255.0" onMouseClicked="#OnGerichtDesTagesClick" strokeType="OUTSIDE" strokeWidth="0.0" text="Gericht des Tages">
          <font>
             <Font name="System Bold" size="26.0" />
          </font>
       </Text>
       <HBox layoutX="79.0" layoutY="286.0" prefHeight="242.0" prefWidth="642.0">
          <children>
-            <ImageView fx:id="Startimage" fitHeight="242.0" fitWidth="242.0" pickOnBounds="true">
+            <ImageView fx:id="Startimage" fitHeight="242.0" fitWidth="242.0" onMouseClicked="#OnGerichtDesTagesClick" pickOnBounds="true">
                <image>
                   <Image url="@../../../image/EssenbilderKategorien/vegan1.jpg" />
                </image></ImageView>
-            <Pane prefHeight="242.0" prefWidth="428.0" style="-fx-background-color: #F5F1EA;">
+            <Pane onMouseClicked="#OnGerichtDesTagesClick" prefHeight="242.0" prefWidth="428.0" style="-fx-background-color: #F5F1EA;">
                <children>
                   <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="384.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../image/favorite.png" />
+                        <Image url="@../../../image/Icons/share.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="345.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../image/share.png" />
+                        <Image url="@../../../image/Icons/herz.png" />
                      </image>
                   </ImageView>
-                  <Button layoutX="50.0" layoutY="174.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="138.0" style="-fx-background-color: #F5F1EA;" text="weiter Anzeigen">
+                  <Button layoutX="50.0" layoutY="174.0" mnemonicParsing="false" onMouseClicked="#OnGerichtDesTagesClick" prefHeight="38.0" prefWidth="138.0" style="-fx-background-color: #F5F1EA;" text="weiter Anzeigen">
                      <graphic>
-                        <ImageView fitHeight="33.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="33.0" fitWidth="23.0" onMouseClicked="#OnGerichtDesTagesClick" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../image/plus.png" />
+                              <Image url="@../../../image/Icons/plus.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
-                  <TextArea fx:id="StartTexImage" layoutX="8.0" layoutY="14.0" prefHeight="151.0" prefWidth="337.0" style="-fx-background-color: #F5F1EA;" />
+                  <TextArea fx:id="StartTexImage" layoutX="8.0" layoutY="14.0" onMouseClicked="#OnGerichtDesTagesClick" prefHeight="151.0" prefWidth="337.0" style="-fx-background-color: #F5F1EA;" />
                </children>
             </Pane>
          </children>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="800.0" style="-fx-background-color: #CCCCFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.GerichteController.fleisch2Controller">
+    <children>
+        <BorderPane prefHeight="630.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <left>
+                <VBox prefHeight="633.0" prefWidth="180.0" style="-fx-background-color: #F4F4F4;" BorderPane.alignment="CENTER">
+                    <children>
+                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#vegan" prefHeight="61.0" prefWidth="180.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 2px 0px 2px 0px;" text="Vegan">
+                            <font>
+                                <Font size="16.0" />
+                            </font>
+                            <graphic>
+                                <ImageView fitHeight="49.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../../image/Icons/salad.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#fleisch" prefHeight="61.0" prefWidth="180.0" style="-fx-background-color: #e5e5e5; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Fleisch">
+                            <font>
+                                <Font size="16.0" />
+                            </font>
+                            <graphic>
+                                <ImageView fitHeight="49.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../../image/Icons/fleisch.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="71.0" mnemonicParsing="false" onMouseClicked="#seafood" prefHeight="61.0" prefWidth="180.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Seafood">
+                            <font>
+                                <Font size="16.0" />
+                            </font>
+                            <graphic>
+                                <ImageView fitHeight="49.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../../image/Icons/seafood.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="132.0" mnemonicParsing="false" onMouseClicked="#vorspeise" prefHeight="61.0" prefWidth="180.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Vorspeise">
+                            <font>
+                                <Font size="16.0" />
+                            </font>
+                            <graphic>
+                                <ImageView fitHeight="49.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../../image/Icons/vorspeise.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="193.0" mnemonicParsing="false" onMouseClicked="#nachspeise" prefHeight="61.0" prefWidth="180.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Nachspeise">
+                            <font>
+                                <Font size="16.0" />
+                            </font>
+                            <graphic>
+                                <ImageView fitHeight="49.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../../image/Icons/nachspeise.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="254.0" mnemonicParsing="false" onMouseClicked="#persisch" prefHeight="61.0" prefWidth="180.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Persisch">
+                            <font>
+                                <Font size="16.0" />
+                            </font>
+                            <graphic>
+                                <ImageView fitHeight="49.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../../image/Icons/persian.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                    </children>
+                </VBox>
+            </left>
+            <top>
+                <Pane prefHeight="86.0" prefWidth="800.0" style="-fx-background-color: #f5f5f5;" BorderPane.alignment="CENTER">
+                    <children>
+                        <Label layoutX="370.0" layoutY="21.0" text="Keule">
+                            <font>
+                                <Font name="System Bold" size="30.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="104.0" fitWidth="109.0" layoutX="280.0" layoutY="-9.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../image/Icons/foodLogo.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="44.0" fitWidth="38.0" layoutX="14.0" layoutY="25.0" onMouseClicked="#OnClickBack" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../image/Icons/backButton.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+            </top>
+            <center>
+                <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: f5f5f5; -fx-border-color: white; -fx-border-width: 2px 2px 2px 2px;" BorderPane.alignment="CENTER">
+                    <children>
+                        <Text layoutX="12.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zutaten:    4 Hähnchenkeulen    4 Knoblauchzehen, gehackt    2 Zweige frischer Rosmarin    2 EL Olivenöl    Salz und Pfeffer nach GeschmackAnleitung:    Hähnchenkeulen vorbereiten:        Die Hähnchenkeulen waschen und mit Küchenpapier trocken tupfen.    Würzmischung herstellen:        In einer kleinen Schüssel das Olivenöl, gehackten Knoblauch, die Blätter von einem der Rosmarinzweige sowie Salz und Pfeffer vermengen.    Das Hähnchen würzen:        Reiben Sie die Hähnchenkeulen von beiden Seiten mit der vorbereiteten Würzmischung ein.    Rosmarin hinzufügen:        Die verbleibenden Rosmarinzweige in die Pfanne legen oder auf das Hähnchen geben. Der Rosmarin verleiht ein herrliches Aroma.    Braten:        Erhitzen Sie eine Pfanne bei mittlerer Hitze und fügen Sie die gewürzten Hähnchenkeulen hinzu.        Braten Sie die Keulen von jeder Seite etwa 5-7 Minuten an, bis sie goldbraun und durchgegart sind. Achten Sie darauf, dass das Hähnchenfleisch nicht mehr rosa ist, und überprüfen Sie die Garstufe mit einem Fleischthermometer, das eine Innentemperatur von 75°C anzeigt.    Servieren:        Die gebratenen Hähnchenkeulen auf einem Teller anrichten. Sie können den gerösteten Knoblauch und den Rosmarin als Garnitur verwenden.Zutaten:    4 Hähnchenkeulen    4 Knoblauchzehen, gehackt    2 Zweige frischer Rosmarin    2 EL Olivenöl    Salz und Pfeffer nach GeschmackAnleitung:    Hähnchenkeulen vorbereiten:        Die Hähnchenkeulen waschen und mit Küchenpapier trocken tupfen.    Würzmischung herstellen:        In einer kleinen Schüssel das Olivenöl, gehackten Knoblauch, die Blätter von einem der Rosmarinzweige sowie Salz und Pfeffer vermengen.    Das Hähnchen würzen:        Reiben Sie die Hähnchenkeulen von beiden Seiten mit der vorbereiteten Würzmischung ein.    Rosmarin hinzufügen:        Die verbleibenden Rosmarinzweige in die Pfanne legen oder auf das Hähnchen geben. Der Rosmarin verleiht ein herrliches Aroma.    Braten:        Erhitzen Sie eine Pfanne bei mittlerer Hitze und fügen Sie die gewürzten Hähnchenkeulen hinzu.        Braten Sie die Keulen von jeder Seite etwa 5-7 Minuten an, bis sie goldbraun und durchgegart sind. Achten Sie darauf, dass das Hähnchenfleisch nicht mehr rosa ist, und überprüfen Sie die Garstufe mit einem Fleischthermometer, das eine Innentemperatur von 75°C anzeigt.    Servieren:        Die gebratenen Hähnchenkeulen auf einem Teller anrichten. Sie können den gerösteten Knoblauch und den Rosmarin als Garnitur verwenden." wrappingWidth="596.5367431640625">
+                     <font>
+                        <Font size="10.0" />
+                     </font></Text>
+                        <ImageView fitHeight="187.0" fitWidth="619.0" layoutX="117.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0028.jpg" />
+                            </image>
+                        </ImageView>
+                    </children></Pane>
+            </center>
+        </BorderPane>
+    </children>
+</AnchorPane>

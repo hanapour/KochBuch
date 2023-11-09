@@ -21,6 +21,15 @@ import java.util.ResourceBundle;
 import static com.example.kochBuch.RandomNumberGenerator.generateRandomNumber;
 
 public class StartController implements Initializable {
+    private void loadFXML(String fxmlFileName) throws Exception {
+        Stage stage = MainApplication.mainstage;
+        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource(fxmlFileName));
+        Parent root = (Parent) fxmlLoader.load();
+
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -33,32 +42,16 @@ public class StartController implements Initializable {
     @FXML
     private ImageView Startimage;
 
-    @FXML
-    private ImageView btnCategory;
-
-    @FXML
-    private ImageView btnFavorite;
-
-    @FXML
-    private ImageView btnMenu;
-
-    @FXML
-    private ImageView btnsearch;
 
     @FXML
     private TextField searchText;
-    @FXML
-    private StackPane StartstackPane;
-    @FXML
-    private Parent menuRoot;
+
     @FXML
     private boolean isMenuOpen = false;
     @FXML
     void OnCategoryClick(MouseEvent event) throws Exception{
         UserFxmlLoader.loadFXML("categoryView.fxml");
     }
-    @FXML
-    private AnchorPane startView;
 
     @FXML
     private AnchorPane Panevisibility;
@@ -143,7 +136,7 @@ public class StartController implements Initializable {
 
     @FXML
     void OnKategorieClick(MouseEvent event)throws Exception  {
-        UserFxmlLoader.loadFXML("categoryView.fxml");
+        UserFxmlLoader.loadFXML("/com/example/kochBuch/categoryView.fxml");
     }
     protected static void StackPane_getChildren(String view2) throws Exception{
         Stage stage = MainApplication.mainstage;

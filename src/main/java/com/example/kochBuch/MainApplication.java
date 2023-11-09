@@ -12,7 +12,7 @@ public class MainApplication extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-    protected static Stage mainstage;
+    public static Stage mainstage;
     protected static Scene maimscene;
     public MainApplication(){};
     @Override

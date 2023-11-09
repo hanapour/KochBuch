@@ -17,7 +17,7 @@
                     <children>
                   <ImageView fx:id="hilfe_backClick" fitHeight="36.0" fitWidth="36.0" layoutX="21.0" layoutY="27.0" onMouseClicked="#OnBackClick" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../image/backButton.png" />
+                        <Image url="@../../../image/Icons/backButton.png" />
                      </image>
                   </ImageView>
                   <Label layoutX="345.0" layoutY="24.0" prefHeight="17.0" prefWidth="110.0" text="Hilfe">
@@ -27,7 +27,7 @@
                   </Label>
                   <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="302.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../image/hilfe.png" />
+                        <Image url="@../../../image/Icons/hilfe.png" />
                      </image>
                   </ImageView>
                     </children>
@@ -140,7 +140,7 @@
                                 </Text>
                         <ImageView fitHeight="405.0" fitWidth="407.0" layoutX="371.0" layoutY="121.0" opacity="0.29" pickOnBounds="true" preserveRatio="true" style="-fx-background-color: transparent;">
                            <image>
-                              <Image url="@../../../image/faq.png" />
+                              <Image url="@../../../image/Icons/faq.png" />
                            </image>
                         </ImageView>
                             </children>

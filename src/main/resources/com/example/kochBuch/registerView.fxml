@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="registerPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.RegisterController">
+<AnchorPane fx:id="registerPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.Menu.RegisterController">
    <children>
       <AnchorPane fx:id="Pane2" prefHeight="69.0" prefWidth="520.0" style="-fx-background-color: #5d6d7e;">
          <children>
@@ -24,16 +24,21 @@
             </Label>
             <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="157.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../image/registericon.png" />
+                  <Image url="@../../../image/Icons/registericon.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="20.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="20.0" layoutY="19.0" onMouseClicked="#OnCloseClick" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../image/backButton.png" />
+                  <Image url="@../../../image/Icons/backButton.png" />
                </image>
             </ImageView>
          </children>
       </AnchorPane>
+      <ImageView fitHeight="351.0" fitWidth="336.0" layoutX="184.0" layoutY="188.0" opacity="0.24" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/Icons/register.png" />
+         </image>
+      </ImageView>
       <Label layoutX="68.0" layoutY="99.0" text="Firstname" />
       <TextField fx:id="FirstnameTextField" layoutX="68.0" layoutY="117.0" prefHeight="30.0" prefWidth="386.0">
          <font>
@@ -64,20 +69,15 @@
             <Font size="13.0" />
          </font>
       </TextField>
-      <Button fx:id="RegisterButton" layoutX="70.0" layoutY="418.0" mnemonicParsing="false" onMouseClicked="#OnRegisterClick" prefHeight="26.0" prefWidth="386.0" style="-fx-background-color: #5d6d7e;" text="Register" textFill="#fff6f6">
-         <font>
-            <Font name="System Bold" size="12.0" />
-         </font>
-      </Button>
       <Button fx:id="CloseButton" layoutX="70.0" layoutY="456.0" mnemonicParsing="false" onMouseClicked="#OnCloseClick" prefHeight="26.0" prefWidth="386.0" style="-fx-background-color: #5d6d7e;" text="Close" textFill="#fff6f6">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Button>
-      <ImageView fitHeight="351.0" fitWidth="336.0" layoutX="184.0" layoutY="188.0" opacity="0.24" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../image/register.png" />
-         </image>
-      </ImageView>
+      <Button fx:id="RegisterButton" layoutX="70.0" layoutY="418.0" mnemonicParsing="false" onMouseClicked="#OnRegisterClick" prefHeight="26.0" prefWidth="386.0" style="-fx-background-color: #5d6d7e;" text="Register" textFill="#fff6f6">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

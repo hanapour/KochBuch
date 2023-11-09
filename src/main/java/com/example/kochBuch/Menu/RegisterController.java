@@ -1,4 +1,4 @@
-package com.example.kochBuch.MenuControllerOrdner;
+package com.example.kochBuch.Menu;
 import com.example.kochBuch.MainApplication;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -30,41 +30,45 @@ public class RegisterController implements Initializable {
 
     }
     @FXML
-    private Button CloseButton;
+    public Button CloseButton;
 
     @FXML
-    private TextField ConfirmTextField;
+    public TextField ConfirmTextField;
 
     @FXML
-    private TextField FirstnameTextField;
+    public TextField FirstnameTextField;
 
     @FXML
-    private TextField LastnameTextField;
+    public TextField LastnameTextField;
 
     @FXML
-    private AnchorPane Pane2;
+    public AnchorPane Pane2;
 
     @FXML
-    private TextField PasswordTextField;
+    public TextField PasswordTextField;
 
     @FXML
-    private Button RegisterButton;
+    public Button RegisterButton;
 
     @FXML
-    private TextField UsernameTextField;
+    public TextField UsernameTextField;
 
     @FXML
-    private ImageView schieldimageView;
+    public ImageView schieldimageView;
     @FXML
-    private Stage primaryStage;
-    /*@FXML
-    void OnCloseRegisterClick(MouseEvent event) throws Exception {
-    CategoryController categoryController= new CategoryController();
-    categoryController.loadStartPage(event);
+    public Stage primaryStage;
 
-    }*/
-    @FXML void OnCloseRegisterClick(MouseEvent event)  throws Exception{
-        loadFXML("/com/example/kochBuch/MenuViewOrdner/MenuView.fxml");
+    @FXML void OnCloseClick(MouseEvent event)  throws Exception{
+        System.out.println("Das Fenster wurde geschlossen!");
+        loadFXML("/com/example/kochBuch/StartView.fxml");
+    }
+    @FXML void OnRegisterClick(MouseEvent event)  throws Exception{
+        System.out.println("Sie wurden registriert!");
+        loadFXML("/com/example/kochBuch/StartView.fxml");
+    }
+    @FXML void OnAnmeldenClick(MouseEvent event)  throws Exception{
+        System.out.println("Sie wurden angemeldet!");
+        loadFXML("/com/example/kochBuch/StartView.fxml");
     }
 
 }
