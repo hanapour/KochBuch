@@ -1,6 +1,9 @@
 package com.example.kochBuch;
 
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
@@ -17,13 +20,10 @@ import java.sql.SQLException;
 import java.util.ResourceBundle;
 
 public class RegisterController implements Initializable {
-    private MouseEvent event;
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
     }
-    @FXML
-    private Button CloseButton;
 
     @FXML
     private TextField ConfirmTextField;
@@ -34,31 +34,32 @@ public class RegisterController implements Initializable {
     @FXML
     private TextField LastnameTextField;
 
-    @FXML
-    private AnchorPane Pane2;
 
     @FXML
     private TextField PasswordTextField;
 
-    @FXML
-    private Button RegisterButton;
 
     @FXML
     private TextField UsernameTextField;
 
-    @FXML
-    private ImageView schieldimageView;
     @FXML
     private TextField AnmeldenPasswordTextField;
 
     @FXML
     private TextField AnmeldenUsernameTextField;
 
+    private void loadFXML(String fxmlFileName) throws Exception {
+        Stage stage = MainApplication.mainstage;
+        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource(fxmlFileName));
+        Parent root = (Parent) fxmlLoader.load();
 
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
     @FXML
     void OnCloseClick(MouseEvent event) throws Exception {
-        CategoryController categoryController = new CategoryController();
-        categoryController.loadStartPage(event);
+        loadFXML("StartView");
     }
 
     @FXML

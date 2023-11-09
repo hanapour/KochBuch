@@ -17,14 +17,19 @@
                         <Image url="@../../../../../../../../Desktop/CockingImage/450064.png" />
                     </image>
                 </ImageView>
-                <Label layoutX="84.0" layoutY="25.0" text="User Anmelden" textFill="#fff6f69e">
+                <Label layoutX="203.0" layoutY="25.0" text="User Anmelden" textFill="#fff6f69e">
                     <font>
                         <Font name="Raanana Bold" size="17.0" />
                     </font>
                 </Label>
-            <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="54.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="175.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../image/benutzer.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="37.0" layoutX="9.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/backButton.png" />
                </image>
             </ImageView>
             </children>

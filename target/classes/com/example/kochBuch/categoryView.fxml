@@ -21,7 +21,7 @@
                         <Image url="@../../../image/salad.png" />
                      </image>
                   </ImageView>
-                  <Text layoutX="110.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vegan" wrappingWidth="84.1796875" AnchorPane.leftAnchor="110.0">
+                  <Text layoutX="110.0" layoutY="76.0" onMouseClicked="#vegan" strokeType="OUTSIDE" strokeWidth="0.0" text="Vegan" wrappingWidth="84.1796875" AnchorPane.leftAnchor="110.0">
                      <font>
                         <Font name="System Bold Italic" size="28.0" />
                      </font>
