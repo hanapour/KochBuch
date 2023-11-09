@@ -161,6 +161,8 @@ public class StartController implements Initializable {
         StackPane_getChildren("AnmeldenView.fxml");
     }
 //Ab hier beginnt der Code für das Gericht des Tages
+    //@FXML
+    //private Label imageLocation2 = "@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0011.jpg";
     int min = 0; // Mindestwert
     int max = 12; // Maximalwert (exklusiv)
 

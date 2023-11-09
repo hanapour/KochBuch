@@ -11,14 +11,14 @@ public class DatabaseConnection {
 
 
     // Methode zum Herstellen der Verbindung zur MySQL-Datenbank
-    public Connection connectToDatabase() {
+    public Connection connectToDatabase() throws SQLException {
         try {
             Connection connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
             System.out.println("Verbindung zur MySQL-Datenbank hergestellt.");
             return connection;
         } catch (SQLException e) {
             System.err.println("Fehler beim Herstellen der Verbindung zur MySQL-Datenbank: " + e.getMessage());
-            return null;
+            throw e;
         }
 
         //
