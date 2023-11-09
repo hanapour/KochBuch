@@ -18,6 +18,7 @@ import java.net.URL;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ResourceBundle;
+import static com.example.kochBuch.RandomNumberGenerator.generateRandomNumber;
 
 public class StartController implements Initializable {
 
@@ -166,7 +167,99 @@ public class StartController implements Initializable {
     void  OnSingInClick(MouseEvent event )throws  Exception{
         StackPane_getChildren("AnmeldenView.fxml");
     }
+//Ab hier beginnt der Code für das Gericht des Tages
+    int min = 0; // Mindestwert
+    int max = 12; // Maximalwert (exklusiv)
 
+    int randomNumber = generateRandomNumber(min, max);
+
+    /*void generateImage(){
+      switch (randomNumber) {
+          case 0:
+              loadFXML("/com/example/kochBuch/GerichteView/fleisch1View.fxml");
+              break;
+          case 1:
+              loadFXML("/com/example/kochBuch/GerichteView/fleisch2View.fxml");
+              break;
+          case 2:
+              loadFXML("/com/example/kochBuch/GerichteView/nachspeise1View.fxml");
+              break;
+          case 3:
+              loadFXML("/com/example/kochBuch/GerichteView/nachspeise2View.fxml");
+              break;
+          case 4:
+              loadFXML("/com/example/kochBuch/GerichteView/persisch1View.fxml");
+              break;
+          case 5:
+              loadFXML("/com/example/kochBuch/GerichteView/persisch2View.fxml");
+              break;
+          case 6:
+              loadFXML("/com/example/kochBuch/GerichteView/seafood1View.fxml");
+              break;
+          case 7:
+              loadFXML("/com/example/kochBuch/GerichteView/seafood2View.fxml");
+              break;
+          case 8:
+              loadFXML("/com/example/kochBuch/GerichteView/vegan1View.fxml");
+              break;
+          case 9:
+              loadFXML("/com/example/kochBuch/GerichteView/vegan2View.fxml");
+              break;
+          case 10:
+              loadFXML("/com/example/kochBuch/GerichteView/vorspeise1View.fxml");
+              break;
+          case 11:
+              loadFXML("/com/example/kochBuch/GerichteView/vorspeise2View.fxml");
+              break;
+          default:
+              loadFXML("/com/example/kochBuch/GerichteView/KategorieView.fxml");
+              break;
+      }*/
+    @FXML
+    void OnGerichtDesTagesClick(MouseEvent event) throws Exception {
+        System.out.println(randomNumber);
+        switch (randomNumber) {
+            case 0:
+                loadFXML("/com/example/kochBuch/GerichteView/fleisch1View.fxml");
+                break;
+            case 1:
+                loadFXML("/com/example/kochBuch/GerichteView/fleisch2View.fxml");
+                break;
+            case 2:
+                loadFXML("/com/example/kochBuch/GerichteView/nachspeise1View.fxml");
+                break;
+            case 3:
+                loadFXML("/com/example/kochBuch/GerichteView/nachspeise2View.fxml");
+                break;
+            case 4:
+                loadFXML("/com/example/kochBuch/GerichteView/persisch1View.fxml");
+                break;
+            case 5:
+                loadFXML("/com/example/kochBuch/GerichteView/persisch2View.fxml");
+                break;
+            case 6:
+                loadFXML("/com/example/kochBuch/GerichteView/seafood1View.fxml");
+                break;
+            case 7:
+                loadFXML("/com/example/kochBuch/GerichteView/seafood2View.fxml");
+                break;
+            case 8:
+                loadFXML("/com/example/kochBuch/GerichteView/vegan1View.fxml");
+                break;
+            case 9:
+                loadFXML("/com/example/kochBuch/GerichteView/vegan2View.fxml");
+                break;
+            case 10:
+                loadFXML("/com/example/kochBuch/GerichteView/vorspeise1View.fxml");
+                break;
+            case 11:
+                loadFXML("/com/example/kochBuch/GerichteView/vorspeise2View.fxml");
+                break;
+            default:
+                loadFXML("/com/example/kochBuch/GerichteView/KategorieView.fxml");
+                break;
+        }
+    }
 
 }
 
