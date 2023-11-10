@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="800.0" style="-fx-background-color: #CCCCFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.Allimages4rezepte">
+    <children>
+        <BorderPane layoutX="39.0" prefHeight="595.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <top>
+                <Pane prefHeight="86.0" prefWidth="800.0" style="-fx-background-color: #F5F1EA;" BorderPane.alignment="CENTER">
+                    <children>
+                        <Label layoutX="300.0" layoutY="21.0" text="Guten Appetit">
+                            <font>
+                                <Font name="System Bold" size="30.0" />
+                            </font>
+                        </Label>
+                  <ImageView fx:id="btnBack" fitHeight="42.0" fitWidth="42.0" layoutX="15.0" layoutY="16.0" onMouseClicked="#OnBackClick" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../image/zurück.png" />
+                     </image>
+                  </ImageView>
+                    </children>
+                </Pane>
+            </top>
+            <center>
+                <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: F5F1EA; -fx-border-color: white; border: 2px 2px 2px 2px;" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane layoutY="53.0" prefHeight="491.0" prefWidth="800.0">
+                     <children>
+                        <ScrollPane fx:id="imageScrollPane" layoutX="4.0" layoutY="-1.0" prefHeight="490.0" prefWidth="794.0">
+                           <content>
+                              <TilePane fx:id="TilePaneRezepte" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="480.0" prefWidth="787.0" />
+                           </content></ScrollPane>
+                     </children>
+                  </AnchorPane>
+               </children></Pane>
+            </center>
+        </BorderPane>
+    </children>
+</AnchorPane>

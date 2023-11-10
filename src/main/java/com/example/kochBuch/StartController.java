@@ -21,30 +21,12 @@ import java.util.ResourceBundle;
 
 public class StartController extends FavoriteController implements Initializable {
 
-
-
     @FXML
     private TextArea StartTexImage;
-
     @FXML
     private ImageView Startimage;
-
-    @FXML
-    private ImageView btnCategory;
-
-    @FXML
-    private ImageView btnFavorite;
-
-    @FXML
-    private ImageView btnMenu;
-
-    @FXML
-    private ImageView btnsearch;
-
     @FXML
     private TextField searchText;
-    @FXML
-    private StackPane StartstackPane;
     @FXML
     private Parent menuRoot;
     @FXML
@@ -117,13 +99,10 @@ public class StartController extends FavoriteController implements Initializable
         } catch (RuntimeException e) {
             throw new RuntimeException(e);
         }
-
     }
     @FXML
     void OnFavoritClick(MouseEvent event) throws Exception {
-
         UserFxmlLoader.loadFXML("FavoritenView.fxml");
-
     }
     @FXML
     void OnHelpClick(MouseEvent event) throws Exception {
@@ -132,7 +111,6 @@ public class StartController extends FavoriteController implements Initializable
     @FXML
     void OnImpressumClick(MouseEvent event) throws Exception {
         UserFxmlLoader.loadFXML("ImpressumView.fxml");
-
     }
     @FXML
     void OnKategorieClick(MouseEvent event)throws Exception  {
@@ -144,7 +122,6 @@ public class StartController extends FavoriteController implements Initializable
         // Zweite Szene aus "registerView.fxml"
         FXMLLoader registerfxmlLoader = new FXMLLoader(MainApplication.class.getResource(view2));
         Scene registerView = new Scene(registerfxmlLoader.load());
-        // StackPane, um beide Szenen übereinander zu legen
         StackPane stackPane = new StackPane();
         stackPane.getChildren().addAll(currentScene.getRoot(),registerView.getRoot());
         stage.setScene(new Scene(stackPane));
@@ -162,6 +139,10 @@ public class StartController extends FavoriteController implements Initializable
     public void onFavoritenButtonClicked(MouseEvent event) throws SQLException {
         FavoriteManipulation favoriteManipulation = new FavoriteManipulation();
         favoriteManipulation.insertOrDelet(RezeptID);
+    }
+    @FXML
+    void OnPlusClick (MouseEvent event) throws Exception{
+        UserFxmlLoader.loadFXML("RezepteView.fxml");
     }
     @Override
     public void initialize(URL location, ResourceBundle resources) {

@@ -5,57 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/FavoriteManipulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/ImageUrlfromFolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Aktualisieren.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/ChelouKababHackfleischspieß.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/Khoreshtghormehsabzi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/MirzaGhasemi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/Schokofondue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/Tiramisu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/VanilleeismitheißenHimbeeren.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/VeganeGemüsepfanne.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/VeganesChilisinCarne.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/DatabaseManipulation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FavoriteManipulation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/ImageUrlfromFolder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/image/Aktualisieren.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/image/GoLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/image/GoRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/image/RezeptImages/ChelouKababHackfleischspieß.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/image/RezeptImages/Khoreshtghormehsabzi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/image/RezeptImages/MirzaGhasemi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/image/RezeptImages/Schokofondue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/image/RezeptImages/Tiramisu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/image/RezeptImages/VanilleeismitheißenHimbeeren.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/image/RezeptImages/VeganeGemüsepfanne.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/image/RezeptImages/VeganesChilisinCarne.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/image/register.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/image/registericon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2023_21_41__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2023_21_41__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/Allimages4rezepte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/RezepteView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/DatabaseManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/DatabaseManipulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/FavoriteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/FavoriteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/FavoritenButtonListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/Menu/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/Menu/RegisterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/AnmeldenView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/AnmeldenView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/FavoritenView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/FavoritenView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/Styel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/registerView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/registerView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/AnmeldenView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/AnmeldenView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FavoriteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FavoriteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FavoritenView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FavoritenView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/RegisterController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/Styel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/registerView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/registerView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/foodLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/image/search 1.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="JavaFXApplication" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -112,7 +68,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/wessa/Downloads/mysql-connector-j-8.2.0/mysql-connector-j-8.2.0/mysql-connector-j-8.2.0.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wessa/IdeaProjects/KochBuch/src/main/resources/com/example/kochBuch&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -140,8 +96,11 @@
       <recent name="$PROJECT_DIR$/src/main/resources/image/CategoryImage" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.kochBuch" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.KochBuch">
     <configuration name="KochBuch" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.kochBuch.MainApplication" />
       <module name="teszo" />
@@ -155,6 +114,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in teszo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="teszo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in teszo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -188,7 +160,9 @@
       <workItem from="1699601905511" duration="20294000" />
       <workItem from="1699626099054" duration="1416000" />
       <workItem from="1699627530543" duration="1072000" />
-      <workItem from="1699636067416" duration="2187000" />
+      <workItem from="1699636067416" duration="3679000" />
+      <workItem from="1699648290475" duration="3403000" />
+      <workItem from="1699651709815" duration="1432000" />
     </task>
     <task id="LOCAL-00001" summary="Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.">
       <option name="closed" value="true" />
@@ -294,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699006092979</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Wessam: Erstellt:neue Klasse FavoritenManipulation für Add und delete von Favoriten ; FavoritenController erzeugt neu Panel bei Addieren von favoriten ,SuchParameter im StartController und automatische erstellung von ImageView">
+      <option name="closed" value="true" />
+      <created>1699638684248</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1699638684248</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,19 +305,20 @@
     <MESSAGE value="universal file" />
     <MESSAGE value="new favorite page , new adjusted" />
     <MESSAGE value="Adjusted Category View" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjusted Category View" />
+    <MESSAGE value="Wessam: Erstellt:neue Klasse FavoritenManipulation für Add und delete von Favoriten ; FavoritenController erzeugt neu Panel bei Addieren von favoriten ,SuchParameter im StartController und automatische erstellung von ImageView" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wessam: Erstellt:neue Klasse FavoritenManipulation für Add und delete von Favoriten ; FavoritenController erzeugt neu Panel bei Addieren von favoriten ,SuchParameter im StartController und automatische erstellung von ImageView" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java</url>
-          <line>93</line>
+          <line>75</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java</url>
-          <line>90</line>
+          <line>72</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
