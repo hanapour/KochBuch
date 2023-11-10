@@ -57,4 +57,7 @@ public class SeafoodController extends Application {
     @FXML void seafood2(MouseEvent event)  throws Exception{
         loadFXML("/com/example/kochBuch/GerichteView/seafood2View.fxml");
     }
+    @FXML void OnHomeClick(MouseEvent event)  throws Exception{
+        loadFXML("/com/example/kochBuch/StartView.fxml");
+    }
 }

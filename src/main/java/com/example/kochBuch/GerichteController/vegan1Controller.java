@@ -52,4 +52,7 @@ public class vegan1Controller extends Application {
     @FXML void OnClickBack(MouseEvent event)  throws Exception{
         loadFXML("/com/example/kochBuch/KategorienView/VeganView.fxml");
     }
+    @FXML void OnHomeClick(MouseEvent event)  throws Exception{
+        loadFXML("/com/example/kochBuch/StartView.fxml");
+    }
 }

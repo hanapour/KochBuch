@@ -1,4 +1,5 @@
 package com.example.kochBuch;
+
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -12,13 +13,21 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ResourceBundle;
+
 import static com.example.kochBuch.RandomNumberGenerator.generateRandomNumber;
+
+import javafx.beans.property.StringProperty;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.fxml.FXML;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 
 public class StartController implements Initializable {
     private void loadFXML(String fxmlFileName) throws Exception {
@@ -31,16 +40,21 @@ public class StartController implements Initializable {
         stage.show();
     }
 
+    @FXML
+    private ImageView imageView;
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-
+        //String imagePath = getImageLocation();
+        //Image image = new Image(getClass().getResourceAsStream(imagePath));
+        //imageView.setImage(image);
     }
 
     @FXML
     private TextArea StartTexImage;
 
-    @FXML
-    private ImageView Startimage;
+    /*@FXML
+    private ImageView Startimage;*/
 
 
     @FXML
@@ -48,13 +62,15 @@ public class StartController implements Initializable {
 
     @FXML
     private boolean isMenuOpen = false;
+
     @FXML
-    void OnCategoryClick(MouseEvent event) throws Exception{
+    void OnCategoryClick(MouseEvent event) throws Exception {
         UserFxmlLoader.loadFXML("categoryView.fxml");
     }
 
     @FXML
     private AnchorPane Panevisibility;
+
     @FXML
     void OnMenuClick(MouseEvent event) throws Exception {
 
@@ -67,10 +83,12 @@ public class StartController implements Initializable {
             isMenuOpen = true;
         }
     }
+
     private void openMenu() {
         Panevisibility.setVisible(true);
     }
-    private void closeMenu(){
+
+    private void closeMenu() {
         Panevisibility.setVisible(false);
 
     }
@@ -79,12 +97,13 @@ public class StartController implements Initializable {
     void OnSearchKilick(MouseEvent event) {
         try {
             String sql = null;
-            String Whereclause ;
-            if(searchText.getText().isEmpty()){
-                sql= "SELECT foto, Zubereitungstext FROM Rezepte WHERE RezeptID >= ? ";
-                Whereclause="(SELECT FLOOR(MAX(rezeptID) * RAND()) FROM Rezepte) LIMIT 1;";
-            }else { Whereclause= searchText.getText();
-                 sql = "SELECT foto, Zubereitungstext FROM Rezepte WHERE Zubereitungstext LIKE ? ";
+            String Whereclause;
+            if (searchText.getText().isEmpty()) {
+                sql = "SELECT foto, Zubereitungstext FROM Rezepte WHERE RezeptID >= ? ";
+                Whereclause = "(SELECT FLOOR(MAX(rezeptID) * RAND()) FROM Rezepte) LIMIT 1;";
+            } else {
+                Whereclause = searchText.getText();
+                sql = "SELECT foto, Zubereitungstext FROM Rezepte WHERE Zubereitungstext LIKE ? ";
             }
 
             ResultSet resultSet = SearchHelper.searchRecipe(sql, Whereclause);
@@ -92,7 +111,7 @@ public class StartController implements Initializable {
             if (resultSet != null) {
                 try {
                     if (resultSet.next()) {
-                        String fotoPath ="C:/Users/wessa/IdeaProjects/KochBuch/src/main/resources/image/CategoryImage/meatgrill.jpeg";
+                        String fotoPath = "C:/Users/wessa/IdeaProjects/KochBuch/src/main/resources/image/CategoryImage/meatgrill.jpeg";
                         // resultSet.getString(foto);
                         String zubereitungstext = resultSet.getString("Zubereitungstext");
                         File file = new File(fotoPath);
@@ -123,6 +142,7 @@ public class StartController implements Initializable {
         UserFxmlLoader.loadFXML("FavoritenView.fxml");
 
     }
+
     @FXML
     void OnHelpClick(MouseEvent event) throws Exception {
         UserFxmlLoader.loadFXML("HilfeView.fxml");
@@ -135,10 +155,11 @@ public class StartController implements Initializable {
     }
 
     @FXML
-    void OnKategorieClick(MouseEvent event)throws Exception  {
+    void OnKategorieClick(MouseEvent event) throws Exception {
         UserFxmlLoader.loadFXML("/com/example/kochBuch/categoryView.fxml");
     }
-    protected static void StackPane_getChildren(String view2) throws Exception{
+
+    protected static void StackPane_getChildren(String view2) throws Exception {
         Stage stage = MainApplication.mainstage;
         Scene currentScene = stage.getScene();
         // Zweite Szene aus "registerView.fxml"
@@ -146,7 +167,7 @@ public class StartController implements Initializable {
         Scene registerView = new Scene(registerfxmlLoader.load());
         // StackPane, um beide Szenen übereinander zu legen
         StackPane stackPane = new StackPane();
-        stackPane.getChildren().addAll(currentScene.getRoot(),registerView.getRoot());
+        stackPane.getChildren().addAll(currentScene.getRoot(), registerView.getRoot());
         stage.setScene(new Scene(stackPane));
         stage.show();
     }
@@ -157,64 +178,153 @@ public class StartController implements Initializable {
     }
 
     @FXML
-    void  OnSingInClick(MouseEvent event )throws  Exception{
+    void OnSingInClick(MouseEvent event) throws Exception {
         StackPane_getChildren("AnmeldenView.fxml");
     }
-//Ab hier beginnt der Code für das Gericht des Tages
-    //@FXML
-    //private Label imageLocation2 = "@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0011.jpg";
+
+    //Ab hier beginnt der Code für das Gericht des Tages
+    @FXML
+    private ImageView Startimage;
+    private final StringProperty imageLocation = new SimpleStringProperty();
+
+    // Getter und Setter für die String-Property
+
+    public String getImageLocation() {
+        generateImagePath();
+        return imageLocation.get();
+    }
+
+    public void setImageLocation(String path) {
+        this.imageLocation.set(path);
+    }
+
+    public StringProperty imageLocationProperty() {
+        return imageLocation;
+    }
     int min = 0; // Mindestwert
     int max = 12; // Maximalwert (exklusiv)
 
     int randomNumber = generateRandomNumber(min, max);
 
-    void generateImage() {
-        String imageLocation;
+    public void generateImagePath() {
         switch (randomNumber) {
             case 0:
-                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0011.jpg");
+                setImageLocation("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0011.jpg");
                 break;
             case 1:
-                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0028.jpg");
+                setImageLocation("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0028.jpg");
                 break;
             case 2:
-                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/nachspeise/IMG_5689.jpg");
+                setImageLocation("@../../../../image/Timo%20Essen%20Bilder/nachspeise/IMG_5689.jpg");
                 break;
             case 3:
-                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/nachspeise/IMG_5690.jpg");
+                setImageLocation("@../../../../image/Timo%20Essen%20Bilder/nachspeise/IMG_5690.jpg");
                 break;
             case 4:
-                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0084.jpg");
+                setImageLocation("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0084.jpg");
                 break;
             case 5:
-                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0110.jpg");
+                setImageLocation("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0110.jpg");
                 break;
             case 6:
-                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0018.jpg");
+                setImageLocation("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0018.jpg");
                 break;
             case 7:
-                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0023.jpg");
+                setImageLocation("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0023.jpg");
                 break;
             case 8:
-                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0112.jpg");
+                setImageLocation("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0112.jpg");
                 break;
             case 9:
-                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0075.jpg");
+                setImageLocation("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0075.jpg");
                 break;
             case 10://vorspeise 1
-                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0040.jpg");
+                setImageLocation("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0040.jpg");
                 break;
             case 11://vorspeise 2
-                imageLocation =("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0020.jpg");
+                setImageLocation("@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0020.jpg");
                 break;
             default:
-                imageLocation =("@../../../image/EssenbilderKategorien/vegan1.jpg");
+                setImageLocation("@../../../image/EssenbilderKategorien/vegan1.jpg");
                 break;
         }
     }
+
+    /*public void generateImagePath() {
+        String dynamicImagePath;
+        switch (randomNumber) {
+            case 0:
+                dynamicImagePath ="@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0011.jpg";
+                Image image = new Image(dynamicImagePath);
+                Startimage.setImage(image);
+                break;
+            case 1:
+                dynamicImagePath ="@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0028.jpg";
+                Image image1 = new Image(dynamicImagePath);
+                Startimage.setImage(image1);
+                break;
+            case 2:
+                dynamicImagePath ="@../../../../image/Timo%20Essen%20Bilder/nachspeise/IMG_5689.jpg";
+                Image image2 = new Image(dynamicImagePath);
+                Startimage.setImage(image2);
+                break;
+            case 3:
+                dynamicImagePath ="@../../../../image/Timo%20Essen%20Bilder/nachspeise/IMG_5690.jpg";
+                Image image3 = new Image(dynamicImagePath);
+                Startimage.setImage(image3);
+                break;
+            case 4:
+                dynamicImagePath ="@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0084.jpg";
+                Image image4 = new Image(dynamicImagePath);
+                Startimage.setImage(image4);
+                break;
+            case 5:
+                dynamicImagePath ="@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0110.jpg";
+                Image image5 = new Image(dynamicImagePath);
+                Startimage.setImage(image5);
+                break;
+            case 6:
+                dynamicImagePath ="@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0018.jpg";
+                Image image6 = new Image(dynamicImagePath);
+                Startimage.setImage(image6);
+                break;
+            case 7:
+                dynamicImagePath ="@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0023.jpg";
+                Image image7 = new Image(dynamicImagePath);
+                Startimage.setImage(image7);
+                break;
+            case 8:
+                dynamicImagePath ="@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0112.jpg";
+                Image image8 = new Image(dynamicImagePath);
+                Startimage.setImage(image8);
+                break;
+            case 9:
+                dynamicImagePath ="@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0075.jpg";
+                Image image9 = new Image(dynamicImagePath);
+                Startimage.setImage(image9);
+                break;
+            case 10://vorspeise 1
+                dynamicImagePath ="@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0040.jpg";
+                Image image10 = new Image(dynamicImagePath);
+                Startimage.setImage(image10);
+                break;
+            case 11://vorspeise 2
+                dynamicImagePath ="@../../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0020.jpg";
+                Image image11 = new Image(dynamicImagePath);
+                Startimage.setImage(image11);
+                break;
+            default:
+                dynamicImagePath ="@../../../image/EssenbilderKategorien/vegan1.jpg";
+                Image image12 = new Image(dynamicImagePath);
+                Startimage.setImage(image12);
+                break;
+        }
+    }*/
+
     @FXML
     void OnGerichtDesTagesClick(MouseEvent event) throws Exception {
         System.out.println(randomNumber);
+        //System.out.println(getImageLocation());
         switch (randomNumber) {
             case 0:
                 loadFXML("/com/example/kochBuch/GerichteView/fleisch1View.fxml");

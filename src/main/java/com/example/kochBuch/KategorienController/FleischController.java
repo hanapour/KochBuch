@@ -57,4 +57,7 @@ public class FleischController extends Application {
     @FXML void fleisch2(MouseEvent event)  throws Exception{
         loadFXML("/com/example/kochBuch/GerichteView/fleisch2View.fxml");
     }
+    @FXML void OnHomeClick(MouseEvent event)  throws Exception{
+        loadFXML("/com/example/kochBuch/StartView.fxml");
+    }
 }

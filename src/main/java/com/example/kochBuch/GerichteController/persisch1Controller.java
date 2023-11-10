@@ -52,4 +52,7 @@ public class persisch1Controller extends Application {
     @FXML void OnClickBack(MouseEvent event)  throws Exception{
         loadFXML("/com/example/kochBuch/KategorienView/PersischView.fxml");
     }
+    @FXML void OnHomeClick(MouseEvent event)  throws Exception{
+        loadFXML("/com/example/kochBuch/StartView.fxml");
+    }
 }

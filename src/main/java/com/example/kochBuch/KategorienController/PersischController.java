@@ -57,4 +57,7 @@ public class PersischController extends Application {
     @FXML void persisch2(MouseEvent event)  throws Exception{
         loadFXML("/com/example/kochBuch/GerichteView/persisch2View.fxml");
     }
+    @FXML void OnHomeClick(MouseEvent event)  throws Exception{
+        loadFXML("/com/example/kochBuch/StartView.fxml");
+    }
 }

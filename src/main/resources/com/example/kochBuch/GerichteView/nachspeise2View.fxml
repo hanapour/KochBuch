@@ -100,7 +100,7 @@
                                 <Font name="System Bold" size="30.0" />
                             </font>
                         </Label>
-                        <ImageView fitHeight="104.0" fitWidth="109.0" layoutX="280.0" layoutY="-9.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="104.0" fitWidth="109.0" layoutX="280.0" layoutY="-9.0" onMouseClicked="#OnHomeClick" pickOnBounds="true" preserveRatio="true">
                             <image>
                                 <Image url="@../../../../image/Icons/foodLogo.png" />
                             </image>

@@ -57,4 +57,7 @@ public class VorspeiseController extends Application {
     @FXML void vorspeise2(MouseEvent event)  throws Exception{
         loadFXML("/com/example/kochBuch/GerichteView/vorspeise2View.fxml");
     }
+    @FXML void OnHomeClick(MouseEvent event)  throws Exception{
+        loadFXML("/com/example/kochBuch/StartView.fxml");
+    }
 }

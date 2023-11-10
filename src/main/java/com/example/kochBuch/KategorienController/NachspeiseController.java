@@ -57,5 +57,8 @@ public class NachspeiseController extends Application {
     @FXML void nachspeise2(MouseEvent event)  throws Exception{
         loadFXML("/com/example/kochBuch/GerichteView/nachspeise2View.fxml");
     }
+    @FXML void OnHomeClick(MouseEvent event)  throws Exception{
+        loadFXML("/com/example/kochBuch/StartView.fxml");
+    }
 
 }
