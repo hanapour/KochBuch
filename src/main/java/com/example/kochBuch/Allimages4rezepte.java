@@ -30,7 +30,7 @@ public class Allimages4rezepte implements Initializable {
     protected void GetRezeptFotos() throws SQLException, MalformedURLException {
         DatabaseConnection databaseConnection = new DatabaseConnection();
         Connection connection = databaseConnection.connectToDatabase();
-        String sql = "SELECT SUBSTRING_INDEX(Foto, 'KochBuch', -1) AS Foto,rezepte.RezeptID  from rezepte WHERE Foto IS NOT NULL";
+        String sql = "SELECT SUBSTRING_INDEX(Foto, 'KochBuch', -1) AS Foto,rezepte.RezeptID  from rezepte WHERE Foto LIKE '%kochbuch%'";
         PreparedStatement preparedStatement = connection.prepareStatement(sql);
         ResultSet resultSet = preparedStatement.executeQuery();
         List<String> fotoPaths = new ArrayList<>();
@@ -52,7 +52,7 @@ public class Allimages4rezepte implements Initializable {
             Image images = new Image(userImage);
             ImageView imageView = new ImageView(images);
             imageView.setPreserveRatio(false);
-            imageView.setFitWidth(350);
+            imageView.setFitWidth(380);
             imageView.setFitHeight(350);
             TilePaneRezepte.getChildren().add(imageView);
             TilePaneRezepte.setOrientation(Orientation.HORIZONTAL);
