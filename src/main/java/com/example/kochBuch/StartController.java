@@ -185,7 +185,7 @@ public class StartController implements Initializable {
     //Ab hier beginnt der Code für das Gericht des Tages
     @FXML
     private ImageView Startimage;
-    private final StringProperty imageLocation = new SimpleStringProperty();
+    private StringProperty imageLocation = new SimpleStringProperty();
 
     // Getter und Setter für die String-Property
 

@@ -16,7 +16,7 @@
 
 <?import javafx.beans.binding.StringBinding?>
 <?import javafx.beans.binding.Binding?>
-<AnchorPane fx:id="StartAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="800.0" style="-fx-background-color: #F5F1EA;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kochBuch.StartController">
+<AnchorPane fx:id="StartAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="800.0" style="-fx-background-color: #F5F1EA;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller ="com.example.kochBuch.StartController">
    <children>
       <Pane prefHeight="83.0" prefWidth="800.0" style="-fx-background-color: #F5F1EA;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -64,7 +64,7 @@
          <children>
             <ImageView fx:id="Startimage" fitHeight="242.0" fitWidth="242.0" onMouseClicked="#OnGerichtDesTagesClick" pickOnBounds="true">
                <image>
-                  <Image url="${StartController.getImageLocation}" />
+                  <Image url="${com.example.kochBuch.StartController.getImageLocation}" />
                </image>
             </ImageView>
             <Pane onMouseClicked="#OnGerichtDesTagesClick" prefHeight="242.0" prefWidth="428.0" style="-fx-background-color: #F5F1EA;">
