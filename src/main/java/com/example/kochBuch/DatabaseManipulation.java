@@ -5,7 +5,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class DatabaseManipulation {
-    public static ResultSet searchRecipe(String sql, String Whereclause) {
+    public static ResultSet statement(String sql, String Whereclause) {
         try {
             DatabaseConnection databaseConnection = new DatabaseConnection();
             Connection connection = databaseConnection.connectToDatabase();
@@ -13,7 +13,7 @@ public class DatabaseManipulation {
                 Whereclause = "";
             }
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
-            preparedStatement.setString(1, "%" + Whereclause + "%");
+            preparedStatement.setString(1,  Whereclause );
             return preparedStatement.executeQuery();
         } catch (SQLException e) {
             throw new RuntimeException(e);

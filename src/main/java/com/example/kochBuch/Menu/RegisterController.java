@@ -78,7 +78,6 @@ public class RegisterController implements Initializable {
                 System.out.println("Passwort und Bestätigung stimmen nicht überein!");
                 return;
             }
-
             String insertQuery = "INSERT INTO Benutzer (Vorname, Nachname, Benutzername, Passwort) VALUES (?, ?, ?, ?)";
             PreparedStatement preparedStatement = connection.prepareStatement(insertQuery);
             preparedStatement.setString(1, Vorname);

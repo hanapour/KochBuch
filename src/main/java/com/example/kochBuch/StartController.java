@@ -19,7 +19,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ResourceBundle;
 
-public class StartController implements FavoritenButtonListener {
+public class StartController extends FavoriteController implements Initializable {
 
 
 
@@ -77,43 +77,39 @@ public class StartController implements FavoritenButtonListener {
         Panevisibility.setVisible(false);
 
     }
-
+    int  RezeptID;
     @FXML
-    void OnSearchKilick(MouseEvent event) {
+    void OnSearchKilick() {
         try {
             String sql = null;
             String Whereclause ;
             if(searchText.getText().isEmpty()){
-                sql= "SELECT foto, Zubereitungstext FROM Rezepte WHERE RezeptID >= ? ";
-                Whereclause="(SELECT FLOOR(MAX(rezeptID) * RAND()) FROM Rezepte) LIMIT 1;";
-            }else { Whereclause= searchText.getText();
-                 sql = "SELECT foto, Zubereitungstext FROM Rezepte WHERE Zubereitungstext LIKE ? ";
+                sql= "SELECT SUBSTRING_INDEX(Foto,'KochBuch/', -1) AS Foto , Zubereitungstext, RezeptID \n" +
+                        "FROM Rezepte \n" +
+                        "WHERE Rezepte.Foto IS NOT NULL  AND Rezepte.RezeptID<> "+RezeptID+" AND RezeptID >=? ";
+                Whereclause="(SELECT FLOOR(MAX(rezeptID) * RAND()) FROM Rezepte WHERE RezeptID ) LIMIT 1;";
+        }else { Whereclause= searchText.getText();
+                sql = "SELECT SUBSTRING_INDEX(Foto,'KochBuch', -1) AS Foto, Zubereitungstext, RezeptID FROM Rezepte WHERE   Rezepte.Foto IS NOT NULL AND Zubereitungstext LIKE '%' ? '%'";
             }
-
-            ResultSet resultSet = DatabaseManipulation.searchRecipe(sql, Whereclause);
-
+            ResultSet resultSet = DatabaseManipulation.statement(sql, Whereclause);
             if (resultSet != null) {
                 try {
                     if (resultSet.next()) {
-                        String fotoPath ="@.." +"src/main/resources/image/CategoryImage/meatgrill.jpeg";
-                        //file:/C:/src/main/resources/image/CategoryImage/meatgrill.jpeg
-                        // resultSet.getString(foto);
+                        String fotoPath ="@.."+ resultSet.getString("Foto");
                         String zubereitungstext = resultSet.getString("Zubereitungstext");
-                        File file = new File(fotoPath);
-                        String t ="@..";
-                        String imageUrl = file.toURI().toURL().toString();
-                        Startimage.setImage(new Image(imageUrl)); // Setze das Bild im ImageView
-                        //file:/C:/Users/wessa/IdeaProjects/KochBuch/@../../../image/CategoryImage/meatgrill.jpeg
+                        RezeptID =resultSet.getInt("RezeptID");
+                       File file = new File(fotoPath);
+                        String image = file.toURI().toURL().toString();
+                        String userFoto =image.replace("@..","");
+                        Startimage.setImage(new Image(userFoto));
                         StartTexImage.setWrapText(true);
-                        StartTexImage.setText(zubereitungstext); // Setze den Text im TextArea
+                        StartTexImage.setText(zubereitungstext);
                     } else {
                         // Kein Ergebnis gefunden ...
                     }
-
                     resultSet.close();
                 } catch (SQLException e) {
                     e.printStackTrace();
-                    // Handle SQL exceptions appropriately
                 } catch (MalformedURLException e) {
                     throw new RuntimeException(e);
                 }
@@ -123,9 +119,9 @@ public class StartController implements FavoritenButtonListener {
         }
 
     }
-
     @FXML
     void OnFavoritClick(MouseEvent event) throws Exception {
+
         UserFxmlLoader.loadFXML("FavoritenView.fxml");
 
     }
@@ -133,13 +129,11 @@ public class StartController implements FavoritenButtonListener {
     void OnHelpClick(MouseEvent event) throws Exception {
         UserFxmlLoader.loadFXML("HilfeView.fxml");
     }
-
     @FXML
     void OnImpressumClick(MouseEvent event) throws Exception {
         UserFxmlLoader.loadFXML("ImpressumView.fxml");
 
     }
-
     @FXML
     void OnKategorieClick(MouseEvent event)throws Exception  {
         UserFxmlLoader.loadFXML("categoryView.fxml");
@@ -156,37 +150,22 @@ public class StartController implements FavoritenButtonListener {
         stage.setScene(new Scene(stackPane));
         stage.show();
     }
-
     @FXML
     void OnSingUpClick(MouseEvent event) throws Exception {
         StackPane_getChildren("registerView.fxml");
     }
-
     @FXML
     void  OnSingInClick(MouseEvent event )throws  Exception{
         StackPane_getChildren("AnmeldenView.fxml");
     }
-
-
-
     @FXML
-    public void onFavoritenButtonClicked(MouseEvent event) throws MalformedURLException {
-        System.out.println("ICH BIN EIN TEST");
-      //  String fotoPath ="meatgrill.jpeg";
-       // File file = new File(fotoPath);
-       // String imageUrl = file.toURI().toURL().toString();
-        //FavoriteController favoriteController = new FavoriteController();
-       // favoriteController.addFavorit(imageUrl);
-        // SELECT Rezept_ID FROM Favoriten Where Rezepte_id = (foto_id)
-        // (if gibt dann Lösche es ,else insert ) in die FavoritenTabelle
-        //boolean isFavorit;
-        //if (isFavorit) {
-        //} else {
-         //   isFavorit = true;
-        //}
+    public void onFavoritenButtonClicked(MouseEvent event) throws SQLException {
+        FavoriteManipulation favoriteManipulation = new FavoriteManipulation();
+        favoriteManipulation.insertOrDelet(RezeptID);
     }
-
-
-
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        OnSearchKilick();
+    }
 }
 

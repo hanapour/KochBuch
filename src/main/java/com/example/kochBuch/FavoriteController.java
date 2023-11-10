@@ -1,81 +1,86 @@
 package com.example.kochBuch;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.geometry.Orientation;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
-import javafx.stage.Stage;
-
+import javafx.scene.layout.TilePane;
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
-public class FavoriteController implements FavoritenButtonListener {
+public class FavoriteController implements Initializable {
     @FXML
     private ScrollPane imageScrollPane;
-
     @FXML
-    private HBox HboxScrollPane;
-    private final List<String> favoritenBilder = new ArrayList<>();
-    private int aktuelleFavoritenIndex = 0;
+    public TilePane TilePaneFavorit;
+    @FXML
+    private HBox favoritenbox;
 
+    private final List<Integer> listRezeptid = new ArrayList<>();
     public void OnBackClick(MouseEvent event) throws Exception {
         UserFxmlLoader.loadFXML("StartView.fxml");
     }
-    public void addFavorit(String bildpfad) {
-        // Das soll aus dem DatenBank:<< Gene alle können local testen und weiter entwickeln >>
-        favoritenBilder.add(bildpfad);
-        ImageView imageView = new ImageView(new Image(bildpfad));
-        imageView.setFitWidth(200); // Passen Sie die Größe an
-        imageView.setPreserveRatio(true);
-        ((HBox) imageScrollPane.getContent()).getChildren().add(imageView);
-    }
-    public void deleteFavorit(int index) {
-        // Hier soll so: wenn noch einmal auf den Favoriten btn gedrückt soll
-        // Delete Statement where Favoriten id gleich rezept id....
-        if (index >= 0 && index < favoritenBilder.size()) {
-            favoritenBilder.remove(index);
-            ((HBox) imageScrollPane.getContent()).getChildren().remove(index);
-        }
-    }
-    // Methode zum Anzeigen des nächsten Favoriten
     @FXML
-    void showNextFavorit(MouseEvent event)  {
-        if (!favoritenBilder.isEmpty()) {
-            aktuelleFavoritenIndex = (aktuelleFavoritenIndex + 1) % favoritenBilder.size();
-            updateImageView();
+    protected void GetFavoriten() throws MalformedURLException, SQLException {
+        DatabaseConnection databaseConnection = new DatabaseConnection();
+        Connection connection = databaseConnection.connectToDatabase();
+        String sql = "SELECT SUBSTRING_INDEX(Foto, 'KochBuch', -1) AS Foto,rezepte.RezeptID  from rezepte\n" +
+                "inner join favoriten on favoriten.RezeptID = rezepte.RezeptID;";
+        PreparedStatement preparedStatement = connection.prepareStatement(sql);
+        ResultSet resultSet = preparedStatement.executeQuery();
+        List<String> fotoPaths = new ArrayList<>();
+        try {
+            while (resultSet.next()) {
+                String fotoPath = resultSet.getString("Foto");
+                String toUserFoto = "@.."+fotoPath;
+                int id = resultSet.getInt("RezeptID");
+                listRezeptid.add(id);
+                fotoPaths.add(toUserFoto);
+
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
-    }
-    // Methode zum Anzeigen des vorherigen Favoriten
-    @FXML
-    void showPreviousFavorit(MouseEvent event) {
-        if (!favoritenBilder.isEmpty()) {
-            aktuelleFavoritenIndex = (aktuelleFavoritenIndex - 1 + favoritenBilder.size()) % favoritenBilder.size();
-            updateImageView();
+        for (String image : fotoPaths) {
+            File file = new File(image);
+            String imageUrl = file.toURI().toURL().toString();
+           String userImage =imageUrl.replace("@..","");
+            Image images = new Image(userImage);
+            ImageView imageView = new ImageView(images);
+            imageView.setPreserveRatio(false);
+            imageView.setFitWidth(200);
+            imageView.setFitHeight(200);
+            TilePaneFavorit.getChildren().add(imageView);
+            TilePaneFavorit.setOrientation(Orientation.HORIZONTAL);
+            // Abstand zwischen den Bildern
+            TilePaneFavorit.setHgap(10);
+            TilePaneFavorit.setVgap(10);
+            TilePaneFavorit.layout();
+            imageScrollPane = new ScrollPane();
+            imageScrollPane.setContent(TilePaneFavorit);
         }
     }
 
-    // Methode zum Aktualisieren des aktuellen Favoritenbildes
-    private void updateImageView() {
-        if (!favoritenBilder.isEmpty()) {
-            String aktuellesBildpfad = favoritenBilder.get(aktuelleFavoritenIndex);
-            ImageView imageView = new ImageView(new Image(aktuellesBildpfad));
-            imageView.setFitWidth(200); // Passen Sie die Größe an
-            imageView.setPreserveRatio(true);
-            ((HBox) imageScrollPane.getContent()).getChildren().setAll(imageView);
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+       try {
+            GetFavoriten();
+        } catch (MalformedURLException e) {
+           throw new RuntimeException(e);
+       } catch (SQLException e) {
+          //  throw new RuntimeException(e);
         }
-    }
-    @FXML
-    public void onFavoritenButtonClicked(MouseEvent event) throws MalformedURLException {
-        System.out.println("ICH BIN EIN TEST");
-        String fotoPath ="C:/Users/wessa/IdeaProjects/KochBuch/src/main/resources/image/CategoryImage/meatgrill.jpeg";
-        File file = new File(fotoPath);
-        String imageUrl = file.toURI().toURL().toString();
-        FavoriteController favoriteController = new FavoriteController();
-        favoriteController.addFavorit(imageUrl);
+
     }
 }

@@ -4,26 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="Hadis/edit feature Dark Mode">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/LogoFood.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/anmeldenBenutzer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/bannerLike.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/faq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/heart.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/impressumOpacity.png" afterDir="false" />
+    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/FavoriteManipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/ImageUrlfromFolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/Aktualisieren.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/ChelouKababHackfleischspieß.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/Khoreshtghormehsabzi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/MirzaGhasemi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/Schokofondue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/Tiramisu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/VanilleeismitheißenHimbeeren.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/VeganeGemüsepfanne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/RezeptImages/VeganesChilisinCarne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/DatabaseManipulation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FavoriteManipulation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/ImageUrlfromFolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/image/Aktualisieren.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/image/GoLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/image/GoRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/image/RezeptImages/ChelouKababHackfleischspieß.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/image/RezeptImages/Khoreshtghormehsabzi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/image/RezeptImages/MirzaGhasemi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/image/RezeptImages/Schokofondue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/image/RezeptImages/Tiramisu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/image/RezeptImages/VanilleeismitheißenHimbeeren.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/image/RezeptImages/VeganeGemüsepfanne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/image/RezeptImages/VeganesChilisinCarne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/image/register.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/image/registericon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2023_21_41__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2023_21_41__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Rezept" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Rezept" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/DatabaseManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/DatabaseManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/FavoriteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/FavoriteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/FavoritenButtonListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/Menu/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/Menu/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/AnmeldenView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/AnmeldenView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/FavoritenView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/FavoritenView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/HilfeView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/HilfeView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/ImpressumView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/ImpressumView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/fleisch1View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/fleisch1View.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/foodLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/search 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/image/search1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Rezept" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Rezept" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/Styel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/registerView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/registerView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/AnmeldenView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/AnmeldenView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FavoriteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FavoriteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FavoritenView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/FavoritenView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/Styel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/registerView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/registerView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/image/foodLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/image/search 1.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +85,9 @@
         <option name="url" value="https://github.com/hanapour/KochBuch" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/resources/com/example/kochBuch/FavoritenView.fxml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -148,6 +183,12 @@
       <workItem from="1699025580882" duration="3146000" />
       <workItem from="1699279001282" duration="693000" />
       <workItem from="1699470701795" duration="5901000" />
+      <workItem from="1699513969783" duration="30533000" />
+      <workItem from="1699548670111" duration="25922000" />
+      <workItem from="1699601905511" duration="20294000" />
+      <workItem from="1699626099054" duration="1416000" />
+      <workItem from="1699627530543" duration="1072000" />
+      <workItem from="1699636067416" duration="2187000" />
     </task>
     <task id="LOCAL-00001" summary="Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.">
       <option name="closed" value="true" />
@@ -259,6 +300,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern." />
@@ -272,6 +324,27 @@
     <MESSAGE value="new favorite page , new adjusted" />
     <MESSAGE value="Adjusted Category View" />
     <option name="LAST_COMMIT_MESSAGE" value="Adjusted Category View" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/com/example/kochBuch/ImageUrlfromFolder.java" line="27">
+        <watch expression="imageUrls.get(0)" language="JAVA" />
+      </inline-watch>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KochBuch$KochBuch.ic" NAME="KochBuch Coverage Results" MODIFIED="1699392543966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

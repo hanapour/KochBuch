@@ -17,11 +17,16 @@
                   <Image url="@../../../../../../../../Desktop/CockingImage/450064.png" />
                </image>
             </ImageView>
-            <Label layoutX="84.0" layoutY="21.0" text="User registeration" textFill="#fff6f69e">
+            <Label layoutX="197.0" layoutY="24.0" text="User registeration" textFill="#0000009e">
                <font>
-                  <Font name="System Bold" size="17.0" />
+                  <Font name="Raanana Bold" size="17.0" />
                </font>
             </Label>
+            <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="157.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/registericon.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
       <Label layoutX="68.0" layoutY="99.0" text="Firstname" />
@@ -64,5 +69,10 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Button>
+      <ImageView fitHeight="230.0" fitWidth="201.0" layoutX="326.0" layoutY="323.0" opacity="0.24" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/register.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
