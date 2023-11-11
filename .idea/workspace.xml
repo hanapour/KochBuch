@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="Wessam:Herzsymbol in Rot zeigt Favoriten an.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" afterDir="false" />
-    </list>
+    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="Wessam:Herzsymbol in Rot zeigt Favoriten an." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
