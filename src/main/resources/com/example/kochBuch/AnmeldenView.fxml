@@ -24,11 +24,6 @@
                   <Image url="@../../../image/benutzer.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="30.0" fitWidth="37.0" layoutX="9.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../../image/backButton.png" />
-               </image>
-            </ImageView>
             </children>
         </AnchorPane>
         <Label layoutX="67.0" layoutY="98.0" text="Username *" />
