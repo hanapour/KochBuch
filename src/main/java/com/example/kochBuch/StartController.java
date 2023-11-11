@@ -22,7 +22,6 @@ import java.util.ResourceBundle;
 public class StartController extends FavoriteController implements Initializable {
     @FXML
     private ImageView btnLike;
-
     @FXML
     private TextArea StartTexImage;
     @FXML
@@ -30,16 +29,11 @@ public class StartController extends FavoriteController implements Initializable
     @FXML
     private TextField searchText;
     @FXML
-    private Parent menuRoot;
-    @FXML
     private boolean isMenuOpen = false;
     @FXML
     void OnCategoryClick(MouseEvent event) throws Exception{
         UserFxmlLoader.loadFXML("categoryView.fxml");
     }
-    @FXML
-    private AnchorPane startView;
-
     @FXML
     private AnchorPane Panevisibility;
     @FXML

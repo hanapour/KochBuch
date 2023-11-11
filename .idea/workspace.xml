@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="Wessam: Anpassung(Rezepten).">
+    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="Wessam:Herzsymbol in Rot zeigt Favoriten an.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/DatabaseManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/DatabaseManipulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/Allimages4rezepte.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/Allimages4rezepte.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/DatabaseManipulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/DatabaseManipulation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +158,9 @@
       <workItem from="1699636067416" duration="3679000" />
       <workItem from="1699648290475" duration="3403000" />
       <workItem from="1699651709815" duration="1596000" />
-      <workItem from="1699654212106" duration="6945000" />
+      <workItem from="1699654212106" duration="7729000" />
+      <workItem from="1699693601280" duration="201000" />
+      <workItem from="1699697774555" duration="524000" />
     </task>
     <task id="LOCAL-00001" summary="Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.">
       <option name="closed" value="true" />
@@ -294,7 +290,31 @@
       <option name="project" value="LOCAL" />
       <updated>1699654928406</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Wessam: Erstellt: Anzeige der Favoriten: Herzsymbol in Rot zeigt Favoriten an.">
+      <option name="closed" value="true" />
+      <created>1699661423312</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1699661423312</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Wessam: Erstellt: Anzeige der Favoriten: Herzsymbol in Rot zeigt Favoriten an.">
+      <option name="closed" value="true" />
+      <created>1699661906578</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1699661906579</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Wessam:Herzsymbol in Rot zeigt Favoriten an.">
+      <option name="closed" value="true" />
+      <created>1699662066399</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1699662066399</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,27 +347,11 @@
     <MESSAGE value="Wessam: Erstellt: View und Klasse Allimages4rezepte alle Fotos aus dem DB" />
     <MESSAGE value="Wessam: Layout(Rezepten)." />
     <MESSAGE value="Wessam: Anpassung(Rezepten)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Wessam: Anpassung(Rezepten)." />
+    <MESSAGE value="Wessam: Erstellt: Anzeige der Favoriten: Herzsymbol in Rot zeigt Favoriten an." />
+    <MESSAGE value="Wessam:Herzsymbol in Rot zeigt Favoriten an." />
+    <option name="LAST_COMMIT_MESSAGE" value="Wessam:Herzsymbol in Rot zeigt Favoriten an." />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java</url>
-          <line>151</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java</url>
-          <line>149</line>
-          <properties class="com.example.kochBuch.StartController" method="favoritOrNot">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/com/example/kochBuch/ImageUrlfromFolder.java" line="27">
         <watch expression="imageUrls.get(0)" language="JAVA" />
