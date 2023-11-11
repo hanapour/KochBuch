@@ -25,6 +25,5 @@ public class MainApplication extends Application {
         mainstage.setScene(maimscene);
         mainstage.show();
     }
-
 }
 
