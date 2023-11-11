@@ -18,30 +18,30 @@
    <children>
       <Pane prefHeight="83.0" prefWidth="800.0" style="-fx-background-color: #F5F1EA;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <ImageView fx:id="btnMenu" fitHeight="49.0" fitWidth="76.0" layoutX="14.0" layoutY="13.0" onMouseClicked="#OnMenuClick" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="btnMenu" fitHeight="49.0" fitWidth="43.0" layoutX="20.0" layoutY="18.0" onMouseClicked="#OnMenuClick" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../image/menuIcon.png" />
                </image>
             </ImageView>
-            <Text layoutX="323.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KochBuch">
+            <Text layoutX="321.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KochBuch" wrappingWidth="192.03515625">
                <font>
-                  <Font name="System Bold" size="26.0" />
+                  <Font name="Raanana Bold" size="36.0" />
                </font>
             </Text>
-            <ImageView fx:id="btnCategory" fitHeight="58.0" fitWidth="67.0" layoutX="679.0" layoutY="9.0" onMouseClicked="#OnCategoryClick" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="btnCategory" fitHeight="42.0" fitWidth="42.0" layoutX="683.0" layoutY="19.0" onMouseClicked="#OnCategoryClick" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../image/kategorie.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="btnFavorite" fitHeight="69.0" fitWidth="49.0" layoutX="737.0" layoutY="13.0" onMouseClicked="#OnFavoritClick" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="btnFavorite" fitHeight="42.0" fitWidth="42.0" layoutX="735.0" layoutY="19.0" onMouseClicked="#OnFavoritClick" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../image/favorite.png" />
                </image>
             </ImageView>
             <Line endX="698.9999389648438" endY="7.62939453125E-6" layoutX="101.0" layoutY="84.0" startX="-101.0" startY="7.62939453125E-6" />
-            <ImageView fitHeight="72.0" fitWidth="79.0" layoutX="245.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="72.0" fitWidth="79.0" layoutX="236.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../image/logoFood.png" />
+                  <Image url="@../../../image/LogoFood.png" />
                </image>
             </ImageView>
             <ButtonBar layoutX="88.0" layoutY="9.0" prefHeight="40.0" prefWidth="62.0" />
@@ -60,37 +60,28 @@
       </ImageView>
       <Text layoutX="313.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gericht des Tages">
          <font>
-            <Font name="System Bold" size="26.0" />
+            <Font name="Raanana Bold" size="27.0" />
          </font>
       </Text>
-      <HBox layoutX="79.0" layoutY="286.0" prefHeight="242.0" prefWidth="642.0">
+      <HBox layoutX="77.0" layoutY="286.0" prefHeight="201.0" prefWidth="644.0">
          <children>
-            <ImageView fx:id="Startimage" fitHeight="242.0" fitWidth="242.0" pickOnBounds="true">
+            <ImageView fx:id="Startimage" fitHeight="199.0" fitWidth="236.0" pickOnBounds="true">
                <image>
                   <Image url="@../../../image/EssenbilderKategorien/vegan1.jpg" />
                </image></ImageView>
-            <Pane prefHeight="242.0" prefWidth="428.0" style="-fx-background-color: #F5F1EA;">
+            <Pane prefHeight="242.0" prefWidth="428.0" style="-fx-background-color: white;">
                <children>
-                  <ImageView fx:id="btnLike" fitHeight="63.0" fitWidth="26.0" layoutX="374.0" layoutY="1.0" onMouseClicked="#onFavoritenButtonClicked" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="btnLike" fitHeight="26.0" fitWidth="26.0" layoutX="374.0" layoutY="4.0" onMouseClicked="#onFavoritenButtonClicked" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../image/favorite.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="345.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="344.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../image/share.png" />
                      </image>
                   </ImageView>
-                  <Button fx:id="plus" layoutX="50.0" layoutY="174.0" mnemonicParsing="false" onMouseClicked="#OnPlusClick" prefHeight="38.0" prefWidth="138.0" style="-fx-background-color: #F5F1EA;" text="weiter Anzeigen">
-                     <graphic>
-                        <ImageView fx:id="btnPlus" fitHeight="33.0" fitWidth="23.0" onMouseClicked="#OnPlusClick" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../../../image/plus.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <TextArea fx:id="StartTexImage" layoutX="8.0" layoutY="14.0" prefHeight="151.0" prefWidth="337.0" style="-fx-background-color: #F5F1EA;" />
+                  <TextArea fx:id="StartTexImage" prefHeight="201.0" prefWidth="344.0" style="-fx-background-color: white;" />
                </children>
             </Pane>
          </children>
@@ -113,5 +104,14 @@
             </VBox>
          </children>
       </AnchorPane>
+      <Button fx:id="plus" layoutX="322.0" layoutY="516.0" mnemonicParsing="false" onMouseClicked="#OnPlusClick" prefHeight="38.0" prefWidth="138.0" style="-fx-background-color: white;" text="weiter Anzeigen">
+         <graphic>
+            <ImageView fx:id="btnPlus" fitHeight="33.0" fitWidth="23.0" onMouseClicked="#OnPlusClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/plus.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
    </children>
 </AnchorPane>

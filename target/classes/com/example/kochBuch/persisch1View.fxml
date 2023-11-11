@@ -95,9 +95,9 @@
             <top>
                 <Pane prefHeight="86.0" prefWidth="800.0" style="-fx-background-color: #f5f5f5;" BorderPane.alignment="CENTER">
                     <children>
-                        <Label layoutX="370.0" layoutY="21.0" text="Chelo Kebab">
+                        <Label layoutX="316.0" layoutY="24.0" text="Chelo Kebab">
                             <font>
-                                <Font name="System Bold" size="30.0" />
+                                <Font name="Raanana Bold" size="30.0" />
                             </font>
                         </Label>
                         <ImageView fitHeight="104.0" fitWidth="109.0" layoutX="280.0" layoutY="-9.0" pickOnBounds="true" preserveRatio="true">
@@ -118,13 +118,18 @@
                     <children>
                         <Text layoutX="12.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zutaten:Für das Fleisch:    500 g Lamm- oder Rindfleisch (zum Beispiel Lammhackfleisch oder Rinderhackfleisch)    1 Zwiebel, fein gewürfelt    2 Knoblauchzehen, gehackt    1 Teelöffel gemahlener Kurkuma    1 Teelöffel gemahlener Kreuzkümmel    Salz und Pfeffer nach GeschmackFür den Reis:    2 Tassen Basmati-Reis    4 Tassen Wasser    SalzFür die Tomaten und Paprika:    2 Tomaten, in Scheiben geschnitten    2 grüne Paprikaschoten, halbiert und entkerntFür die Marinade:    3 Esslöffel Joghurt    2 Esslöffel Olivenöl    1 Teelöffel gemahlener Safran (in 2 Esslöffeln heißem Wasser aufgelöst)    Salz und Pfeffer nach GeschmackAnleitung:    Zuerst den Reis vorbereiten. Den Basmati-Reis gründlich waschen und in einem großen Topf mit Salzwasser etwa 10-15 Minuten kochen, bis er halb gar ist. Dann abtropfen lassen.    In einem anderen großen Topf etwas Öl erhitzen. Legen Sie den halb gegarten Reis in den Topf und bilden Sie einen Kegel in der Mitte.    Wickeln Sie den Deckel des Topfes in ein sauberes Geschirrtuch, um den Dampf einzufangen, und decken Sie den Topf damit ab. Lassen Sie den Reis bei niedriger Hitze etwa 30 Minuten dämpfen, bis er gar und die untere Schicht knusprig ist.    In der Zwischenzeit das Fleisch vorbereiten. Mischen Sie das gewürfelte Fleisch mit Zwiebeln, Knoblauch, Kurkuma, Kreuzkümmel, Salz und Pfeffer. Lassen Sie die Mischung mindestens eine Stunde lang marinieren.    Die Tomatenscheiben und Paprikahälften leicht mit Öl bestreichen.    Die Fleischstücke auf Holzspieße stecken oder direkt auf den Grillrost legen.    Grillen Sie das Fleisch, die Tomaten und Paprika über Holzkohlen oder in einem Grill bis sie gut durchgegart und leicht geröstet sind. Achten Sie darauf, das Fleisch nicht zu trocken zu grillen.    Während das Fleisch grillt, bereiten Sie die Safranmarinade zu, indem Sie Safran in heißem Wasser auflösen und es mit Joghurt, Olivenöl, Salz und Pfeffer vermengen.    Den gegrillten Reis auf einem Teller anrichten und den Safranjoghurt darüber gießen.    Servieren Sie das gegrillte Fleisch, die gegrillten Tomaten und Paprika auf einem separaten Teller.Zutaten:Für das Fleisch:    500 g Lamm- oder Rindfleisch (zum Beispiel Lammhackfleisch oder Rinderhackfleisch)    1 Zwiebel, fein gewürfelt    2 Knoblauchzehen, gehackt    1 Teelöffel gemahlener Kurkuma    1 Teelöffel gemahlener Kreuzkümmel    Salz und Pfeffer nach GeschmackFür den Reis:    2 Tassen Basmati-Reis    4 Tassen Wasser    SalzFür die Tomaten und Paprika:    2 Tomaten, in Scheiben geschnitten    2 grüne Paprikaschoten, halbiert und entkerntFür die Marinade:    3 Esslöffel Joghurt    2 Esslöffel Olivenöl    1 Teelöffel gemahlener Safran (in 2 Esslöffeln heißem Wasser aufgelöst)    Salz und Pfeffer nach GeschmackAnleitung:    Zuerst den Reis vorbereiten. Den Basmati-Reis gründlich waschen und in einem großen Topf mit Salzwasser etwa 10-15 Minuten kochen, bis er halb gar ist. Dann abtropfen lassen.    In einem anderen großen Topf etwas Öl erhitzen. Legen Sie den halb gegarten Reis in den Topf und bilden Sie einen Kegel in der Mitte.    Wickeln Sie den Deckel des Topfes in ein sauberes Geschirrtuch, um den Dampf einzufangen, und decken Sie den Topf damit ab. Lassen Sie den Reis bei niedriger Hitze etwa 30 Minuten dämpfen, bis er gar und die untere Schicht knusprig ist.    In der Zwischenzeit das Fleisch vorbereiten. Mischen Sie das gewürfelte Fleisch mit Zwiebeln, Knoblauch, Kurkuma, Kreuzkümmel, Salz und Pfeffer. Lassen Sie die Mischung mindestens eine Stunde lang marinieren.    Die Tomatenscheiben und Paprikahälften leicht mit Öl bestreichen.    Die Fleischstücke auf Holzspieße stecken oder direkt auf den Grillrost legen.    Grillen Sie das Fleisch, die Tomaten und Paprika über Holzkohlen oder in einem Grill bis sie gut durchgegart und leicht geröstet sind. Achten Sie darauf, das Fleisch nicht zu trocken zu grillen.    Während das Fleisch grillt, bereiten Sie die Safranmarinade zu, indem Sie Safran in heißem Wasser auflösen und es mit Joghurt, Olivenöl, Salz und Pfeffer vermengen.    Den gegrillten Reis auf einem Teller anrichten und den Safranjoghurt darüber gießen.    Servieren Sie das gegrillte Fleisch, die gegrillten Tomaten und Paprika auf einem separaten Teller." wrappingWidth="596.5367431640625">
                      <font>
-                        <Font size="7.0" />
+                        <Font name="Raanana" size="10.0" />
                      </font></Text>
-                        <ImageView fitHeight="187.0" fitWidth="619.0" layoutX="144.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="182.0" fitWidth="182.0" layoutX="100.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0084.jpg" />
+                                <Image url="@../../../image/RezeptImages/secondKebab.jpg" />
                             </image>
                         </ImageView>
+                  <ImageView fitHeight="182.0" fitWidth="182.0" layoutX="300.0" layoutY="8.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../../../image/RezeptImages/kabab.png" />
+                     </image>
+                  </ImageView>
                     </children></Pane>
             </center>
         </BorderPane>
