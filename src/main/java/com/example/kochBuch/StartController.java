@@ -155,12 +155,17 @@ public class StartController extends FavoriteController implements Initializable
         try {
             if (isfavorit.next()) {
                 int count = isfavorit.getInt(1);
-                String imagePath = count > 0 ? "C:\\Users\\wessa\\IdeaProjects\\KochBuch\\src\\main\\resources\\image\\HerzRot.png" : "C:\\Users\\wessa\\IdeaProjects\\KochBuch\\src\\main\\resources\\image\\herz.png";
-                Image image = new Image(new File(imagePath).toURI().toString());
+                String imagePath = count > 0 ? "@..\\src\\main\\resources\\image\\HerzRot.png" : "C:@..\\src\\main\\resources\\image\\herz.png";
+                File file = new File(imagePath);
+                String images = file.toURI().toURL().toString();
+                String userFoto =images.replace("@..","");
+                Image image = new Image(userFoto);
                 btnLike.setImage(image);
             }
         } catch (SQLException e) {
             e.printStackTrace(); // Handle any SQL exception here
+        } catch (MalformedURLException e) {
+            throw new RuntimeException(e);
         }
     }
     @FXML
