@@ -109,7 +109,7 @@
             </AnchorPane>
         </content>
       </ScrollPane>
-      <Pane layoutX="14.0" layoutY="7.0" prefHeight="96.0" prefWidth="800.0" style="-fx-background-color: #F5F1EA;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <Pane layoutX="14.0" layoutY="7.0" prefHeight="96.0" prefWidth="800.0" style="-fx-background-color: #F5F1EA; -fx-border-width: 2px 2px; -fx-border-color: white;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <Text layoutX="335.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kategorie" wrappingWidth="189.94921875">
                <font>

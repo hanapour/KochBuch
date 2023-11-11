@@ -1,5 +1,4 @@
 package com.example.kochBuch;
-
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -23,19 +22,21 @@ import java.sql.SQLException;
 import java.util.Objects;
 import java.util.ResourceBundle;
 
-public class StartController implements Initializable {
-
+public class StartController extends FavoriteController implements Initializable {
+    @FXML
+    private ImageView btnLike;
     @FXML
     private AnchorPane parent;
     @FXML
     private Button btnChangeMode;
-
     @FXML
     private ImageView changeImage;
     private boolean isDarkMode = false;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        OnSearchKilick();
+        favoritOrNot();
         btnChangeMode.setOnMouseClicked(event -> {
             toggleDarkMode();
         });
@@ -64,35 +65,16 @@ public class StartController implements Initializable {
 
     @FXML
     private TextArea StartTexImage;
-
     @FXML
-   private ImageView Startimage;
-
-    @FXML
-    private ImageView btnCategory;
-
-    @FXML
-    private ImageView btnFavorite;
-
-    @FXML
-    private ImageView btnMenu;
-
-    @FXML
-    private ImageView btnsearch;
-
+    private ImageView Startimage;
     @FXML
     private TextField searchText;
-    @FXML
-    private StackPane StartstackPane;
-    @FXML
-    private Parent menuRoot;
     @FXML
     private boolean isMenuOpen = false;
     @FXML
     void OnCategoryClick(MouseEvent event) throws Exception{
         UserFxmlLoader.loadFXML("categoryView.fxml");
     }
-
     @FXML
     private AnchorPane Panevisibility;
     @FXML
@@ -101,7 +83,6 @@ public class StartController implements Initializable {
         if (isMenuOpen) {
             closeMenu();
             isMenuOpen = false;
-            System.out.println("closeMenu() wurde aufgerufen");
         } else {
             openMenu();
             isMenuOpen = true;
@@ -114,87 +95,118 @@ public class StartController implements Initializable {
         Panevisibility.setVisible(false);
 
     }
-
+    int  RezeptID;
     @FXML
-    void OnSearchKilick(MouseEvent event) {
+    void OnSearchKilick() {
         try {
-            String Whereclause = searchText.getText();
-
-            String sql = "SELECT foto, Zubereitungstext FROM Rezepte WHERE Zubereitungstext LIKE ?";
-            ResultSet resultSet = SearchHelper.searchRecipe(sql, Whereclause);
-
+            String sql = null;
+            String Whereclause ;
+            if(searchText.getText().isEmpty()){
+                sql= "SELECT SUBSTRING_INDEX(Foto,'KochBuch/', -1) AS Foto , Zubereitungstext, RezeptID \n" +
+                        "FROM Rezepte \n" +
+                        "WHERE Rezepte.Foto IS NOT NULL  AND Rezepte.RezeptID<> "+RezeptID+" AND RezeptID >=? ";
+                Whereclause="(SELECT FLOOR(MAX(rezeptID) * RAND()) FROM Rezepte WHERE RezeptID ) LIMIT 1;";
+        }else { Whereclause= searchText.getText();
+                sql = "SELECT SUBSTRING_INDEX(Foto,'KochBuch', -1) AS Foto, Zubereitungstext, RezeptID FROM Rezepte WHERE Rezepte.Foto IS NOT NULL AND Zubereitungstext LIKE '%' ? '%' ORDER BY RAND() LIMIT 1 ;";
+            }
+            ResultSet resultSet = DatabaseManipulation.statement(sql, Whereclause);
             if (resultSet != null) {
                 try {
                     if (resultSet.next()) {
-                        String fotoPath ="C:/Users/wessa/IdeaProjects/KochBuch/src/main/resources/image/CategoryImage/meatgrill.jpeg";
-                                // resultSet.getString(foto);
+
+                        String fotoPath ="@.."+ resultSet.getString("Foto");
                         String zubereitungstext = resultSet.getString("Zubereitungstext");
-                        File file = new File(fotoPath);
-                        String imageUrl = file.toURI().toURL().toString();
-                        Startimage.setImage(new Image(imageUrl)); // Setze das Bild im ImageView
+                        RezeptID =resultSet.getInt("RezeptID");
+                       File file = new File(fotoPath);
+                        String image = file.toURI().toURL().toString();
+                        String userFoto =image.replace("@..","");
+                        Startimage.setImage(new Image(userFoto));
                         StartTexImage.setWrapText(true);
-                        StartTexImage.setText(zubereitungstext); // Setze den Text im TextArea
+                        StartTexImage.setText(zubereitungstext);
+                        favoritOrNot();
                     } else {
                         // Kein Ergebnis gefunden ...
                     }
-
                     resultSet.close();
                 } catch (SQLException e) {
                     e.printStackTrace();
-                    // Handle SQL exceptions appropriately
                 } catch (MalformedURLException e) {
                     throw new RuntimeException(e);
                 }
+
             }
         } catch (RuntimeException e) {
             throw new RuntimeException(e);
         }
 
-    }
 
+    }
     @FXML
     void OnFavoritClick(MouseEvent event) throws Exception {
         UserFxmlLoader.loadFXML("FavoritenView.fxml");
-
     }
     @FXML
     void OnHelpClick(MouseEvent event) throws Exception {
         UserFxmlLoader.loadFXML("HilfeView.fxml");
     }
-
     @FXML
     void OnImpressumClick(MouseEvent event) throws Exception {
         UserFxmlLoader.loadFXML("ImpressumView.fxml");
-
     }
-
     @FXML
     void OnKategorieClick(MouseEvent event)throws Exception  {
         UserFxmlLoader.loadFXML("categoryView.fxml");
     }
-
-    @FXML
-    void OnSingUpClick(MouseEvent event) throws Exception {
+    protected static void StackPane_getChildren(String view2) throws Exception{
         Stage stage = MainApplication.mainstage;
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("StartView.fxml"));
-        Scene currentScene = new Scene(fxmlLoader.load());
-
+        Scene currentScene = stage.getScene();
         // Zweite Szene aus "registerView.fxml"
-        FXMLLoader registerfxmlLoader = new FXMLLoader(MainApplication.class.getResource("registerView.fxml"));
+        FXMLLoader registerfxmlLoader = new FXMLLoader(MainApplication.class.getResource(view2));
         Scene registerView = new Scene(registerfxmlLoader.load());
-        // StackPane, um beide Szenen übereinander zu legen
         StackPane stackPane = new StackPane();
         stackPane.getChildren().addAll(currentScene.getRoot(),registerView.getRoot());
         stage.setScene(new Scene(stackPane));
         stage.show();
     }
-
+    @FXML
+    void OnSingUpClick(MouseEvent event) throws Exception {
+        StackPane_getChildren("registerView.fxml");
+    }
     @FXML
     void  OnSingInClick(MouseEvent event )throws  Exception{
-        UserFxmlLoader.loadFXML("AnmeldenView.fxml");
+        StackPane_getChildren("AnmeldenView.fxml");
     }
+    @FXML
+    public void onFavoritenButtonClicked(MouseEvent event) throws SQLException {
+        FavoriteManipulation favoriteManipulation = new FavoriteManipulation();
+        favoriteManipulation.insertOrDelet(RezeptID);
+        favoritOrNot();
+    }
+    void favoritOrNot(){
+        String sqlstatment ="SELECT count(*) FROM favoriten where favoriten.RezeptID= ?";
+        int where= RezeptID;
 
-
+       ResultSet isfavorit =  DatabaseManipulation.statementINT(sqlstatment,where);
+        try {
+            if (isfavorit.next()) {
+                int count = isfavorit.getInt(1);
+                String imagePath = count > 0 ? "@../src/main/resources/image/HerzRot.png" : "@../src/main/resources/image/herz.png";
+                File file = new File(imagePath);
+                String images = file.toURI().toURL().toString();
+                String userFoto =images.replace("@..","");
+                Image image = new Image(userFoto);
+                btnLike.setImage(image);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace(); // Handle any SQL exception here
+        } catch (MalformedURLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    @FXML
+    void OnPlusClick (MouseEvent event) throws Exception{
+        UserFxmlLoader.loadFXML("RezepteView.fxml");
+    }
 
 }
 
