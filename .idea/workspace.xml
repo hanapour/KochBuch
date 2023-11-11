@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="Wessam: Database">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="Hadis/ layout adjustment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/persisch2View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/persisch2View.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/DatabaseConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/persisch1View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/persisch1View.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/persisch2View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/persisch2View.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +92,7 @@
       <recent name="C:\Users\wessa\IdeaProjects\KochBuch\src\main\resources\com\example\kochBuch" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/image/RezeptImages" />
       <recent name="$PROJECT_DIR$/src/main/resources/image" />
       <recent name="$PROJECT_DIR$/src/main/resources/image/CategoryImage" />
       <recent name="$PROJECT_DIR$/src" />
@@ -352,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699714627334</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Hadis/ layout adjustment">
+      <option name="closed" value="true" />
+      <created>1699739917353</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1699739917353</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +400,9 @@
     <MESSAGE value="Wessam:Herzsymbol in Rot zeigt Favoriten an." />
     <MESSAGE value="Wessam: Herzsymbol url für alle user." />
     <MESSAGE value="Wessam: Database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wessam: Database" />
+    <MESSAGE value="hadis: merge 'feature' into 'main'" />
+    <MESSAGE value="Hadis/ layout adjustment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hadis/ layout adjustment" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

@@ -95,16 +95,11 @@
             <top>
                 <Pane prefHeight="86.0" prefWidth="800.0" style="-fx-background-color: #f5f5f5;" BorderPane.alignment="CENTER">
                     <children>
-                        <Label layoutX="370.0" layoutY="21.0" text="Ghormeh Sabzi">
+                        <Label layoutX="306.0" layoutY="26.0" text="Ghormeh Sabzi">
                             <font>
-                                <Font name="System Bold" size="30.0" />
+                                <Font name="Raanana Bold" size="28.0" />
                             </font>
                         </Label>
-                        <ImageView fitHeight="104.0" fitWidth="109.0" layoutX="280.0" layoutY="-9.0" pickOnBounds="true" preserveRatio="true">
-                            <image>
-                                <Image url="@../../../image/foodLogo.png" />
-                            </image>
-                        </ImageView>
                         <ImageView fitHeight="44.0" fitWidth="38.0" layoutX="14.0" layoutY="25.0" onMouseClicked="#OnClickBack" pickOnBounds="true" preserveRatio="true">
                             <image>
                                 <Image url="@../../../image/backButton.png" />
@@ -116,12 +111,20 @@
             <center>
                 <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: f5f5f5; -fx-border-color: white; -fx-border-width: 2px 2px 2px 2px;" BorderPane.alignment="CENTER">
                     <children>
-                        <Text layoutX="12.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zutaten:Für den Eintopf:    400 g Lammfleisch (Lammkeule oder -schulter), gewürfelt    2 Zwiebeln, fein gehackt    3 Tassen frische Kräuter (Petersilie, Koriander, Schnittlauch, Dill), fein gehackt    2-3 getrocknete Limetten (Limoo Amani)    1 Dose rote Bohnen (ca. 400 g), abgetropft und gespült    2-3 Esslöffel Öl    1 Teelöffel gemahlener Kurkuma    Salz und Pfeffer nach Geschmack    WasserFür die Gewürzmischung:    1 Teelöffel gemahlener Kreuzkümmel    1 Teelöffel gemahlener Koriander    1/2 Teelöffel gemahlener Paprika    1/2 Teelöffel gemahlener ZimtAnleitung:    Die getrockneten Limetten gründlich waschen und einstechen. Dann in einem kleinen Topf mit etwas Wasser zum Kochen bringen und 10-15 Minuten köcheln lassen, bis sie weich sind. Dies verleiht dem Gericht seinen charakteristischen sauren Geschmack.    In einem großen Topf oder einem Schmortopf das Öl erhitzen und die gehackten Zwiebeln darin goldbraun anbraten.    Das gewürfelte Lammfleisch hinzufügen und bei mittlerer Hitze anbraten, bis es rundherum leicht gebräunt ist.    Fügen Sie Kurkuma und die vorbereitete Gewürzmischung hinzu, und braten Sie alles für weitere 2-3 Minuten, bis die Gewürze duften.    Fügen Sie die gehackten Kräuter hinzu und braten Sie sie für etwa 5 Minuten an, bis sie welken und ihr Aroma freisetzen.    Gießen Sie ausreichend Wasser in den Topf, um die Zutaten zu bedecken (normalerweise etwa 2-3 Tassen). Dann die abgetropften roten Bohnen und die vorbereiteten, weichen Limetten hinzufügen. Mit Salz und Pfeffer abschmecken.    Den Eintopf bei niedriger Hitze zugedeckt etwa 2-3 Stunden köcheln lassen. Achten Sie darauf, zwischendurch Wasser hinzuzufügen, wenn der Eintopf zu trocken wird. Er sollte eine dicke Konsistenz haben.    Servieren Sie Ghormeh Sabzi heiß, idealerweise mit Basmati-Reis." wrappingWidth="596.5367431640625" />
-                        <ImageView fitHeight="187.0" fitWidth="619.0" layoutX="144.0" pickOnBounds="true" preserveRatio="true">
+                        <Text layoutX="12.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zutaten:Für den Eintopf:    400 g Lammfleisch (Lammkeule oder -schulter), gewürfelt    2 Zwiebeln, fein gehackt    3 Tassen frische Kräuter (Petersilie, Koriander, Schnittlauch, Dill), fein gehackt    2-3 getrocknete Limetten (Limoo Amani)    1 Dose rote Bohnen (ca. 400 g), abgetropft und gespült    2-3 Esslöffel Öl    1 Teelöffel gemahlener Kurkuma    Salz und Pfeffer nach Geschmack    WasserFür die Gewürzmischung:    1 Teelöffel gemahlener Kreuzkümmel    1 Teelöffel gemahlener Koriander    1/2 Teelöffel gemahlener Paprika    1/2 Teelöffel gemahlener ZimtAnleitung:    Die getrockneten Limetten gründlich waschen und einstechen. Dann in einem kleinen Topf mit etwas Wasser zum Kochen bringen und 10-15 Minuten köcheln lassen, bis sie weich sind. Dies verleiht dem Gericht seinen charakteristischen sauren Geschmack.    In einem großen Topf oder einem Schmortopf das Öl erhitzen und die gehackten Zwiebeln darin goldbraun anbraten.    Das gewürfelte Lammfleisch hinzufügen und bei mittlerer Hitze anbraten, bis es rundherum leicht gebräunt ist.    Fügen Sie Kurkuma und die vorbereitete Gewürzmischung hinzu, und braten Sie alles für weitere 2-3 Minuten, bis die Gewürze duften.    Fügen Sie die gehackten Kräuter hinzu und braten Sie sie für etwa 5 Minuten an, bis sie welken und ihr Aroma freisetzen.    Gießen Sie ausreichend Wasser in den Topf, um die Zutaten zu bedecken (normalerweise etwa 2-3 Tassen). Dann die abgetropften roten Bohnen und die vorbereiteten, weichen Limetten hinzufügen. Mit Salz und Pfeffer abschmecken.    Den Eintopf bei niedriger Hitze zugedeckt etwa 2-3 Stunden köcheln lassen. Achten Sie darauf, zwischendurch Wasser hinzuzufügen, wenn der Eintopf zu trocken wird. Er sollte eine dicke Konsistenz haben.    Servieren Sie Ghormeh Sabzi heiß, idealerweise mit Basmati-Reis." wrappingWidth="596.5367431640625">
+                     <font>
+                        <Font name="Raanana" size="12.0" />
+                     </font></Text>
+                        <ImageView fitHeight="252.0" fitWidth="252.0" layoutX="39.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@../../../image/Timo%20Essen%20Bilder/IMG-20231031-WA0110.jpg" />
+                                <Image url="@../../../image/RezeptImages/Khoreshtghormehsabzi.jpg" />
                             </image>
                         </ImageView>
+                  <ImageView fitHeight="180.0" fitWidth="242.0" layoutX="321.0" layoutY="14.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../../../image/RezeptImages/secondGhormeSabzi.jpg" />
+                     </image>
+                  </ImageView>
                     </children></Pane>
             </center>
         </BorderPane>
