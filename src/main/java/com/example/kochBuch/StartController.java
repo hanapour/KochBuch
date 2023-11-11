@@ -58,7 +58,7 @@ public class StartController extends FavoriteController implements Initializable
     @FXML
     void OnSearchKilick() {
         try {
-            String sql = null;
+            String sql ;
             String Whereclause ;
             if(searchText.getText().isEmpty()){
                 sql= "SELECT SUBSTRING_INDEX(Foto,'KochBuch/', -1) AS Foto , Zubereitungstext, RezeptID \n" +
