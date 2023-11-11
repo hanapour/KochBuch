@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/Allimages4rezepte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/RezepteView.fxml" afterDir="false" />
+    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="Wessam: Anpassung(Rezepten).">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/DatabaseManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/DatabaseManipulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/Allimages4rezepte.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/Allimages4rezepte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/DatabaseManipulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/DatabaseManipulation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" afterDir="false" />
     </list>
@@ -162,7 +163,8 @@
       <workItem from="1699627530543" duration="1072000" />
       <workItem from="1699636067416" duration="3679000" />
       <workItem from="1699648290475" duration="3403000" />
-      <workItem from="1699651709815" duration="1432000" />
+      <workItem from="1699651709815" duration="1596000" />
+      <workItem from="1699654212106" duration="6945000" />
     </task>
     <task id="LOCAL-00001" summary="Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.">
       <option name="closed" value="true" />
@@ -276,7 +278,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699638684248</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Wessam: Erstellt: View und Klasse Allimages4rezepte alle Fotos aus dem DB">
+      <option name="closed" value="true" />
+      <created>1699653183213</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1699653183213</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Wessam: Anpassung(Rezepten).">
+      <option name="closed" value="true" />
+      <created>1699654928406</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1699654928406</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,20 +324,27 @@
     <MESSAGE value="new favorite page , new adjusted" />
     <MESSAGE value="Adjusted Category View" />
     <MESSAGE value="Wessam: Erstellt:neue Klasse FavoritenManipulation für Add und delete von Favoriten ; FavoritenController erzeugt neu Panel bei Addieren von favoriten ,SuchParameter im StartController und automatische erstellung von ImageView" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wessam: Erstellt:neue Klasse FavoritenManipulation für Add und delete von Favoriten ; FavoritenController erzeugt neu Panel bei Addieren von favoriten ,SuchParameter im StartController und automatische erstellung von ImageView" />
+    <MESSAGE value="Wessam: Erstellt: View und Klasse Allimages4rezepte alle Fotos aus dem DB" />
+    <MESSAGE value="Wessam: Layout(Rezepten)." />
+    <MESSAGE value="Wessam: Anpassung(Rezepten)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Wessam: Anpassung(Rezepten)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java</url>
-          <line>75</line>
-          <option name="timeStamp" value="15" />
+          <line>151</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="16" />
+          <line>149</line>
+          <properties class="com.example.kochBuch.StartController" method="favoritOrNot">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

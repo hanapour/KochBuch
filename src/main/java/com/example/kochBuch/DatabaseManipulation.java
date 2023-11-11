@@ -19,6 +19,17 @@ public class DatabaseManipulation {
             throw new RuntimeException(e);
         }
     }
+    public static ResultSet statementINT(String sql, int Whereclause) {
+        try {
+            DatabaseConnection databaseConnection = new DatabaseConnection();
+            Connection connection = databaseConnection.connectToDatabase();
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setInt(1,  Whereclause );
+            return preparedStatement.executeQuery();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
 
 

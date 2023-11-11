@@ -20,6 +20,8 @@ import java.sql.SQLException;
 import java.util.ResourceBundle;
 
 public class StartController extends FavoriteController implements Initializable {
+    @FXML
+    private ImageView btnLike;
 
     @FXML
     private TextArea StartTexImage;
@@ -46,7 +48,6 @@ public class StartController extends FavoriteController implements Initializable
         if (isMenuOpen) {
             closeMenu();
             isMenuOpen = false;
-            System.out.println("closeMenu() wurde aufgerufen");
         } else {
             openMenu();
             isMenuOpen = true;
@@ -77,6 +78,7 @@ public class StartController extends FavoriteController implements Initializable
             if (resultSet != null) {
                 try {
                     if (resultSet.next()) {
+
                         String fotoPath ="@.."+ resultSet.getString("Foto");
                         String zubereitungstext = resultSet.getString("Zubereitungstext");
                         RezeptID =resultSet.getInt("RezeptID");
@@ -86,6 +88,7 @@ public class StartController extends FavoriteController implements Initializable
                         Startimage.setImage(new Image(userFoto));
                         StartTexImage.setWrapText(true);
                         StartTexImage.setText(zubereitungstext);
+                        favoritOrNot();
                     } else {
                         // Kein Ergebnis gefunden ...
                     }
@@ -95,10 +98,13 @@ public class StartController extends FavoriteController implements Initializable
                 } catch (MalformedURLException e) {
                     throw new RuntimeException(e);
                 }
+
             }
         } catch (RuntimeException e) {
             throw new RuntimeException(e);
         }
+
+
     }
     @FXML
     void OnFavoritClick(MouseEvent event) throws Exception {
@@ -139,6 +145,23 @@ public class StartController extends FavoriteController implements Initializable
     public void onFavoritenButtonClicked(MouseEvent event) throws SQLException {
         FavoriteManipulation favoriteManipulation = new FavoriteManipulation();
         favoriteManipulation.insertOrDelet(RezeptID);
+        favoritOrNot();
+    }
+    void favoritOrNot(){
+        String sqlstatment ="SELECT count(*) FROM favoriten where favoriten.RezeptID= ?";
+        int where= RezeptID;
+
+       ResultSet isfavorit =  DatabaseManipulation.statementINT(sqlstatment,where);
+        try {
+            if (isfavorit.next()) {
+                int count = isfavorit.getInt(1);
+                String imagePath = count > 0 ? "C:\\Users\\wessa\\IdeaProjects\\KochBuch\\src\\main\\resources\\image\\HerzRot.png" : "C:\\Users\\wessa\\IdeaProjects\\KochBuch\\src\\main\\resources\\image\\herz.png";
+                Image image = new Image(new File(imagePath).toURI().toString());
+                btnLike.setImage(image);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace(); // Handle any SQL exception here
+        }
     }
     @FXML
     void OnPlusClick (MouseEvent event) throws Exception{
@@ -147,6 +170,7 @@ public class StartController extends FavoriteController implements Initializable
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         OnSearchKilick();
+        favoritOrNot();
     }
 }
 
