@@ -66,7 +66,7 @@ public class StartController extends FavoriteController implements Initializable
                         "WHERE Rezepte.Foto IS NOT NULL  AND Rezepte.RezeptID<> "+RezeptID+" AND RezeptID >=? ";
                 Whereclause="(SELECT FLOOR(MAX(rezeptID) * RAND()) FROM Rezepte WHERE RezeptID ) LIMIT 1;";
         }else { Whereclause= searchText.getText();
-                sql = "SELECT SUBSTRING_INDEX(Foto,'KochBuch', -1) AS Foto, Zubereitungstext, RezeptID FROM Rezepte WHERE   Rezepte.Foto IS NOT NULL AND Zubereitungstext LIKE '%' ? '%'";
+                sql = "SELECT SUBSTRING_INDEX(Foto,'KochBuch', -1) AS Foto, Zubereitungstext, RezeptID FROM Rezepte WHERE Rezepte.Foto IS NOT NULL AND Zubereitungstext LIKE '%' ? '%' ORDER BY RAND() LIMIT 1 ;";
             }
             ResultSet resultSet = DatabaseManipulation.statement(sql, Whereclause);
             if (resultSet != null) {
@@ -149,7 +149,7 @@ public class StartController extends FavoriteController implements Initializable
         try {
             if (isfavorit.next()) {
                 int count = isfavorit.getInt(1);
-                String imagePath = count > 0 ? "@..\\src\\main\\resources\\image\\HerzRot.png" : "C:@..\\src\\main\\resources\\image\\herz.png";
+                String imagePath = count > 0 ? "@../src/main/resources/image/HerzRot.png" : "@../src/main/resources/image/herz.png";
                 File file = new File(imagePath);
                 String images = file.toURI().toURL().toString();
                 String userFoto =images.replace("@..","");

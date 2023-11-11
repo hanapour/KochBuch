@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="Wessam:Herzsymbol in Rot zeigt Favoriten an." />
+    <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="Wessam: Database">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +163,10 @@
       <workItem from="1699651709815" duration="1596000" />
       <workItem from="1699654212106" duration="7729000" />
       <workItem from="1699693601280" duration="201000" />
-      <workItem from="1699697774555" duration="524000" />
+      <workItem from="1699697774555" duration="2727000" />
+      <workItem from="1699714282938" duration="193000" />
+      <workItem from="1699714506554" duration="129000" />
+      <workItem from="1699729077447" duration="2687000" />
     </task>
     <task id="LOCAL-00001" summary="Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.">
       <option name="closed" value="true" />
@@ -311,7 +320,39 @@
       <option name="project" value="LOCAL" />
       <updated>1699662066399</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Wessam: Herzsymbol url für alle user.">
+      <option name="closed" value="true" />
+      <created>1699698447957</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1699698447957</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Wessam: Herzsymbol url für alle user.">
+      <option name="closed" value="true" />
+      <created>1699698654418</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1699698654418</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Wessam: Database">
+      <option name="closed" value="true" />
+      <created>1699714610524</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1699714610524</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Wessam: Database">
+      <option name="closed" value="true" />
+      <created>1699714627334</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1699714627334</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +387,9 @@
     <MESSAGE value="Wessam: Anpassung(Rezepten)." />
     <MESSAGE value="Wessam: Erstellt: Anzeige der Favoriten: Herzsymbol in Rot zeigt Favoriten an." />
     <MESSAGE value="Wessam:Herzsymbol in Rot zeigt Favoriten an." />
-    <option name="LAST_COMMIT_MESSAGE" value="Wessam:Herzsymbol in Rot zeigt Favoriten an." />
+    <MESSAGE value="Wessam: Herzsymbol url für alle user." />
+    <MESSAGE value="Wessam: Database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wessam: Database" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
