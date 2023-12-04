@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dea5d825-6760-4e39-baf4-f0bba609f343" name="Changes" comment="Hadis/ layout adjustment">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_11_23__10_27__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_11_23__10_27__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2023_21_41_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2023_21_41__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/DatabaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/categoryView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/persisch2View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/persisch2View.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/kochBuch/StartView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/AnmeldenView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/AnmeldenView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/DatabaseConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/persisch1View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/persisch1View.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/persisch2View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/persisch2View.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kochBuch/StartView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/image/RezeptImages/registericon.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +54,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -59,31 +72,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/wessa/IdeaProjects/KochBuch/src/main/resources/com/example/kochBuch&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Schüler-ADM/Downloads/postgresql-42.5.4.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.42988506",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "two.files.diff.last.used.file": "C:/Users/Schüler-ADM/niklas/source/KochBuch/src/main/resources/com/example/kochBuch/StartView.fxml",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.kochBuch" />
@@ -170,6 +189,14 @@
       <workItem from="1699714282938" duration="193000" />
       <workItem from="1699714506554" duration="129000" />
       <workItem from="1699729077447" duration="2687000" />
+      <workItem from="1701674803813" duration="878000" />
+      <workItem from="1701676480324" duration="1215000" />
+      <workItem from="1701679313875" duration="2571000" />
+      <workItem from="1701683005682" duration="1459000" />
+      <workItem from="1701684475746" duration="68000" />
+      <workItem from="1701684574053" duration="991000" />
+      <workItem from="1701685665087" duration="2693000" />
+      <workItem from="1701688369286" duration="2012000" />
     </task>
     <task id="LOCAL-00001" summary="Wessam, ich habe die Schaltflächen &quot;menuTaste&quot; und &quot;kategorieTaste&quot; mit dem Controller verknüpft. Ihr könnt nun die Ansichten erstellen, und ich werde mich um die Verknüpfung der Schaltflächen mit den entsprechenden Views kümmern.">
       <option name="closed" value="true" />
@@ -405,11 +432,68 @@
     <option name="LAST_COMMIT_MESSAGE" value="Hadis/ layout adjustment" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/kochBuch/DatabaseConnection.java</url>
+          <line>7</line>
+          <properties field="DB_URL" class="com.example.kochBuch.DatabaseConnection" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/kochBuch/DatabaseConnection.java</url>
+          <line>12</line>
+          <properties class="com.example.kochBuch.DatabaseConnection" method="connectToDatabase">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/kochBuch/StartController.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/kochBuch/DatabaseManipulation.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/kochBuch/DatabaseManipulation.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/kochBuch/DatabaseConnection.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/kochBuch/DatabaseConnection.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/com/example/kochBuch/ImageUrlfromFolder.java" line="27">
         <watch expression="imageUrls.get(0)" language="JAVA" />
       </inline-watch>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KochBuch$KochBuch.ic" NAME="KochBuch Coverage Results" MODIFIED="1699392543966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
