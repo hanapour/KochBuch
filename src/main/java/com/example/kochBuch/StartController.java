@@ -52,21 +52,28 @@ public class StartController extends FavoriteController implements Initializable
     }
     private void closeMenu(){
         Panevisibility.setVisible(false);
-
     }
     int  RezeptID;
+    static String  Whereclause;
+
     @FXML
     void OnSearchKilick() {
+        closeMenu();
         try {
             String sql ;
-            String Whereclause ;
-            if(searchText.getText().isEmpty()){
-                sql= "SELECT SUBSTRING_INDEX(Foto,'KochBuch/', -1) AS Foto , Zubereitungstext, RezeptID \n" +
+            if (searchText.getText().isEmpty()) {
+
+                sql = "SELECT SUBSTRING_INDEX(rezepte.Foto,'KochBuch/', -1) AS Foto , Zubereitungstext, RezeptID \n" +
                         "FROM Rezepte \n" +
-                        "WHERE Rezepte.Foto IS NOT NULL  AND Rezepte.RezeptID<> "+RezeptID+" AND RezeptID >=? ";
-                Whereclause="(SELECT FLOOR(MAX(rezeptID) * RAND()) FROM Rezepte WHERE RezeptID ) LIMIT 1;";
-        }else { Whereclause= searchText.getText();
-                sql = "SELECT SUBSTRING_INDEX(Foto,'KochBuch', -1) AS Foto, Zubereitungstext, RezeptID FROM Rezepte WHERE Rezepte.Foto IS NOT NULL AND Zubereitungstext LIKE '%' ? '%' ORDER BY RAND() LIMIT 1 ;";
+                        "WHERE Rezepte.Foto IS NOT NULL  AND Rezepte.RezeptID NOT IN (" + RezeptID + ")AND RezeptID >=? ";
+                Whereclause = "(SELECT FLOOR(MAX(rezeptID) * RAND()) FROM Rezepte WHERE RezeptID ) LIMIT 1;";
+            } else {
+                Whereclause = searchText.getText();
+                sql = "SELECT SUBSTRING_INDEX(rezepte.Foto,'KochBuch/', -1) AS Foto , rezepte.Zubereitungstext, rezepte.RezeptID \n" +
+                        "FROM rezepte \n" +
+                        "left join rezeptezutaten ON rezeptezutaten.RezeptID =rezepte.RezeptID\n" +
+                        "left join zutaten ON zutaten.ZutatenID =rezeptezutaten.ZutatenID\n" +
+                        "WHERE Rezepte.Foto IS NOT NULL AND rezepte.Zubereitungstext LIKE '%' ? '%' OR zutaten.Zutatenname LIKE '%' '"+Whereclause+"' '%' OR rezepte.Rezeptname LIKE '%' '"+Whereclause+"' '%'  ORDER BY RAND() LIMIT 1;";
             }
             ResultSet resultSet = DatabaseManipulation.statement(sql, Whereclause);
             if (resultSet != null) {
@@ -129,11 +136,13 @@ public class StartController extends FavoriteController implements Initializable
     }
     @FXML
     void OnSingUpClick(MouseEvent event) throws Exception {
-        StackPane_getChildren("registerView.fxml");
+        closeMenu();
+        UserPopup.loadOnNewStage("registerView.fxml");
     }
     @FXML
     void  OnSingInClick(MouseEvent event )throws  Exception{
-        StackPane_getChildren("AnmeldenView.fxml");
+        closeMenu();
+        UserPopup.loadOnNewStage("AnmeldenView.fxml");
     }
     @FXML
     public void onFavoritenButtonClicked(MouseEvent event) throws SQLException {
@@ -168,8 +177,8 @@ public class StartController extends FavoriteController implements Initializable
     }
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-       // OnSearchKilick();
-       //favoritOrNot();
+        OnSearchKilick();
+        favoritOrNot();
     }
 }
 

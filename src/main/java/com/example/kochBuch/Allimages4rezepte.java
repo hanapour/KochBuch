@@ -17,6 +17,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
+
+import static com.example.kochBuch.StartController.Whereclause;
+
 public class Allimages4rezepte implements Initializable {
     @FXML
     private TilePane TilePaneRezepte;
@@ -30,7 +33,11 @@ public class Allimages4rezepte implements Initializable {
     protected void GetRezeptFotos() throws SQLException, MalformedURLException {
         DatabaseConnection databaseConnection = new DatabaseConnection();
         Connection connection = databaseConnection.connectToDatabase();
-        String sql = "SELECT SUBSTRING_INDEX(Foto, 'KochBuch', -1) AS Foto,rezepte.RezeptID  from rezepte WHERE Foto LIKE '%kochbuch%'";
+        String  sql = "SELECT SUBSTRING_INDEX(rezepte.Foto,'KochBuch/', -1) AS Foto , rezepte.Zubereitungstext, rezepte.RezeptID \n" +
+                "FROM rezepte \n" +
+                "left join rezeptezutaten ON rezeptezutaten.RezeptID =rezepte.RezeptID\n" +
+                "left join zutaten ON zutaten.ZutatenID =rezeptezutaten.ZutatenID\n" +
+                "WHERE Rezepte.Foto IS NOT NULL AND rezepte.Zubereitungstext LIKE '%' '"+Whereclause+"'  '%' OR zutaten.Zutatenname LIKE '%' '"+Whereclause+"' '%' OR rezepte.Rezeptname LIKE '%' '"+Whereclause+"' '%';";
         PreparedStatement preparedStatement = connection.prepareStatement(sql);
         ResultSet resultSet = preparedStatement.executeQuery();
         List<String> fotoPaths = new ArrayList<>();

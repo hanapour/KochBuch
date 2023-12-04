@@ -57,8 +57,7 @@ public class RegisterController implements Initializable {
 
     @FXML
     void OnCloseClick(MouseEvent event) throws Exception {
-        CategoryController categoryController = new CategoryController();
-        categoryController.loadStartPage(event);
+        UserPopup.newstage.close();
     }
 
     @FXML

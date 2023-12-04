@@ -5,7 +5,7 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
     // MySQL-Datenbankverbindungsinformationen
-    private static final String DB_URL = "jdbc:mysql://localhost:3307/kochbuch";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/kochbuch";
     private static final String DB_USER = "root";
     private static final String DB_PASSWORD = "12345678";
 

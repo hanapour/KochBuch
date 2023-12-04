@@ -21,7 +21,7 @@ public class MainApplication extends Application {
         mainstage.setTitle("KochBuch App");
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("StartView.fxml"));
         maimscene = new Scene(fxmlLoader.load(),800,630);
-        mainstage.setResizable(false);
+        //mainstage.setResizable(false);
         mainstage.setScene(maimscene);
         mainstage.show();
     }
